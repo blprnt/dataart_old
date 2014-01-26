@@ -72,7 +72,7 @@ Since we’re not using a percentage-based grading system, let me put it another
 
 **Data & Publics**
 
-7. March 24th - Survey, technical workshop (TBA)
+7. March 24th - Survey, technical workshop (OpenPaths, Leaflet.js)
 8. March 31st - Discussions on readings, other resources
 9. April 7th - Guest Speaker (Josh Begley) & Project presentations
 
