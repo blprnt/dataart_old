@@ -9,18 +9,18 @@
 
 Fascinating and terrifying things are happening the intersection of data and culture. Our lives are being constantly measured, and information about us is being surveilled, stolen, and commodified. Dialogue around this data revolution has been dominated by corporations, governments, and industry - but what about the arts? In this class, we’ll investigate the means by which artists can engage (and are engaging) in the collection, processing, and representation of data. Using a research-focused, prototype-based approach, we’ll build a series of collective and individual projects to interrogate the ‘new data reality’. Students will use Processing, along with a variety of open-source data tools (such as D3.js, Miso, OpenRefine, MapBox & CartoDB).
 
-## Course Themes & Semester Projects
+## Course Themes & Section Projects
 
-This course will be divided into four 3 week 'semesters', each focusing on a different aspect of data art:
+This course will be divided into four 3 week 'sections', each focusing on a different aspect of data art:
 
 1. **Data & Aesthetic**
 2. **Text & Archive**
 3. **Data & Publics**
 4. **Ethics, Humans & Responsibility**
 
-Each of these semesters will run for three classes. The first of the three classes will involve a survey of work being done in this area, and a 'workshop' teaching one or two important technical points. The second class will involve a discussion around assigned readings and a review of available tools. The third class will feature a guest speaker, and brief (5 minute) presentations of project work (see below).
+Each of these sections will run for three classes. The first of the three classes will involve a survey of work being done in this area, and a 'workshop' teaching one or two important technical points. The second class will involve a discussion around assigned readings and a review of available tools. The third class will feature a guest speaker, and brief (5 minute) presentations of project work (see below).
 
-For each of these semesters, you will complete a small project, which will be assigned on the first day of the section and will be due on the last. For each assignment, you have the choice of doing a conceptual project, or a realized one:
+For each of these sections, you will complete a small project, which will be assigned on the first day of the section and will be due on the last. For each assignment, you have the choice of doing a conceptual project, or a realized one:
 
 * **Conceptual projects** should be focused on possiblily without constraint. What would or could you build if you were not restricted by materials, budget, tehnological possibility, or coding skills?
 
@@ -32,7 +32,7 @@ Each projects can be done as an individual project, or in groups of up to 3. *Ea
 
 ## Expectations and Workload
 
-You can expect to have three assigned readings for each thematic semester. You must complete all readings prior to class, and come ready to participate in discussion. Projects must be posted to this GitHub repo in the appropriate folder, along with source code (where applicable) before the start of class on the third day of each semester. 
+You can expect to have three assigned readings for each thematic sections. You must complete all readings prior to class, and come ready to participate in discussion. Projects must be posted to this GitHub repo in the appropriate folder, along with source code (where applicable) before the start of class on the third day of each semester. 
 
 ## Grading
 
@@ -59,21 +59,25 @@ Since we’re not using a percentage-based grading system, let me put it another
 ## Syllabus
 
 **Data & Aesthetic**
+
 1. January 27th - Survey, technical workshop (NYTimes API)
 2. February 3rd - Discussions on readings, other resources
 3. February 10th - Guest Speaker (TBA) & Project presentations
  
 **Text & Archive**
+
 4. February 24th - Survey, technical workshop (RiTa)
 5. March 3rd - Discussions on readings, other resources
 6. March 10th - Guest Speaker (TBA) & Project presentations
 
 **Data & Publics**
+
 7. March 24th - Survey, technical workshop (TBA)
 8. March 31st - Discussions on readings, other resources
 9. April 7th - Guest Speaker (TBA) & Project presentations
 
 **Ethics, Humans & Responsibility**
+
 10. April 14th - Survey, technical workshop (TBA)
 11. April 21st - Discussions on readings, other resources
 12. April 28th - Guest Speaker (TBA) & Project presentations
