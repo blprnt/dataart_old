@@ -15,10 +15,20 @@ String baseURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?";
 void setup() {
   size(1280, 720, P3D);
   smooth(8);
+  background(255);
   
   //This function returns a list of integers, counting a search term per year
-  int[] monkeyCounts = doASearchYears("monkey", 1901, 1911);
-  println(monkeyCounts);
+  int[] monkeyCounts = doASearchYears("monkey", 1901, 1981);
+  
+  //Which we can draw a bar chart from:
+  for (int i = 0; i < monkeyCounts.length; i++) {
+   fill(0,150);
+   float x = map(i,0, monkeyCounts.length,100, width - 100);
+   float y = height - 50;
+   float w = (width - 200)/monkeyCounts.length;
+   float h = -map(monkeyCounts[i], 0, max(monkeyCounts), 0, height - 100);
+   rect(x, y, w, h);
+  }
   
   //It's often useful to save data like this (so we don't have to call the API every time once we're visualizing)
   PrintWriter writer = createWriter("data/monkeyData.csv");
