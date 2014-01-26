@@ -7,7 +7,7 @@
 
 ## Aims of Course
 
-Fascinating and terrifying things are happening the intersection of data and culture. Our lives are being constantly measured, and information about us is being surveilled, stolen, and commodified. Dialogue around this data revolution has been dominated by corporations, governments, and industry - but what about the arts? In this class, we’ll investigate the means by which artists can engage (and are engaging) in the collection, processing, and representation of data. Using a research-focused, prototype-based approach, we’ll build a series of collective and individual projects to interrogate the ‘new data reality’. Students will use Processing, along with a variety of open-source data tools (such as D3.js, Miso, OpenRefine, MapBox & CartoDB).
+Fascinating and terrifying things are happening the intersection of data and culture. Our lives are being constantly measured, and information about us is being surveilled, stolen, and commodified. Dialogue around this data revolution has been dominated by corporations, governments, and industry - but what about the arts? In this class, we’ll investigate the means by which artists can engage (and are engaging) in the collection, processing, and representation of data. Using a research-focused, prototype-based approach, we’ll build a series of collective and individual projects to interrogate the ‘new data reality’. Students will use Processing, along with a variety of open-source data tools (such as D3.js, Miso, OpenRefine, MapBox & leaflet.js).
 
 ## Course Themes & Section Projects
 
