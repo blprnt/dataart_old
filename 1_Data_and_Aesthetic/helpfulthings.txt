@@ -18,6 +18,8 @@ http://developer.nytimes.com/docs/read/article_search_api_v2
 
 # Projects shown in class:
 
+ALL OF THEM IN ONE LINK: http://www.one-tab.com/page/DEf9AChdQzqYmp_qc3i7QQ
+
 Lisa Jevbratt - 1:1
 http://128.111.69.4/~jevbratt/1_to_1/index_ng.html
 
