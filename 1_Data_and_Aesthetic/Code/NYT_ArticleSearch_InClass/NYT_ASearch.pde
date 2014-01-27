@@ -1,10 +1,18 @@
+int queryDelay = 1200;
+
 int[] doASearchYears(String q, int startYear, int endYear) {
   int[] counts = new int[endYear - startYear];
-  for (int i = startYear; i < endYear; i++) {
+  int i = startYear;
+  while (i < endYear) {
     println(i);
-    ASResult r = doASearch(q, i + "0101", i + "1231");
-    counts[i - startYear] = r.hits;
-    delay(120);
+    try {
+      ASResult r = doASearch(q, i + "0101", i + "1231");
+      counts[i - startYear] = r.hits;
+      delay(queryDelay);
+      i++;
+    } catch (Exception e) {
+     println("FAILED ON " + i + ". IF YOU SEE THIS MESSAGE A BUNCH OF TIMES IN A ROW, TRY AGAIN LATER, OR WITH A DIFFERENT QUERY."); 
+    }
   }
   return(counts);
 }
