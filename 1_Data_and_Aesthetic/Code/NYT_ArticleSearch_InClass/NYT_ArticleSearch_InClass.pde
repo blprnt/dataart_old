@@ -17,6 +17,7 @@ void setup() {
   smooth(8);
   background(255);
   
+  /*
   //This function returns a list of integers, counting a search term per year
   int[] monkeyCounts = doASearchYears("radio", 1901, 2001);
   
@@ -35,8 +36,10 @@ void setup() {
   for (int i:monkeyCounts) writer.println(i);
   writer.flush();
   writer.close();
+  //*/
   
-  /*
+  
+  //*
   //There is really a lot more we can do with this.
   //Here, a search for 'bin laden' on the day he was killed
   ASResult osama = doASearch("bin laden", "20110502", "20110502");
@@ -54,7 +57,7 @@ void setup() {
    JSONObject keyWord = keyWords.getJSONObject(i); 
    println(keyWord.getString("name"), keyWord.getString("value"));
   }
-  */
+  //*/
   
 }
 
