@@ -1,0 +1,229 @@
+import processing.opengl.*;
+import java.util.*;
+import twitter4j.conf.*; 
+import twitter4j.internal.async.*;
+import twitter4j.internal.org.json.*;
+import twitter4j.internal.logging.*;
+import twitter4j.json.*;
+import twitter4j.internal.util.*;
+import twitter4j.management.*;
+import twitter4j.auth.*;
+import twitter4j.api.*;
+import twitter4j.util.*;
+import twitter4j.internal.http.*;
+import twitter4j.*;
+import twitter4j.internal.json.*;
+import processing.opengl.*;
+import java.util.*;
+
+//visual things
+Sphere mySphere;
+float opacity;
+
+String[] colorList = {
+  "ff8c510a", 
+  "ffbf812d", 
+  "ffdfc27d", 
+  "fff6e8c3", 
+  "fff5f5f5", 
+  "ffc7eae5", 
+  "ff80cdc1", 
+  "ff35978f", 
+  "ff01665e"
+};
+
+//twitter things
+StatusListener listener;
+
+boolean tweeted = false;
+
+PFont font;
+
+void setup() {
+  size(500, 500, OPENGL);
+  mySphere = new Sphere(250.0, 250.0, 250.0, 50.0);
+  mySphere.init();
+
+  background(255);
+  opacity = 5; //opacity and color show recency b/c it's real time
+  mySphere.addSphereItem();
+  smooth();
+  
+  /*//font
+  font = createFont("Helvetica Neue", 20, true);
+  textFont(font);
+  textMode(CENTER);
+  textAlign(CENTER);*/
+
+  //config Twitter
+  //Configurations
+  ConfigurationBuilder cb = new ConfigurationBuilder();
+  cb.setOAuthConsumerKey("R9xCaEX4NqxibhYyzgGg");
+  cb.setOAuthConsumerSecret("Y6lQAZqlM3LznJLzEXi67Rfjhs8DnSwaTDEMcs71VI");
+  cb.setOAuthAccessToken("480959060-XbLrc0qS0WuT2Q8pFSXpJTVsdRZIxn0rP7cx2YYQ");
+  cb.setOAuthAccessTokenSecret("hkHarLtZm16QUUnlD32HD5LivTYk4RR935Y2zkulqUo");
+
+  //init twitter
+  TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
+
+  try {
+    listener = new StatusListener() {
+      public void onStatus(Status status) {
+        println("status");
+        tweeted = true;
+      }
+      public void onDeletionNotice(StatusDeletionNotice statusDeletionNotice) {
+      }
+      public void onTrackLimitationNotice(int numberOfLimitedStatuses) {
+      }
+      public void onStallWarning(StallWarning warning) {
+      }
+      public void onScrubGeo(long x, long y) {
+      }
+      public void onException(Exception ex) {
+        ex.printStackTrace();
+      }
+    };
+  }
+  catch (Exception ex) {
+    println("Couldn't connect.");
+  }
+
+  //add listener to the stream
+  twitterStream.addListener(listener);
+
+  //init filtering
+  FilterQuery filter = new FilterQuery();
+  String[] keywordsArray = { 
+    "food", "hungry", "meal", "yum", "eat", "nom", "dinner", "tasty", "delicious", "halal", "restaurant", "food truck", "want food"
+  };
+  filter.track(keywordsArray);
+  twitterStream.filter(filter);
+}
+
+void draw() {
+  fill(#d1e5f0);
+  //text("twitter is hungry", width/2, height/7, 20);
+  if (tweeted) {
+    yes();
+    tweeted = false;
+  }
+}
+
+void yes() {
+  println("yes called");
+  //white overlay for fade effect
+  fill(255, opacity);
+  rect(0, 0, width, height);
+
+  //parameters change the drawing
+  float size = 1.9;
+  color c = getColor(.3); //chosen based on taste when the program runs but can be any num b/ween 0 and 1
+  float tS = 2; //chosen by taste but can be any float pos or neg
+  float pS = -1.001; //chosen by taste
+  mySphere.update(size, c, tS, pS); //size mapped from 1.6 to 2.6, getColor(map(f, 0, 100, 0, 1)), theta, phi
+  mySphere.render();
+};
+
+color getColor(float f) {
+  //f is a number between 0 and 1
+  //convert it to an int to pick from the array
+  int i = floor(f * (colorList.length - 1));
+  color col = unhex(colorList[i]);
+  return(col);
+}
+
+
+class Sphere {
+  float xPos; //X Position of the Sphere
+  float yPos; //Y Position of the Sphere
+  float zPos; //Z Position of the Sphere
+  float radius; //Radius of the Sphere
+  ArrayList items = new ArrayList(); //List of all of the items contained in the Sphere
+
+  public Sphere(float x, float y, float z, float r) {
+    xPos = x;
+    yPos = y;
+    zPos = z;
+    radius = r;
+  };
+  public void init() {
+  };
+  public void update(float size, color c, float tS, float pS) {
+    for (int i = 0; i < items.size(); i ++) {
+      SphereItem si = (SphereItem) items.get(i); // Cast the returned object to the SphereItem Class
+      si.update(size, c, tS, pS);
+    };
+  };
+  public void render() {
+    //Move to the center point of the sphere
+    translate(xPos, yPos, zPos);
+    //Mark position in 3d space
+    pushMatrix();
+    //Render each SphereItem
+    for (int i = 0; i < items.size(); i ++) {
+      SphereItem si = (SphereItem) items.get(i);
+      si.render();
+    };
+    //Go back to original position in 3d space
+    popMatrix();
+  };
+  public void addSphereItem() {
+    //Make a new SphereItem  
+    SphereItem si = new SphereItem();
+    //Set the parent sphere
+    si.parentSphere = this;
+    //Set random values for the spherical coordinates
+    si.theta = PI;
+    si.phi = 2 * PI;
+    //Add the new sphere item to the end of ArrayList
+    items.add(items.size(), si);
+    si.init();
+  };
+};
+
+class SphereItem {
+  Sphere parentSphere;
+  //Spherical coordinates
+  float radius; 
+  float theta; //latitude
+  float phi; //longitude
+  //Speed properties
+  float thetaSpeed = 0;
+  float phiSpeed = 0;
+  //Size
+  float itemSize = 5;
+
+  public void SphereItem() {
+  };
+  public void init() { //thetaspeed of 2 and phi speed of -1.001 is awesome 
+    itemSize = random(1.7, 2.5);
+    thetaSpeed = 2;
+    phiSpeed = -1.001; //bigger is more loops
+  };
+  public void update(float size, color c, float tS, float pS) {
+    itemSize = size; //random(1.7, 2.5);
+    fill(c); //probably be a mapping with the rate of usage of something. red and blue like a heat map for instance
+    theta += thetaSpeed;
+    phi += phiSpeed;
+  };
+  public void render() {
+    //Get the radius from the parent Sphere
+    float r = parentSphere.radius;
+    //Convert spherical coordinates into Cartesian coordinates
+    float x = cos(theta) * sin(phi) * r;
+    float y = sin(theta) * sin(phi) * r;
+    float z = cos(phi) * r;
+    //Mark our 3d space
+    pushMatrix();
+    //Move to the position of this item
+    translate(x, y, z);
+    //Set the fill colour
+    //fill(#ff6600, 50);
+    noStroke();
+    //Draw a circle
+    ellipse(0, 0, itemSize, itemSize);
+    //Go back to position in 3d space
+    popMatrix();
+  };
+};
