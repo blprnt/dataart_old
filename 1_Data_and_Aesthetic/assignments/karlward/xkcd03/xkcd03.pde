@@ -1,12 +1,9 @@
-import beads.*;
-
 import java.util.Map;
 import java.util.HashSet;
 
 JSONObject xkcdRaw;
 JSONArray comics;
 HashMap<String, Word> wordMap;
-//ArrayList<WordBar> wordBars;
 
 void setup() {
   size(1280, 768, P3D);
@@ -15,14 +12,10 @@ void setup() {
   xkcdRaw = loadJSONObject("1-1325.json");
   comics = xkcdRaw.getJSONArray("comics");
   wordMap = loadWords();
-  //wordBars = new ArrayList<WordBar>();
 }
 
 void draw() {
-  //lights();
-
   int i = floor(millis() / 10);
-  //println(i);
   if (i < comics.size()) {
     rotateZ(i * PI / 6 / comics.size());
     for (String s: parseComic(i)) {
@@ -62,29 +55,6 @@ class Word {
   int x = 0;
   HashSet<Integer> in = new HashSet<Integer>();  // FIXME: size?
 }
-
-/*
-class WordBar {
-  String word;
-  int x, y, z, w, h, d;
-  color c;
-
-  WordBar(String word, int x, int y, int z, int w, int h, int d, color c) {
-    this.word = word;
-    this.x = x;
-    this.y = x;
-    this.z = x;
-    this.w = x;
-    this.h = x;
-    this.d = x;
-    this.c = c;
-  }
-
-  void draw() {
-    //unimplemented
-  }
-}
-*/
 
 HashSet<String> parseComic(int i) {
   HashSet<String> comicStrings = new HashSet<String>();
