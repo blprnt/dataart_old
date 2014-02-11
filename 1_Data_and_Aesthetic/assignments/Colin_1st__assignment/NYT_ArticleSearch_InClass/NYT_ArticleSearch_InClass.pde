@@ -8,8 +8,6 @@
  
  */
 
-String apiKey = "b30745018674d72cc80305e387371d2e:12:27161509";
-String baseURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?";
 
 void setup() {
   size(1280, 720, P3D);
