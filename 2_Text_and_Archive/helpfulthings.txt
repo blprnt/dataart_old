@@ -22,6 +22,8 @@ RiTa - Processing/JS library for text analysis and display: http://rednoise.org/
 
 NLTK - Python Library for Natural Language Processing (NLP): http://www.nltk.org/
 
+Shiffman on generative text: http://shiffman.net/teaching/a2z/generative/
+
 # Projects shown in class
 
 http://www.one-tab.com/page/OF3LIeSTT8KgDBwc80FAMA
