@@ -1,5 +1,5 @@
 int queryDelay = 1500;
-String ApiKey = "< YOUR API KEY HERE>";
+String ApiKey = "YOUR API KEY HERE";
 
 String build_query_url(String term, String field, int year, int page) {
   String beginn = str(year) + "0101";
