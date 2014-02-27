@@ -1,0 +1,371 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+/*        background-color: #000;
+*/      }
+      #myCanvas{
+      	margin-right: 200px;
+/*        background-color: #000;
+*/
+
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="1400" height="700"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+		
+	  var FPS = 30;
+
+	  setInterval(function() {
+      background();
+		  winners();
+      runnerUps();
+      thirdPlace();
+	  }, 1000/FPS);
+
+
+	  var centerX = canvas.width / 2;
+      var centerY = canvas.height / 2;
+
+      var Brazil1 = {
+      	draw: function(){
+
+      context.font="200px Georgia";
+      context.fillStyle = "rgb(34,85,32)";
+	    context.fillText("BRA",120,200);
+     // context.fillText("BRA",canvas.innerHTML=Math.random(),200);
+    // this.x = Math.random () * canvas.innerWidth + 'px';
+
+      	}
+      };
+
+var rect = {
+  draw: function(){
+    context.rect (0, 0, 1400, 800);
+    context.fillStyle = "#000000";
+    context.fill();
+  }
+}
+      var Italy1 = {
+      	draw: function(){
+
+      context.font="160px Georgia";
+      context.fillStyle = "rgb(255,0,0)";
+	  context.fillText("ITA",700,500);
+
+      	}
+      };
+
+      var Germany1 = {
+      	draw: function(){
+
+      context.font="120px Georgia";
+      context.fillStyle = "rgb(210, 175,45)";
+	  context.fillText("GER",300,564);
+
+      	}
+      };
+
+	  var Uruguay1 = {
+      	draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgb(0,70,170)";
+	  context.fillText("URU",180,400);
+
+      	}
+      };
+
+      var Argentina1 = {
+      	draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgb(125,170,215)";
+	  context.fillText("ARG",780,650);
+
+      	}
+      };
+
+      var France1 = {
+      	draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgb(0,69,161)";
+	  context.fillText("FRA",380,250);
+
+      	}
+      };
+
+      var Spain1 = {
+      	draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgb(250,190,50)";
+	    context.fillText("SPA",1080,550);	
+
+      	}
+      };
+
+////////// runner ups
+
+      var Brazil2 = {
+        draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgba(35,80,32,0.45)";
+      context.fillText("BRA",456,345);
+
+        }
+      };
+
+       var Italy2 = {
+        draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgba(255,0,0, 0.45)";
+      context.fillText("ITA",229,280);
+
+        }
+      };
+
+      var Argentina2 = {
+        draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgba(125,170,215,0.45)";;
+      context.fillText("ARG",600,378);
+
+        }
+      };
+
+      var Czechoslovakia2 = {
+        draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgba(240,69,40,0.45)";
+      context.fillText("CZECH",1000,259);
+
+        }
+      };
+
+      var France2 = {
+        draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgba(0,69,161,0.45)";
+      context.fillText("FRA",1100,110);
+
+        }
+      };
+
+     var Germany2 = {
+        draw: function(){
+
+      context.font="160px Georgia";
+      context.fillStyle = "rgba(210, 175,45,0.45)";
+      context.fillText("GER",800,160);
+     // context.background-color="#000";
+        }
+      };
+
+      var Hungary2 = {
+        draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgba(70,140,7,0.45)";
+      context.fillText("HUN",150,600);
+
+        }
+      };
+
+      var Netherlands2 = {
+        draw: function(){
+
+      context.font="120px Georgia";
+      context.fillStyle = "rgba(255,255,255,0.45)";
+      context.fillText("NLD",600,600);
+
+        }
+      };
+
+     var Sweden2 = {
+        draw: function(){
+
+      context.font="120px Georgia";
+      context.fillStyle = "rgba(30,120,195,0.45)";
+      context.fillText("SWE",580,260);
+
+        }
+      };
+
+///////////
+
+//// third place
+
+var USA3 = {
+        draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgba(255,0,0, 0.2)";
+      context.globalAlpha = 0.1;
+      context.fillText("USA",484,178);
+
+        }
+      };
+
+var Germany3 = {
+        draw: function(){
+
+      context.font="160px Georgia";
+      context.fillStyle = "rgba(210, 175,45,0.2)";
+      context.fillText("GER",943,449);
+
+        }
+      };
+
+var Brazil3 = {
+        draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgba(35,80,32,0.2)";
+      context.fillText("BRA",984,320);
+
+        }
+      };
+
+var Sweden3 = {
+    draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgba(30,120,195,0.2)";
+      context.fillText("SWE", 629, 692);
+    }
+};
+
+var Austria3 = {
+    draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgba(235,70,40,0.2)";
+      context.fillText("AUT", 178, 693);
+    }
+};
+
+var France3 = {
+    draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgba(0,69,161,0.2)";
+      context.fillText("FRA", 378, 630);
+    }
+};
+
+var Chile3 = {
+    draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgba(255,0,0, 0.2)";
+      context.fillText("CHL", 378, 433);
+    }
+};
+
+var Portugal3 = {
+    draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgba(60,130,6,0.2)";
+      context.fillText("POR", 776, 298);
+    }
+};
+
+var Poland3 = {
+    draw: function(){
+
+      context.font="80px Georgia";
+      context.fillStyle = "rgba(235,70,40,0.2)";
+      context.fillText("POL", 658, 128);
+    }
+};
+
+var Italy3 = {
+    draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgba(255,0,0, 0.2)";
+      context.fillText("ITA", 1028, 638);
+    }
+};
+
+var Croatia3 = {
+    draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgba(255,255,255,0.2)";
+      context.fillText("HRV", 558, 128);
+    }
+};
+
+var Turkey3 = {
+    draw: function(){
+
+      context.font="40px Georgia";
+      context.fillStyle = "rgba(255,0,0, 0.2)";
+      context.fillText("TUR", 908, 283);
+    }
+};
+
+
+////////
+function background(){
+  rect.draw();
+}
+
+      function winners(){
+
+      	Brazil1.draw();
+      	Italy1.draw();
+      	Germany1.draw();
+      	Uruguay1.draw();
+      	Argentina1.draw();
+      	France1.draw();
+      	Spain1.draw();
+
+      }
+
+      function runnerUps(){
+        Brazil2.draw();
+        Italy2.draw();
+        Argentina2.draw();
+        Czechoslovakia2.draw();
+        France2.draw();
+        Germany2.draw();
+        Hungary2.draw();
+        Netherlands2.draw();
+        Sweden2.draw();
+      }
+
+      function thirdPlace(){
+        USA3.draw();
+        Germany3.draw();
+        Brazil3.draw();
+        Sweden3.draw();
+        Austria3.draw();
+        France3.draw();
+        Chile3.draw();
+        Portugal3.draw();
+        Poland3.draw();
+        Italy3.draw();
+        Croatia3.draw();
+        Turkey3.draw();
+      }
+	  
+    </script>
+  </body>
+</html>
