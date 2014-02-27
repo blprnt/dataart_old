@@ -10,7 +10,7 @@ void setup() {
 
 void draw() {
   background(255);
-  drawCircles(answers);
+  drawLineGraph(answers);
 }
 
 void drawGraph(int[] numbers) {
@@ -22,6 +22,20 @@ void drawGraph(int[] numbers) {
     float h = -map(n,0,10,0,height - 100);
     rect(x,y,w,h);
   }
+}
+
+void drawLineGraph(int[] numbers) {
+  beginShape();
+  for(int i = 0; i < numbers.length; i++) {
+    int n = numbers[i];
+    float x = map(i,0,numbers.length,100,width - 100);
+    float y = height - 100;
+    float w = 5;
+    float h = -map(n,0,10,0,height - 100);
+    curveVertex(x,y + h);
+    //rect(x,y,w,h);
+  }
+  endShape();
 }
 
 
