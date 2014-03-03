@@ -23,7 +23,7 @@ PrintWriter writer;
 boolean tweeted = false;
 
 //This is the phrase we're looking for
-String phrase = "bieber";
+String phrase = "oscars";
 //This is how many tweets we're collecting
 int max = 10000;
 //counter for Tweets
@@ -36,10 +36,10 @@ void setup() {
 
   //Initiate a configuration builder with our OAuth info.
   ConfigurationBuilder cb = new ConfigurationBuilder();
-  cb.setOAuthConsumerKey("APP KEY");
-  cb.setOAuthConsumerSecret("APP SECRET");
-  cb.setOAuthAccessToken("USER KEY");
-  cb.setOAuthAccessTokenSecret("USER SECRET");
+  cb.setOAuthConsumerKey("tOLw1WWQeVbwVGwrxq9bQ");
+  cb.setOAuthConsumerSecret("dUOgmMqUx0pp5ZAejMFqJIPsoeGYHBcWYvQAnOJ0ws");
+  cb.setOAuthAccessToken("17013577-P88o1qK9EVYIILUZXBbfXU03bJr49cmhQ8LBEzbw5");
+  cb.setOAuthAccessTokenSecret("VWSUvEH4KJTv6IpjL4u8x5YdNqpAwCuEOGTDp0gFajIWO");
 
   //Request a Twitter Stream
   TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
@@ -88,7 +88,7 @@ void draw() {
   text(c, 50, 50);
   
   //When we have enough tweets, close the writer and quit
-  if (c == max) {
+  if (c >= max) {
    writer.flush();
    writer.close();
    exit(); 
