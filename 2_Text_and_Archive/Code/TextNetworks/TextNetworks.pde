@@ -12,7 +12,7 @@ HashMap<String, String> stopList = new HashMap();
 void setup() {
   size(1280,720,P3D);
   
-  makeStopList("../../../data/lyrics/stop.txt");
+  makeStopList("../../../data/stop.txt");
   makeTextNetwork("../../../data/lyrics/bible.txt");
   //showTopWords(20);
   showFromWord("sheep");
