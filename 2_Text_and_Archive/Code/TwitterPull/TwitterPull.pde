@@ -23,9 +23,9 @@ PrintWriter writer;
 boolean tweeted = false;
 
 //This is the phrase we're looking for
-String phrase = "oscars";
+String phrase = "ukraine";
 //This is how many tweets we're collecting
-int max = 10000;
+int max = 1000;
 //counter for Tweets
 int c = 0;
 
@@ -36,10 +36,10 @@ void setup() {
 
   //Initiate a configuration builder with our OAuth info.
   ConfigurationBuilder cb = new ConfigurationBuilder();
-  cb.setOAuthConsumerKey("tOLw1WWQeVbwVGwrxq9bQ");
-  cb.setOAuthConsumerSecret("dUOgmMqUx0pp5ZAejMFqJIPsoeGYHBcWYvQAnOJ0ws");
-  cb.setOAuthAccessToken("17013577-P88o1qK9EVYIILUZXBbfXU03bJr49cmhQ8LBEzbw5");
-  cb.setOAuthAccessTokenSecret("VWSUvEH4KJTv6IpjL4u8x5YdNqpAwCuEOGTDp0gFajIWO");
+  cb.setOAuthConsumerKey("KEY");
+  cb.setOAuthConsumerSecret("SECRET");
+  cb.setOAuthAccessToken("KEY");
+  cb.setOAuthAccessTokenSecret("SECRET");
 
   //Request a Twitter Stream
   TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();

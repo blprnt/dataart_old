@@ -13,7 +13,7 @@ void setup() {
   size(1280,720,P3D);
   
   makeStopList("../../../data/stop.txt");
-  makeTextNetwork("../../../data/lyrics/bible.txt");
+  makeTextNetwork("../../../data/lyrics/shakes.txt");
   //showTopWords(20);
   showFromWord("sheep");
   

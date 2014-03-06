@@ -16,7 +16,7 @@ class NetworkWord {
       translate(pos.x,pos.y);
       rotateZ(rot);
       fill(0);
-      ellipse(0,0,5,5);
+      ellipse(0,0,sqrt(count) * 0.2,sqrt(count) * 0.2);
       text("." + word + ".", 5, 5);
     popMatrix();
   }  
