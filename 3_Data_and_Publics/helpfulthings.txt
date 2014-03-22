@@ -1,0 +1,23 @@
+
+
+# Readings
+
+1) Michael R Curry, On Space and Spatial Practice - http://baja.sscnet.ucla.edu/~curry/Curry--Spatial%20practice.pdf
+
+2) Golan Levin, Some thoughts on infographic street art - http://www.flong.com/blog/2011/on-infographic-street-art/
+
+3) Brian House, Open Paths: Empowering Personal Geography - http://ses.library.usyd.edu.au/bitstream/2123/9719/1/openpathsempowering.pdf
+
+# Technical Resources
+
+leaflet.js - Javascript library for mapping: http://leafletjs.com/
+
+openpaths.cc - Free, secure, API-enabled location tracking - http://leafletjs.com/
+
+# Projects shown in class
+
+TBA
+
+# Videos to watch
+
+Eyeo 2012 Panel on 'Code & Public Space': https://vimeo.com/49841291
