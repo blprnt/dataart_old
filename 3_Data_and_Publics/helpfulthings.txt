@@ -14,6 +14,8 @@ leaflet.js - Javascript library for mapping: http://leafletjs.com/
 
 openpaths.cc - Free, secure, API-enabled location tracking - http://leafletjs.com/
 
+Bounding box finder: http://boundingbox.klokantech.com/
+
 # Projects shown in class
 
 http://www.one-tab.com/page/9z2w3903Smqj0Z4H266mqw
