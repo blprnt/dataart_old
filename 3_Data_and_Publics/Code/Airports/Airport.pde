@@ -12,7 +12,8 @@ class Airport {
   void render(PGraphics pg) {
     pg.pushMatrix();
       pg.translate(pos.x, pos.y);
-      pg.point(0,0);
+     //pg.point(0,0);
+     pg.text(name,0,0);
     pg.popMatrix();
   }
   
