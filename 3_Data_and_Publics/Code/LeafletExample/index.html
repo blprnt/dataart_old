@@ -27,7 +27,7 @@
 		}).addTo(map);
 
 		//Load JSON
-		$.getJSON('data/openpaths.json', function(data) {
+		$.getJSON('data/openpathsLastYear.json', function(data) {
 			console.log("DATA LOADED");
 			L.geoJson(data.features).addTo(map);
 	    });
