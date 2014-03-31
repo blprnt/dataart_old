@@ -16,6 +16,12 @@ openpaths.cc - Free, secure, API-enabled location tracking - http://leafletjs.co
 
 Bounding box finder: http://boundingbox.klokantech.com/
 
+Opening a simple web server with Python in three steps:
+
+1) Open terminal and use cd to get to the directory where your HTML files are
+2) python -m SimpleHTTPServer
+3) Open a browser and go to localhost:8000
+
 # Projects shown in class
 
 http://www.one-tab.com/page/9z2w3903Smqj0Z4H266mqw

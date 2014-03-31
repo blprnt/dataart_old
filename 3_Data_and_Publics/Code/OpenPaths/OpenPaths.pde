@@ -131,9 +131,9 @@ void pointsToGeoJSON(String saveURL) {
     JSONObject geometry = new JSONObject();
     geometry.setString("type", "Point");
     JSONArray coords = new JSONArray();
-    //coords array is in lat, lon order
-    coords.setFloat(0, allPoints.get(i).lonLat.y);
-    coords.setFloat(1, allPoints.get(i).lonLat.x);
+    //coords array is in lon, lat order
+    coords.setFloat(0, allPoints.get(i).lonLat.x);
+    coords.setFloat(1, allPoints.get(i).lonLat.y);
     geometry.setJSONArray("coordinates", coords);
     
     //Build properties (currently only date)
