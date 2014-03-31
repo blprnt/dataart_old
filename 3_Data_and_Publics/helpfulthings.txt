@@ -1,0 +1,31 @@
+
+
+# Readings
+
+1) Michael R Curry, On Space and Spatial Practice - http://baja.sscnet.ucla.edu/~curry/Curry--Spatial%20practice.pdf
+
+2) Golan Levin, Some thoughts on infographic street art - http://www.flong.com/blog/2011/on-infographic-street-art/
+
+3) Brian House, Open Paths: Empowering Personal Geography - http://ses.library.usyd.edu.au/bitstream/2123/9719/1/openpathsempowering.pdf
+
+# Technical Resources
+
+leaflet.js - Javascript library for mapping: http://leafletjs.com/
+
+openpaths.cc - Free, secure, API-enabled location tracking - http://leafletjs.com/
+
+Bounding box finder: http://boundingbox.klokantech.com/
+
+Opening a simple web server with Python in three steps:
+
+1) Open terminal and use cd to get to the directory where your HTML files are
+2) python -m SimpleHTTPServer
+3) Open a browser and go to localhost:8000
+
+# Projects shown in class
+
+http://www.one-tab.com/page/9z2w3903Smqj0Z4H266mqw
+
+# Videos to watch
+
+Eyeo 2012 Panel on 'Code & Public Space': https://vimeo.com/49841291
