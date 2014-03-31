@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DataArt Leaflet Example </title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/leaflet.css" />
+	<script language="Javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/leaflet.js"></script>
+</head>
+<body>
+	<div id="map" style="width: 1400px; height: 800px"></div>
+
+	
+	<script>
+
+
+		//create a map
+		var map = L.map('map').setView([51.505, -0.09], 5);
+
+		//Add a pretty open street maps layer
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+		//Load JSON
+		$.getJSON('data/openpaths.json', function(data) {
+			console.log("DATA LOADED");
+			L.geoJson(data.features).addTo(map);
+	    });
+
+
+
+	</script>
+</body>
+</html>
