@@ -8,6 +8,8 @@ blprnt@blprnt.com
 - Plots points on a map
 - Uses last week's map zooming functionality
 
+- Also, export to GeoJSON in the last function
+
 */
 
 //Path to our data file
@@ -150,6 +152,6 @@ void pointsToGeoJSON(String saveURL) {
   main.setJSONArray("features", features);
   
   //Save the JSON Object
-  saveJSONObject(main, saveURL);
+  saveJSONObject(main, dataPath + saveURL);
 }
 
