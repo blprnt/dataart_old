@@ -36,7 +36,7 @@ int keyTarget = 100;
 PFont labelText;
 
 String[] corpii = {
-  "bible", "shakes", "mobydick", "freud", "songs2", "bieber"
+  "bible", "shakes", "mobydick", "bieber"
 };
 int corpIndex = 0;
 
