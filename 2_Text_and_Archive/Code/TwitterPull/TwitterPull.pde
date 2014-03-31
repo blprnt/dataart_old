@@ -36,10 +36,10 @@ void setup() {
 
   //Initiate a configuration builder with our OAuth info.
   ConfigurationBuilder cb = new ConfigurationBuilder();
-  cb.setOAuthConsumerKey("APP KEY");
-  cb.setOAuthConsumerSecret("APP SECRET");
-  cb.setOAuthAccessToken("USER KEY");
-  cb.setOAuthAccessTokenSecret("USER SECRET");
+  cb.setOAuthConsumerKey("iM5BYedGLxqCygc6iAABg");
+  cb.setOAuthConsumerSecret("QYIkK1MT1zt6lhOiTCAdEc7NzorhWupdKNRurBpQ8k");
+  cb.setOAuthAccessToken("302253578-od57VJtJSzlz1S1l6fa0kJWSPq0oMXBCj16yiUBt");
+  cb.setOAuthAccessTokenSecret("SMmuKmISxLE7BynbLcN9B9RMWssCrSY4rmnHo7C0VMUmb");
 
   //Request a Twitter Stream
   TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
