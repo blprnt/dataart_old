@@ -10,6 +10,14 @@ class PathPoint {
   PVector screenPos = new PVector();
   String dateString;
   
+  //split this up 
+  Date pointDate; 
+  long pointTime; 
+  
+  //this is so you can place the times in a fraction. 
+  float timeFraction; 
+  
+  color col= #FF3000; 
   void update() {
     
   }
@@ -19,7 +27,8 @@ class PathPoint {
   void render(PGraphics c) {
     c.pushMatrix();
       c.translate(screenPos.x, screenPos.y);
-      c.fill(255);
+      c.fill(col);
+      //they are more easier to draw than ellipses. 
       c.rect(0,0,3,3);
     c.popMatrix();
   }
