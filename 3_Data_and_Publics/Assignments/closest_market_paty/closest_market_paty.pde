@@ -1,4 +1,9 @@
+//This is calculating the closest market to each desert
 
+//April 9th, 2014
+//By: Patricia R. Zablah 
+
+import httprocessing.*;
 
 ArrayList <Market> allMarkets = new ArrayList(); 
 ArrayList <Desert> allDeserts = new ArrayList(); 
