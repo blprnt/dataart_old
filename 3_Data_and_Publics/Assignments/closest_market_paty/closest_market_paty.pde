@@ -3,7 +3,14 @@
 //April 9th, 2014
 //By: Patricia R. Zablah 
 
-import httprocessing.*;
+//to use the Google Maps API to get the time distance traveled
+//import httprocessing.*;
+
+import http.requests.*;
+String apiKey = "AIzaSyB4M0A8xSufQHc-qo7qZWOa1FGfaTNKG0s"; 
+String origin; 
+
+
 
 ArrayList <Market> allMarkets = new ArrayList(); 
 ArrayList <Desert> allDeserts = new ArrayList(); 
@@ -29,16 +36,15 @@ void setup() {
  loadDeserts("nyc_foodDesertsOnly.csv"); 
 // positionMarkets(new PVector (-74.25909, 40.917577), new PVector(-73.700172,40.477399)); 
 // drawMarkets(); 
-
-  calcShortDist(new PVector(40.7934921,-73.8835318), new PVector(40.857388, -73.909695));
-  //calcTime();  
+ calcShortDist(new PVector(40.7934921,-73.8835318), new PVector(40.857388, -73.909695));
+ calcTime();  
 }
 
 
 void draw() {
   background(255); 
-  image(canvas,0,0); 
-  
+  image(canvas,0,0);  
+   //calcTime();  
 }
 
 void loadMarkets (String url) {
@@ -74,13 +80,11 @@ void calcShortDist(PVector firstMarket, PVector firstDesert)  {
   int closestDist = 0; 
   println("calculating Shortest Distance"); 
   
-  //latLon of Desert 
-  //latLon of Market 
-  
   for (int i=0; i< allDeserts.size(); i++) {
     for (int j=0; j<allMarkets.size(); j++) {
       float dist = (allDeserts.get(i).latLon).dist(allMarkets.get(j).latLon); 
       
+      //compare so that the shortest distance always wins
       if(dist<minDist) {
         minDist = dist; 
         closestDist = j; 
@@ -92,10 +96,35 @@ void calcShortDist(PVector firstMarket, PVector firstDesert)  {
     println("pushed a new market into your desert:" + allDeserts.get(i)); 
     //this is where you put the function to call the calculate time. 
     
-    //store the distance and/or time 
-    
+    //store the distance and/or time    
   }
 }
+
+//Time calcualted between two points. 
+void calcTime() {
+  println("im about to do the http request"); 
+  GetRequest get = new GetRequest("https://maps.googleapis.com/maps/api/distancematrix/json?origins=Vancouver+BC&destinations=San+Francisco&mode=walking&sensor=false&key=AIzaSyB4M0A8xSufQHc-qo7qZWOa1FGfaTNKG0s"); 
+//                                   1234567890123456789012345678901234567890123456789012345678901234567890123456 
+  println("the request is done"); 
+  get.send(); 
+  
+  println("Reponse Content: " + get.getContent());
+  //println("Reponse Content-Length Header: " + get.getHeader("Content-Length"));
+  
+  //How do you get only the duration between the two?
+  
+  JSONObject response = parseJSONObject(get.getContent());
+  println("status: " + response.getString("status"));
+  println("duration: " + response.getString("elements"));
+//  JSONArray boxes = response.getJSONArray("data");
+//  println("boxes: ");
+//  for(int i=0;i<boxes.size();i++) {
+//    JSONObject box = boxes.getJSONObject(i);
+//    println("  wifiboxid: " + box.getString("wifiboxid"));
+}
+
+
+
 
 
 void drawMarkets() {
@@ -110,8 +139,7 @@ void drawMarkets() {
 void positionMarkets(PVector topLeft, PVector bottomRight) {
   for (Market m:allMarkets) {
     float x = map(m.latLon.x, topLeft.x, bottomRight.x, 0, width); 
-    float y = map(m.latLon.y, bottomRight.y, topLeft.y, height, 0); 
-    
+    float y = map(m.latLon.y, bottomRight.y, topLeft.y, height, 0);    
     m.pos = new PVector(x,y); 
     
   }
