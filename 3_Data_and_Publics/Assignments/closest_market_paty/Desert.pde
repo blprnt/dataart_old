@@ -16,10 +16,6 @@ class Desert {
     
   }
   
-  void writeToCSV() {
-  //put it in a writer   
-    
-  }
   
 //  void setMarket( Market closestMarket ) {
 //    mClosestM = closestMarket;

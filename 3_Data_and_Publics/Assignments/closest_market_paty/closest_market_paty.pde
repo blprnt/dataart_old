@@ -20,6 +20,8 @@ PVector mapBottomRight = new PVector(-73.700172, 40.477399);
 PVector firstDesert = new PVector(40.7934921, -73.8835318); 
 PVector firstMarket = new PVector(40.857388, -73.909695); 
 
+int c=0; 
+
 void setup() {
   size(1280, 720, P3D); 
 
@@ -31,11 +33,11 @@ void setup() {
 
   loadMarkets("farmers_markets.csv"); 
   loadDeserts("nyc_foodDesertsOnly.csv"); 
-  
+
   calcClosestMarket(new PVector(40.7934921, -73.8835318), new PVector(40.857388, -73.909695));
-  
+
   //if I put it inside of the class 
-  //Desert.setMarket(); //have two functions, that calls calls closest market and then calculate the time. 
+  //Desert.setMarket(); //have two functions, that calls calls closest market and then calculate the time.
 }
 
 void draw() {
@@ -109,24 +111,40 @@ void calcTime(Desert currentDesert) {
   String desertLatLon = Float.toString(currentDesert.latLon.x) + "," + Float.toString(currentDesert.latLon.y);
   String marketLatLon = Float.toString(currentDesert.closestM.latLon.x) + "," + Float.toString(currentDesert.closestM.latLon.y);
   String mode = "walking"; 
-  
+
   //for walking
   GetRequest get = new GetRequest("https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + desertLatLon + "&destinations=" + marketLatLon + "&mode=" + mode + "&sensor=false&key=" + apiKey); 
-
   get.send(); 
 
   myString = get.getContent(); //put content from the call into a string. 
-
   json = JSONObject.parse(myString); //turn content into a JSON object for processing. 
 
   //instead of just making it a float, insert it straight into the class. 
   currentDesert.time = json.getJSONArray("rows").getJSONObject(0).getJSONArray("elements").getJSONObject(0).getJSONObject("duration").getFloat("value");
   println("time:" + currentDesert.time); 
-
   currentDesert.distance = json.getJSONArray("rows").getJSONObject(0).getJSONArray("elements").getJSONObject(0).getJSONObject("distance").getFloat("value");
   println("distance:" + currentDesert.distance);
+
+  //call the function to print a separate file. 
+  for ( int i = 0; i < allDeserts.size(); i++ ) {
+    printToCSV(allDeserts.get(i));
+  }
 }
 
+//print out the data file. 
+void printToCSV(Desert currentDesert) {
+  PrintWriter writer; 
+  writer = createWriter("AllDesserts.txt"); 
+  for (int i= 0; i< allDeserts.size(); i++) {
+    writer.println(currentDesert.latLon); 
+    writer.println(currentDesert.closestM.latLon);  
+    writer.println(currentDesert.time); 
+    writer.println(currentDesert.distance); 
+  }
+    writer.flush(); 
+    writer.close(); 
+    exit();
+}
 
 void drawMarkets() {
   canvas.beginDraw(); 
