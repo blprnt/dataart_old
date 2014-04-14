@@ -9,7 +9,7 @@
  
  */
 
-String apiKey = "YOUR_API_KEY_HERE";
+String apiKey = "c6ed51e1e5fd161a282b30a414762ca0:6:57885477";
 String baseURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?";
 
 void setup() {
@@ -18,16 +18,23 @@ void setup() {
   background(255);
   
   //This function returns a list of integers, counting a search term per year
-  int[] monkeyCounts = doASearchYears("monkey", 1901, 1981);
+  int[] monkeyCounts = doASearchYears("data", 1901, 2015);
   
   //Which we can draw a bar chart from:
   for (int i = 0; i < monkeyCounts.length; i++) {
    fill(0,150);
    float x = map(i,0, monkeyCounts.length,100, width - 100);
-   float y = height - 50;
+   float y = height - 100;
    float w = (width - 200)/monkeyCounts.length;
-   float h = -map(monkeyCounts[i], 0, max(monkeyCounts), 0, height - 100);
+   float h = -map(monkeyCounts[i], 0, max(monkeyCounts), 0, height - 200);
    rect(x, y, w, h);
+   fill(255);
+   pushMatrix();
+   translate(x,y);
+   rotate(PI/2);
+   textSize(10);
+   text(i + 1901, 0, 8);
+   popMatrix();
   }
   
   //It's often useful to save data like this (so we don't have to call the API every time once we're visualizing)
