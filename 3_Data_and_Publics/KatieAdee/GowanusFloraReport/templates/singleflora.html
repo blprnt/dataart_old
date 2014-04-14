@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+<script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+<script language="Javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+	<div class="row">
+		<!-- left column -->
+		<div class="col-md-3 ">
+		<p>Name:{{ flora.species }} </p>
+		<p> Reported:{{ flora.timestamp.strftime("%a %m/%d %I:%M%p ") }}</p>
+		 Did You Know: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac congue nisl. Integer sed leo cursus libero hendrerit hendrerit vel a enim. 
+		
+		</div>
+		<!-- middle coumn -->
+		<div class="col-md-2 col-md-offset-1 well " style="height:160px;">
+		<p> Plant illustration img here </p>
+		</div>
+		<!-- right column -->
+
+		<div id='map' <div class="col-md-5 col-md-offset-1 well" style="height:160px;">
+			
+			<p> coordinates for mapbox vis: {{flora.point[1]}},{{flora.point[0]}}</p>
+
+		</div>
+
+	</div>
+
+{% endblock %}
+
+
+{% block styles %}
+<link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+<style>
+
+
+#lat, #lon{
+	visibility: hidden;
+}
+
+.clear{
+	clear:both;
+}
+
+h4 {
+	display:inline-block;
+}
+</style>
+
+{% endblock %}
+{% block scripts %}
+
+
+
+
+{% endblock %}

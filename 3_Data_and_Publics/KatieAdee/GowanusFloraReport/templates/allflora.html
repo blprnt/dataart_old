@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="container" style="margin-top:5%;">
+
+
+    <table class="table table-bordered table-condensed table-hover" style="background:#FFF;">
+    <th>Species</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+    <th>Approximate Address</th>
+		{% for f in flora %}
+			<tr>
+			<td>
+			<a href="/flora/{{f.id}}">{{ f.species|replace("_"," ")}}
+				<!--<a href="/specie/{{f.species|replace(" ","_")}}">{{ f.species|replace("_"," ")}}</a> -->
+			
+			</td>
+			<td>{{f.point[1]}}</td>
+			<td>{{f.point[0]}}</td>
+			<td> {{f.near}}</td>
+			<!-- <p><a href="/theft/{{f.id}}">{{f.point[1]}},{{f.point[0]}}</a></p> 
+			
+			
+
+			{% for specie in f.species %}
+				<a href="/specie/{{specie|replace(" ","_")}}">{{ specie|replace("_"," ")}}</a> 
+			{% endfor %}-->
+	
+		{% endfor %}
+		</tr>
+	</table>
+</div>
+
+  
+{% endblock %}
+
+
+{% block styles %}{% endblock %}
+{% block scripts %}{% endblock %}

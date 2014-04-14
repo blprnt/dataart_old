@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Gowanus Canal Flora Report</title>
+  
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <script src='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.js'></script>
+  <script language="Javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <link href='//api.tiles.mapbox.com/mapbox.js/v1.5.0/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+  <style>
+body { margin:0; padding:0; height:100%; width:100%; background-color: #000;}
+  #map { position:absolute; top:50px; bottom:0px; width:100%; height:100%; z-index: -1; }
+  
+
+  .leaflet-popup-content-wrapper{
+    width:150px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding:15px;
+
+    
+  }
+
+
+  </style>
+
+</head>
+<body onload="cycle(array);">
+
+<div id='map'></div>
+<nav class="navbar navbar-default" role="navigation" >
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Gowanus Flora Report</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">About</a></li>
+        <li><a href="/data/flora">API</a></li>
+
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/">Report a Sighting</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Map</a></li>
+            <li><a href="/catalog">Species Catalog</a></li>
+            <li><a href="/allflora">Reported Species List</a></li>
+            
+           
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+    </div>
+
+
+   
+
+  
+    
+ 
+  
+  <script>
+
+  var map = L.mapbox.map('map', 'kt80.h7bc42fd')
+
+  .setView([40.673, -73.998], 16);
+  var floraLayer = new L.layerGroup().addTo(map);
+  var array = [];
+//from bounding box
+//-74.021373,40.66604,-73.963909,40.693785
+var imageUrl = '../static/img/hybridMap.png',
+    imageBounds = [[40.66604, -74.02138], [40.693985, -73.965509]];
+
+//var historic = L.imageOverlay(imageUrl, imageBounds, 0.2);
+
+//historic.addTo(map);
+
+L.control.layers({
+   
+    '1766 Ratzer Map': L.imageOverlay(imageUrl, imageBounds, 0.2)
+  
+}).addTo(map);
+
+
+
+
+
+$.getJSON('/data/flora', function(data) {
+
+
+// console.log(data.floras[0].geometry.coordinates);
+// console.log(data.floras[2].geometry.coordinates);
+var floras = data.flora;
+
+var floraIcon = L.icon({
+    iconUrl: '../static/img/leaf.png',
+ 
+    iconSize:     [20,20], // size of the icon
+
+    iconAnchor:   [0,0], // point of the icon which will correspond to marker's location
+
+    popupAnchor:  [10,5] // point from which the popup should open relative to the iconAnchor
+});
+
+
+
+for (var i=0;i<floras.length;i++){
+  var lon =floras[i].geometry.coordinates[0];
+  var lat =floras[i].geometry.coordinates[1];
+  var species = floras[i].properties.species;
+  species = species.toLowerCase();
+  
+  //when = when.replace("T"," ");
+  var info = "<img src=\"../static/img/sm_" +species+".jpg\" style=\" width:100px;\"/>";
+
+  var ltln = [lat , lon]
+
+  marker = new L.marker(ltln, {icon: floraIcon}).bindPopup(info).addTo(floraLayer)
+  array.push(marker);
+
+}
+
+console.log(array.length)
+cycle(array);
+});
+
+
+
+function cycle(markers) {
+    var i = 0;
+    function run() {
+        if (++i > array.length - 1) i = 0;
+        map.setView(markers[i].getLatLng(), 17);
+        markers[i].openPopup();
+        window.setTimeout(run, 5000);
+    }
+    run();
+}
+
+
+
+ 
+
+
+    </script>
+  </body>
+  </html>

@@ -1,0 +1,215 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<script type="text/javascript">
+	$(document).ready(function(){
+          $(".collapse").collapse();
+});
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+
+		});
+	</script>
+
+
+
+{% for name, info in SOHplants.items() %}
+<div class="row well">
+<!-- left column -->
+	<div class="col-md-4 ">
+		<img class=" img-rounded" src="/static/img/{{ info.get('thumb') }}">
+
+	</div>
+	<!-- right column -->
+	<div class="col-md-8 "style="padding-left:20px; min-height:300px;" >
+		<h3>{{name|replace("_"," ")}} <em>{{info.get('latin')|replace("_", " ")}}</em></h3>
+		<h5>
+			{% for aka in info.get('aka') %}
+			{{ aka|replace("_"," ")}} &nbsp;
+			{%endfor%}
+		</h5>
+		
+		<h6>Native to: {{info.get('native')}}</h6>
+		<p>
+			<ul>
+			{% for c in info.get('characteristics') %}
+			<li>{{ c|replace("_"," ")}} </li>
+			{%endfor%}
+			</ul>
+		</p>
+		<a href="report/{{name|replace(" ","-")}}" class="btn btn-default btn-lg pull-right" style="position:absolute; bottom:0;">report a sighting</a>
+	</div>
+</div><!--endrow-->
+{% endfor %}
+
+{% for name, info in SOSplants.items() %}
+<div class="row well">
+<!-- left column -->
+	<div class="col-md-4 ">
+		<img class=" img-rounded" src="/static/img/{{ info.get('thumb') }}">
+
+	</div>
+	<!-- right column -->
+	<div class="col-md-8 "style="padding-left:20px; min-height:300px;" >
+		<h3>{{name|replace("_"," ")}} <em>{{info.get('latin')|replace("_", " ")}}</em></h3>
+		<h5>
+			{% for aka in info.get('aka') %}
+			{{ aka|replace("_"," ")}} &nbsp;
+			{%endfor%}
+		</h5>
+		
+		<h6>Native to: {{info.get('native')}}</h6>
+		<p>
+			<ul>
+			{% for c in info.get('characteristics') %}
+			<li>{{ c|replace("_"," ")}} </li>
+			{%endfor%}
+			</ul>
+		</p>
+		<a href="report/{{name|replace(" ","-")}}" class="btn btn-default btn-lg pull-right" style="position:absolute; bottom:0;">report a sighting</a>
+	</div>
+</div><!--endrow-->
+{% endfor %}
+
+
+{% for name, info in SOLplants.items() %}
+<div class="row well">
+<!-- left column -->
+	<div class="col-md-4 ">
+		<img class=" img-rounded" src="/static/img/{{ info.get('thumb') }}">
+	</div>
+	<!-- right column -->
+	<div class="col-md-8 "style="padding-left:20px; min-height:300px;" >
+		<h3>{{name|replace("_"," ")}} <em>{{info.get('latin')|replace("_", " ")}}</em></h3>
+		<h5>
+			{% for aka in info.get('aka') %}
+			{{ aka|replace("_"," ")}} &nbsp;
+			{%endfor%}
+		</h5>
+		
+		<h6>Native to: {{info.get('native')}}</h6>
+		<p>
+			<ul>
+			{% for c in info.get('characteristics') %}
+			<li>{{ c|replace("_"," ")}} </li>
+			{%endfor%}
+			</ul>
+		</p>
+		<a href="report/{{name|replace(" ","-")}}" class="btn btn-default btn-lg pull-right" style="position:absolute; bottom:0;">report a sighting</a>
+	</div>
+</div><!--endrow-->
+{% endfor %}
+
+{% for name, info in SASplants.items() %}
+<div class="row well">
+<!-- left column -->
+	<div class="col-md-4 ">
+		<img class=" img-rounded" src="/static/img/{{ info.get('thumb') }}">
+	</div>
+	<!-- right column -->
+	<div class="col-md-8 "style="padding-left:20px; min-height:300px;" >
+		<h3>{{name|replace("_"," ")}} <em>{{info.get('latin')|replace("_", " ")}}</em></h3>
+		<h5>
+			{% for aka in info.get('aka') %}
+			{{ aka|replace("_"," ")}} &nbsp;
+			{%endfor%}
+		</h5>
+		
+		<h6>Native to: {{info.get('native')}}</h6>
+		<p>
+			<ul>
+			{% for c in info.get('characteristics') %}
+			<li>{{ c|replace("_"," ")}} </li>
+			{%endfor%}
+			</ul>
+		</p>
+		<a href="report/{{name|replace(" ","-")}}" class="btn btn-default btn-lg pull-right" style="position:absolute; bottom:0;">report a sighting</a>
+	</div>
+</div><!--endrow-->
+{% endfor %}
+
+
+
+
+
+{% for name, info in COSplants.items() %}
+<div class="row well">
+<!-- left column -->
+	<div class="col-md-4 ">
+		<img class=" img-rounded" src="/static/img/{{ info.get('thumb') }}">
+	</div>
+	<!-- right column -->
+	<div class="col-md-8 "style="padding-left:20px; min-height:300px;" >
+		<h3>{{name|replace("_"," ")}} <em>{{info.get('latin')|replace("_", " ")}}</em></h3>
+		<h5>
+			{% for aka in info.get('aka') %}
+			{{ aka|replace("_"," ")}} &nbsp;
+			{%endfor%}
+		</h5>
+		
+		<h6>Native to: {{info.get('native')}}</h6>
+		<p>
+			<ul>
+			{% for c in info.get('characteristics') %}
+			<li>{{ c|replace("_"," ")}} </li>
+			{%endfor%}
+			</ul>
+		</p>
+		<a href="report/{{name|replace(" ","-")}}" class="btn btn-default btn-lg pull-right" style="position:absolute; bottom:0;">report a sighting</a>
+	</div>
+</div><!--endrow-->
+{% endfor %}
+
+
+
+
+{% endblock %}
+
+{% block styles %}
+	<link rel="stylesheet" type="text/css" href="../static/css/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 50px #222;
+		}
+
+		body{
+			background-color:#F8F8F8;
+		}
+	</style>
+{% endblock %}
+
+{% block scripts %}
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="../static/js/jquery-1.10.1.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="../static/js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../static/js/jquery.fancybox.js?v=2.1.5"></script>
+
+	
+
+{% endblock %}
