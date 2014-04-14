@@ -1,0 +1,221 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class = "row">
+<!--   <div class="col-md-6 col-md-offset-3 well" >
+  <p id="demo">aquiring location...</p>  
+  <p>{{plant|replace("-"," ")}}</p>
+
+  </div> -->
+</div>
+
+
+<div id="map-canvas"></div>
+
+ 
+
+
+
+ <div class="row"> 
+  <div id="panel" class="well">
+ 
+    
+  
+
+         
+     <form class="form-inline" role="form" method="POST" action="/report/{{plant}}">
+
+             
+              <input type="text" name="latln" id="latln" class="form-control" placeholder="Aquiring Location" style="width:250px;">
+              <input type="hidden" name="near" id="near"  value="">
+              <input type="hidden" name="lat" id="lat"  value="">
+              <input type="hidden" name="lon" id="lon"  value="">
+              <input type="hidden" name="species" id="species"  value="{{plant|replace("-"," ")}}">
+   
+          <p id="plant" style="display:none;">../static/img/sm_{{plant|lower|replace('-','')}}.jpg</p>
+          
+
+          
+            <button type="submit" id="submit"class="btn btn-default " disabled=true >Submit</button>
+          </form>
+  
+ 
+</div>
+  </div>
+
+
+
+
+{% endblock %}
+
+
+{% block styles %}
+  <style type="text/css">
+
+  body  #map-canvas {
+    position: absolute;
+    top : 0;
+    left :0;
+    height: 100%;
+    width:100%;
+    
+  }
+
+  form{
+    position:absolute;
+    height:20%;
+    bottom:0;
+  }
+
+
+  </style>
+
+{% endblock %}
+{% block scripts %}
+
+  <script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?v=3.exp?key={AIzaSyD6av4FAaq7w8dzfA1TieK3r9dWyTRDczs}&sensor=false">
+  </script>
+
+  <script>
+  window.onload=getLocation();
+
+  var image = {
+     url: '../static/img/leafg.png',
+    // This marker is 20 pixels wide by 32 pixels tall.
+    size: new google.maps.Size(20,20),
+    // The origin for this image is 0,0.
+    origin: new google.maps.Point(0,0),
+    // The anchor for this image is the base of the flagpole at 0,32.
+    anchor: new google.maps.Point(0,10)
+  };
+  var geocoder;
+var map;
+var infowindow = new google.maps.InfoWindow();
+var marker;
+var MY_MAPTYPE_ID = 'custom_style';
+function initialize() {
+  geocoder = new google.maps.Geocoder();
+  var latlng = new google.maps.LatLng(40.6761111,-73.9902778);
+  var mapOptions = {
+      zoom: 12,
+      center: latlng
+    }
+
+    var styles = [
+    {
+      stylers: [
+      { hue: "#00FF00" },
+      { saturation: 20 }
+      ]
+    },{
+      featureType: "road",
+      elementType: "geometry",
+      stylers: [
+      { lightness: 100 },
+      { visibility: "simplified" }
+      ]
+    }];
+    
+
+    
+
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    map.setOptions({styles: styles});
+  }
+
+function codeLatLng() {
+  
+  var mylat = document.getElementById('lat').value;
+
+  var mylon = document.getElementById('lon').value;
+  var myspecies = document.getElementById('species').value;
+  var src = document.getElementById('plant');
+  
+
+  var lat = parseFloat(mylat);
+  var lng = parseFloat(mylon);
+  var latlng = new google.maps.LatLng(lat, lng);
+  //alert(latlng);
+
+  geocoder.geocode({'latLng': latlng}, function(results, status) {
+    console.log(results)
+    if (status == google.maps.GeocoderStatus.OK) {
+      if (results[1]) {
+        map.setZoom(16);
+        marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            icon: image
+        });
+        map.setCenter(marker.getPosition());
+        //infowindow.setContent(myspecies + '<br> Near:' +results[0].formatted_address);
+        infowindow.setContent('<img src='+src.innerHTML+'  style="width:100px;" >' + '<p>'+myspecies+'</p>'
+          +results[0].formatted_address);
+        var myltln = document.getElementById('near');
+        myltln.value = results[0].formatted_address;
+        
+        infowindow.open(map, marker);
+        document.getElementById("submit").disabled=false;
+        document.getElementById("submit").className="btn btn-danger" ;
+      } else {
+        alert('No results found');
+      }
+    } else {
+      alert('Geocoder failed due to: ' + status);
+    }
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+var x=document.getElementById("demo");
+
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    }
+  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  }
+
+function showPosition(position)
+  {
+/*  x.innerHTML="Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude; */ 
+  var myltln = document.getElementById('latln');
+    myltln.value = position.coords.latitude +','+position.coords.longitude;
+  var lt = document.getElementById('lat');
+      lt.value = parseFloat(position.coords.latitude);  
+  var ln = document.getElementById('lon');
+      ln.value = parseFloat(position.coords.longitude);
+      codeLatLng();
+ }
+function showError(error)
+  {
+  switch(error.code) 
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="An unknown error occurred."
+      break;
+    }
+  }
+</script>
+
+{% endblock %}
+
+	
+
+
+
