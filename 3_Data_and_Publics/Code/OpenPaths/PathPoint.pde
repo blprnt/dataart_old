@@ -15,6 +15,14 @@ class PathPoint {
   
   color col = #FF3300;
   
+  //split this up 
+  Date pointDate; 
+  long pointTime; 
+  
+  //this is so you can place the times in a fraction. 
+  float timeFraction; 
+  
+  color col= #FF3000; 
   void update() {
     
   }
@@ -26,6 +34,7 @@ class PathPoint {
       c.translate(screenPos.x, screenPos.y);
       c.fill(col);
       c.rect(0,0,8,8);
+
     c.popMatrix();
   }
   

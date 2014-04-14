@@ -12,8 +12,10 @@
  
  */
 
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
 
 //Path to our data file
 String dataPath = "../../../data/";
@@ -21,6 +23,7 @@ String dataPath = "../../../data/";
 ArrayList<PathPoint> allPoints = new ArrayList();
 //These are all of the points that are currently active
 ArrayList<PathPoint> activePoints = new ArrayList();
+
 //Canvas on which to draw the points
 PGraphics canvas;
 
@@ -32,8 +35,11 @@ PVector mapBottomRight = new PVector(180, -90);
 //2011-06-07 00:03:31
 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd kk:mm:ss");
 
+
+
 //This is the time 'playhead'
 float currentTime = 0;
+
 
 void setup() {
   size(1280, 720, P3D);
@@ -47,6 +53,7 @@ void setup() {
   positionPoints(mapTopLeft, mapBottomRight);
   colorPoints();
 
+
   //Save out the points to GeoJSON
   pointsToGeoJSON("openpathsLastYear.json");
 }
@@ -56,6 +63,7 @@ void draw() {
   //currentTime = map(mouseX, 0, width, 0, 1);
   currentTime += 1.0 / (60 * 60);
   if (currentTime > 1) currentTime = 0;
+
 
   //Go through all loaded points and render them
   canvas.beginDraw();
@@ -69,6 +77,7 @@ void draw() {
   //Draw the points
   for (PathPoint pp:activePoints) {
     pp.update();
+
     pp.render(canvas);
   }
 
@@ -91,10 +100,12 @@ void draw() {
   stroke(255);
   line(currentTime * width, 0, currentTime * width, height);
 
+
   //Selection rect
   fill(255, 100);
   rect(mouseX, mouseY, 256, 144);
 }
+
 
 void buildCanvas() {
   canvas = createGraphics(width, height, P3D);
@@ -116,11 +127,13 @@ void injestOpenPaths(String url) {
     pp.lonLat.y = row.getFloat("lat");
     pp.dateString = row.getString("date");
 
+
     try {
       pp.pointDate = sdf.parse(pp.dateString);
       pp.pointTime = pp.pointDate.getTime();
     } 
     catch(Exception e) {
+
       println(e);
     }
     //Add it to the main arrayList
@@ -139,6 +152,7 @@ void positionPoints(PVector topLeft, PVector bottomRight) {
 }
 
 void colorPoints() {
+
   long startTime = allPoints.get(0).pointTime;
   long endTime = allPoints.get(allPoints.size() - 1).pointTime;
   println(startTime + ":" + endTime);
@@ -150,6 +164,7 @@ void colorPoints() {
   } 
   colorMode(RGB);
 }
+
 
 void zoomToBox() {
   //calculate the latLon equivalent of the selection box
@@ -188,6 +203,7 @@ void pointsToGeoJSON(String saveURL) {
   //Create the features array
   JSONArray features = new JSONArray();
   //Create a feature object for each path point and add it to the array
+
   Date today = new Date();
   long lastYear = today.getTime() - (1000 * 60 * 60 * 24 * 365);
   
@@ -217,6 +233,7 @@ void pointsToGeoJSON(String saveURL) {
       features.setJSONObject(c, pj);
       c++;
     }
+
   }
 
   //Add the features array to the main JSON object
