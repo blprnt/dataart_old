@@ -6,6 +6,10 @@ On April 6 2014, I took my first canoe trip down the Gowanus Canal. This is the 
 
 *Why canoe down a superfund site?*
 
-Canoeing allowed me to get close to the trees along the waters edge and avoid trespassing. Because I was using a phone and web technology, the data points were most accurate when approached a wifi source, and accuracy decreased as I went into more remote areas.
+Canoeing allowed me to get close to the trees along the waters edge and avoid trespassing. 
+
+*Accuracy*
+
+Because I was using a phone and web technology, the data points were most accurate when approached a wifi source, and accuracy decreased as I went into more remote areas.
 
 
