@@ -1,0 +1,21 @@
+
+
+# Readings
+
+1) Jonas Lerman, Big Data and Its Exclusions - http://www.stanfordlawreview.org/online/privacy-and-big-data/big-data-and-its-exclusions
+
+2) Kate Crawford, The Hidden Biases in Big Data - http://blogs.hbr.org/2013/04/the-hidden-biases-in-big-data/
+
+3) Kate Crawford & Jason Schultz, Big Data and Due Process: Toward a Framework to Redress Predictive Privacy Harms - http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2325784
+
+4) MIT Technology Review, Open Paths: http://www.technologyreview.com/view/526471/how-to-detect-criminal-gangs-using-mobile-phone-data/ - http://www.technologyreview.com/view/526471/how-to-detect-criminal-gangs-using-mobile-phone-data/
+
+# Technical Resources
+
+# Projects shown in class
+
+TBA
+
+# Videos to watch
+
+Eyeo 2012 - Julian Oliver : https://vimeo.com/52962142
