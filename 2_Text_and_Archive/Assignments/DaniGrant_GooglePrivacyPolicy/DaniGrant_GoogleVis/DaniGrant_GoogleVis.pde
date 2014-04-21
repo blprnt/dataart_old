@@ -1,3 +1,6 @@
+//creategraphics
+//pgraphics
+
 /*
  * Dani Grant
  * Google Privacy Policy Vis
@@ -49,32 +52,33 @@ void setup() {
 }
 
 void draw() {
-  //in mouseover, should iterate through everything based on which quadrant of screen on?
-  if (mouseX < 1280 % 9 && mouseX > 0) {
+  //in mouseover, should iterate through everything based on which quadrant of screen on
+  if (mouseX < 1280 % 81 && mouseX > 0) {
+    println("0");    
     mouseOver(docs[0]);
   } 
-  else if (mouseX < 1280 % 18 && mouseX > 1280 % 9) {
+  else if (mouseX < 1280 % 72 && mouseX > 1280 % 81) {
     mouseOver(docs[1]);
   } 
-  else if (mouseX < 1280 % 27 && mouseX > 1280 % 18) {
+  else if (mouseX < 1280 % 63 && mouseX > 1280 % 72) {
     mouseOver(docs[2]);
   } 
-  else if (mouseX < 1280 % 36 && mouseX > 1280 % 27) {
+  else if (mouseX < 1280 % 54 && mouseX > 1280 % 63) {
     mouseOver(docs[3]);
   } 
-  else if (mouseX < 1280 % 45 && mouseX > 1280 % 36) {
+  else if (mouseX < 1280 % 45 && mouseX > 1280 % 54) {
     mouseOver(docs[4]);
   } 
-  else if (mouseX < 1280 % 54 && mouseX > 1280 % 45) {
+  else if (mouseX < 1280 % 36 && mouseX > 1280 % 45) {
     mouseOver(docs[5]);
   } 
-  else if (mouseX < 1280 % 63 && mouseX > 1280 % 54) {
+  else if (mouseX < 1280 % 27 && mouseX > 1280 % 36) {
     mouseOver(docs[6]);
   } 
-  else if (mouseX < 1280 % 72 && mouseX > 1280 % 63) {
+  else if (mouseX < 1280 % 18 && mouseX > 1280 % 27) {
     mouseOver(docs[7]);
   } 
-  else if (mouseX < 1280 % 81 && mouseX > 1280 % 72) {
+  else if (mouseX < 1280 % 9 && mouseX > 1280 % 18) {
     mouseOver(docs[8]);
   }
 }
@@ -148,7 +152,7 @@ void mouseOver(ArrayList<WordObject> wos) {
     WordObject wo = wos.get(i);
     println("dist(mouseX, mouseY, wo.xPos, wo.yPos is " + dist(mouseX, mouseY, wo.xPos, wo.yPos));
     if (dist(mouseX, mouseY, wo.xPos, wo.yPos) < 800) {
-      //println("got here!");
+      println("got here!");
       //text(wo.word, wo.xPos, wo.yPos + 30);
     }
   }
