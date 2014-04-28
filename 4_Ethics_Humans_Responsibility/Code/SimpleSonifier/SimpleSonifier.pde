@@ -17,6 +17,7 @@ float[] numbers2 = {
 };
 
 Sonifier s;
+Sonifier s2;
 
 void setup() {
   
@@ -25,12 +26,18 @@ void setup() {
  
  s = new Sonifier();
  //init(float array, low frequency, high frequency, interval)
- s.init(numbers2,2000,4000,300);
+ s.init(numbers,500,1000,150);
  s.start();
+ 
+ s2 = new Sonifier();
+ //init(float array, low frequency, high frequency, interval)
+ s2.init(numbers2,2500,4000,150);
+ s2.start();
  
 }
 
 void draw() {
   s.render();
+  s2.render();
 }
 
