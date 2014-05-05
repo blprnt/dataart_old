@@ -17,7 +17,7 @@ class Station {
     for(Bike b:bikes) {
       if (b.alive) tempBikes.add(b);
     }
-    bikes = tempBikes();
+    bikes = tempBikes;
   }
 
   void render() {

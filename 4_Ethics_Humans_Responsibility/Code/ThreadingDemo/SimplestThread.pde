@@ -3,7 +3,6 @@ public class SimplestThread extends Thread {
   private boolean running;           // Is the thread running?  Yes or no?
   String id;                         // id, to keep our threads identifiable.
 
-
   // Constructor, create the thread
   // It is not running by default
   public SimplestThread (String _id) {
