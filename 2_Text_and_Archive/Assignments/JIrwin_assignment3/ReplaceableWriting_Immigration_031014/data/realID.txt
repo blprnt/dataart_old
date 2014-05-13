@@ -1,0 +1,230 @@
+REAL ID Act – Title II
+1
+H.R.1268
+Emergency Supplemental Appropriations Act for Defense, the Global War
+on Terror, and Tsunami Relief, 2005 (Enrolled as Agreed to or Passed by
+Both House and Senate)
+TITLE II--IMPROVED SECURITY FOR DRIVERS' LICENSES AND
+PERSONAL IDENTIFICATION CARDS
+SEC. 201. DEFINITIONS.
+In this title, the following definitions apply:
+(1) DRIVER'S LICENSE- The term `driver's license' means a motor
+vehicle operator's license, as defined in section 30301 of title 49,
+United States Code.
+(2) IDENTIFICATION CARD- The term `identification card' means a
+personal identification card, as defined in section 1028(d) of title 18,
+United States Code, issued by a State.
+(3) OFFICIAL PURPOSE- The term `official purpose' includes but is not
+limited to accessing Federal facilities, boarding federally regulated
+commercial aircraft, entering nuclear power plants, and any other
+purposes that the Secretary shall determine.
+(4) SECRETARY- The term `Secretary' means the Secretary of
+Homeland Security.
+(5) STATE- The term `State' means a State of the United States, the
+District of Columbia, Puerto Rico, the Virgin Islands, Guam, American
+Samoa, the Northern Mariana Islands, the Trust Territory of the Pacific
+Islands, and any other territory or possession of the United States.
+SEC. 202. MINIMUM DOCUMENT REQUIREMENTS AND
+ISSUANCE STANDARDS FOR FEDERAL RECOGNITION.
+(a) Minimum Standards for Federal Use-
+(1) IN GENERAL- Beginning 3 years after the date of the enactment of
+this division, a Federal agency may not accept, for any official purpose,
+a driver's license or identification card issued by a State to any person
+unless the State is meeting the requirements of this section.
+(2) STATE CERTIFICATIONS- The Secretary shall determine whether a
+State is meeting the requirements of this section based on
+certifications made by the State to the Secretary. Such certifications
+shall be made at such times and in such manner as the Secretary, in
+consultation with the Secretary of Transportation, may prescribe by
+regulation.
+(b) Minimum Document Requirements- To meet the requirements of this
+section, a State shall include, at a minimum, the following information and
+REAL ID Act – Title II
+2
+features on each driver's license and identification card issued to a person by
+the State:
+(1) The person's full legal name.
+(2) The person's date of birth.
+(3) The person's gender.
+(4) The person's driver's license or identification card number.
+(5) A digital photograph of the person.
+(6) The person's address of principle residence.
+(7) The person's signature.
+(8) Physical security features designed to prevent tampering,
+counterfeiting, or duplication of the document for fraudulent purposes.
+(9) A common machine-readable technology, with defined minimum
+data elements.
+(c) Minimum Issuance Standards-
+(1) IN GENERAL- To meet the requirements of this section, a State
+shall require, at a minimum, presentation and verification of the
+following information before issuing a driver's license or identification
+card to a person:
+(A) A photo identity document, except that a non-photo identity
+document is acceptable if it includes both the person's full legal
+name and date of birth.
+(B) Documentation showing the person's date of birth.
+(C) Proof of the person's social security account number or
+verification that the person is not eligible for a social security
+account number.
+(D) Documentation showing the person's name and address of
+principal residence.
+(2) SPECIAL REQUIREMENTS-
+(A) IN GENERAL- To meet the requirements of this section, a
+State shall comply with the minimum standards of this
+paragraph.
+(B) EVIDENCE OF LAWFUL STATUS- A State shall require, before
+issuing a driver's license or identification card to a person, valid
+documentary evidence that the person--
+(i) is a citizen or national of the United States;
+(ii) is an alien lawfully admitted for permanent or
+temporary residence in the United States;
+(iii) has conditional permanent resident status in the
+United States;
+(iv) has an approved application for asylum in the United
+States or has entered into the United States in refugee
+status;
+(v) has a valid, unexpired nonimmigrant visa or
+nonimmigrant visa status for entry into the United States;
+(vi) has a pending application for asylum in the United
+States;
+(vii) has a pending or approved application for temporary
+protected status in the United States;
+REAL ID Act – Title II
+3
+(viii) has approved deferred action status; or
+(ix) has a pending application for adjustment of status to
+that of an alien lawfully admitted for permanent residence
+in the United States or conditional permanent resident
+status in the United States.
+(C) TEMPORARY DRIVERS' LICENSES AND IDENTIFICATION
+CARDS-
+(i) IN GENERAL- If a person presents evidence under any
+of clauses (v) through (ix) of subparagraph (B), the State
+may only issue a temporary driver's license or temporary
+identification card to the person.
+(ii) EXPIRATION DATE- A temporary driver's license or
+temporary identification card issued pursuant to this
+subparagraph shall be valid only during the period of time
+of the applicant's authorized stay in the United States or,
+if there is no definite end to the period of authorized stay,
+a period of one year.
+(iii) DISPLAY OF EXPIRATION DATE- A temporary driver's
+license or temporary identification card issued pursuant to
+this subparagraph shall clearly indicate that it is
+temporary and shall state the date on which it expires.
+(iv) RENEWAL- A temporary driver's license or temporary
+identification card issued pursuant to this subparagraph
+may be renewed only upon presentation of valid
+documentary evidence that the status by which the
+applicant qualified for the temporary driver's license or
+temporary identification card has been extended by the
+Secretary of Homeland Security.
+(3) VERIFICATION OF DOCUMENTS- To meet the requirements of this
+section, a State shall implement the following procedures:
+(A) Before issuing a driver's license or identification card to a
+person, the State shall verify, with the issuing agency, the
+issuance, validity, and completeness of each document required
+to be presented by the person under paragraph (1) or (2).
+(B) The State shall not accept any foreign document, other than
+an official passport, to satisfy a requirement of paragraph (1) or
+(2).
+(C) Not later than September 11, 2005, the State shall enter
+into a memorandum of understanding with the Secretary of
+Homeland Security to routinely utilize the automated system
+known as Systematic Alien Verification for Entitlements, as
+provided for by section 404 of the Illegal Immigration Reform
+and Immigrant Responsibility Act of 1996 (110 Stat. 3009-664),
+to verify the legal presence status of a person, other than a
+United States citizen, applying for a driver's license or
+identification card.
+REAL ID Act – Title II
+4
+(d) Other Requirements- To meet the requirements of this section, a State
+shall adopt the following practices in the issuance of drivers' licenses and
+identification cards:
+(1) Employ technology to capture digital images of identity source
+documents so that the images can be retained in electronic storage in
+a transferable format.
+(2) Retain paper copies of source documents for a minimum of 7 years
+or images of source documents presented for a minimum of 10 years.
+(3) Subject each person applying for a driver's license or identification
+card to mandatory facial image capture.
+(4) Establish an effective procedure to confirm or verify a renewing
+applicant's information.
+(5) Confirm with the Social Security Administration a social security
+account number presented by a person using the full social security
+account number. In the event that a social security account number is
+already registered to or associated with another person to which any
+State has issued a driver's license or identification card, the State shall
+resolve the discrepancy and take appropriate action.
+(6) Refuse to issue a driver's license or identification card to a person
+holding a driver's license issued by another State without confirmation
+that the person is terminating or has terminated the driver's license.
+(7) Ensure the physical security of locations where drivers' licenses
+and identification cards are produced and the security of document
+materials and papers from which drivers' licenses and identification
+cards are produced.
+(8) Subject all persons authorized to manufacture or produce drivers'
+licenses and identification cards to appropriate security clearance
+requirements.
+(9) Establish fraudulent document recognition training programs for
+appropriate employees engaged in the issuance of drivers' licenses and
+identification cards.
+(10) Limit the period of validity of all driver's licenses and identification
+cards that are not temporary to a period that does not exceed 8 years.
+(11) In any case in which the State issues a driver's license or
+identification card that does not satisfy the requirements of this
+section, ensure that such license or identification card--
+(A) clearly states on its face that it may not be accepted by any
+Federal agency for federal identification or any other official
+purpose; and
+(B) uses a unique design or color indicator to alert Federal
+agency and other law enforcement personnel that it may not be
+accepted for any such purpose.
+(12) Provide electronic access to all other States to information
+contained in the motor vehicle database of the State.
+(13) Maintain a State motor vehicle database that contains, at a
+minimum--
+(A) all data fields printed on drivers' licenses and identification
+cards issued by the State; and
+REAL ID Act – Title II
+5
+(B) motor vehicle drivers' histories, including motor vehicle
+violations, suspensions, and points on licenses.
+SEC. 203. TRAFFICKING IN AUTHENTICATION FEATURES FOR
+USE IN FALSE IDENTIFICATION DOCUMENTS.
+(a) Criminal Penalty- Section 1028(a)(8) of title 18, United States Code, is
+amended by striking `false authentication features' and inserting `false or
+actual authentication features'.
+(b) Use of False Driver's License at Airports-
+(1) IN GENERAL- The Secretary shall enter, into the appropriate
+aviation security screening database, appropriate information
+regarding any person convicted of using a false driver's license at an
+airport (as such term is defined in section 40102 of title 49, United
+States Code).
+(2) FALSE DEFINED- In this subsection, the term `false' has the same
+meaning such term has under section 1028(d) of title 18, United
+States Code.
+SEC. 204. GRANTS TO STATES.
+(a) In General- The Secretary may make grants to a State to assist the State
+in conforming to the minimum standards set forth in this title.
+(b) Authorization of Appropriations- There are authorized to be appropriated
+to the Secretary for each of the fiscal years 2005 through 2009 such sums as
+may be necessary to carry out this title.
+SEC. 205. AUTHORITY.
+(a) Participation of Secretary of Transportation and States- All authority to
+issue regulations, set standards, and issue grants under this title shall be
+carried out by the Secretary, in consultation with the Secretary of
+Transportation and the States.
+(b) Extensions of Deadlines- The Secretary may grant to a State an
+extension of time to meet the requirements of section 202(a)(1) if the State
+provides adequate justification for noncompliance.
+SEC. 206. REPEAL.
+Section 7212 of the Intelligence Reform and Terrorism Prevention Act of
+2004 (Public Law 108-458) is repealed.
+SEC. 207. LIMITATION ON STATUTORY CONSTRUCTION.
+REAL ID Act – Title II
+6
+Nothing in this title shall be construed to affect the authorities or
+responsibilities of the Secretary of Transportation or the States under chapter
+303 of title 49, United States Code.

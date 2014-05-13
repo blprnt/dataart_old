@@ -7,7 +7,7 @@
 
 import http.requests.*;
 
-String apiKey = "AIzaSyB4M0A8xSufQHc-qo7qZWOa1FGfaTNKG0s"; 
+String apiKey = "API KEY HERE"; 
 
 ArrayList <Market> allMarkets = new ArrayList(); 
 ArrayList <Desert> allDeserts = new ArrayList(); 

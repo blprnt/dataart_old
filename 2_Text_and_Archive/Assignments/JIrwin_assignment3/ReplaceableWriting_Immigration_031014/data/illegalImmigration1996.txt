@@ -1,0 +1,1431 @@
+
+[107th Congress Public Law 173]
+[From the U.S. Government Printing Office]
+
+
+<DOC>
+[DOCID: f:publ173.107]
+
+
+[[Page 116 STAT. 543]]
+
+Public Law 107-173
+107th Congress
+
+                                 An Act
+
+
+ 
+   To enhance the border security of the United States, and for other 
+            purposes. <<NOTE: May 14, 2002 -  [H.R. 3525]>> 
+
+    Be it enacted by the Senate and House of Representatives of the 
+United States of America in Congress <<NOTE: Enhanced Border Security 
+and Visa Entry Reform Act of 2002. Aliens.>>  assembled,
+
+SECTION 1. SHORT TITLE.
+
+    (a) Short <<NOTE: 8 USC 1701 note.>> Title.--This Act may be cited 
+as the ``Enhanced Border Security and Visa Entry Reform Act of 2002''.
+
+    (b) Table of Contents.--The table of contents for this Act is as 
+follows:
+
+Sec. 1. Short title.
+Sec. 2. Definitions.
+
+                            TITLE I--FUNDING
+
+Sec. 101. Authorization of appropriations for hiring and training 
+           Government personnel.
+Sec. 102. Authorization of appropriations for improvements in technology 
+           and infrastructure.
+Sec. 103. Machine-readable visa fees.
+
+                TITLE II--INTERAGENCY INFORMATION SHARING
+
+Sec. 201. Interim measures for access to and coordination of law 
+           enforcement and other information.
+Sec. 202. Interoperable law enforcement and intelligence data system 
+           with name-matching capacity and training.
+Sec. 203. Commission on interoperable data sharing.
+Sec. 204. Personnel management authorities for positions involved in the 
+           development and implementation of the interoperable 
+           electronic data system (``Chimera system'').
+
+                        TITLE III--VISA ISSUANCE
+
+Sec. 301. Electronic provision of visa files.
+Sec. 302. Implementation of an integrated entry and exit data system.
+Sec. 303. Machine-readable, tamper-resistant entry and exit documents.
+Sec. 304. Terrorist lookout committees.
+Sec. 305. Improved training for consular officers.
+Sec. 306. Restriction on issuance of visas to nonimmigrants who are from 
+           countries that are state sponsors of international terrorism.
+Sec. 307. Designation of program countries under the Visa Waiver 
+           Program.
+Sec. 308. Tracking system for stolen passports.
+Sec. 309. Identification documents for certain newly admitted aliens.
+
+              TITLE IV--INSPECTION AND ADMISSION OF ALIENS
+
+Sec. 401. Study of the feasibility of a North American National Security 
+           Program.
+Sec. 402. Passenger manifests.
+Sec. 403. Time period for inspections.
+Sec. 404. Joint United States-Canada projects for alternative 
+           inspections services.
+
+             TITLE V--FOREIGN STUDENTS AND EXCHANGE VISITORS
+
+Sec. 501. Foreign student monitoring program.
+Sec. 502. Review of institutions and other entities authorized to enroll 
+           or sponsor certain nonimmigrants.
+
+[[Page 116 STAT. 544]]
+
+                   TITLE VI--MISCELLANEOUS PROVISIONS
+
+Sec. 601. Extension of deadline for improvement in border crossing 
+           identification cards.
+Sec. 602. General Accounting Office study.
+Sec. 603. International cooperation.
+Sec. 604. Statutory construction.
+Sec. 605. Report on aliens who fail to appear after release on own 
+           recognizance.
+Sec. 606. Retention of nonimmigrant visa applications by the Department 
+           of State.
+
+SEC. 2. DEFINITIONS. <<NOTE: 8 USC 1701.>> 
+
+    In this Act:
+            (1) Alien.--The term ``alien'' has the meaning given the 
+        term in section 101(a)(3) of the Immigration and Nationality Act 
+        (8 U.S.C. 1101(a)(3)).
+            (2) Appropriate committees of congress.--The term 
+        ``appropriate committees of Congress'' means the following:
+                    (A) The Committee on the Judiciary, the Select 
+                Committee on Intelligence, and the Committee on Foreign 
+                Relations of the Senate.
+                    (B) The Committee on the Judiciary, the Permanent 
+                Select Committee on Intelligence, and the Committee on 
+                International Relations of the House of Representatives.
+            (3) Chimera system.--The term ``Chimera system'' means the 
+        interoperable electronic data system required to be developed 
+        and implemented by section 202(a)(2).
+            (4) Federal law enforcement agencies.--The term ``Federal 
+        law enforcement agencies'' means the following:
+                    (A) The United States Secret Service.
+                    (B) The Drug Enforcement Administration.
+                    (C) The Federal Bureau of Investigation.
+                    (D) The Immigration and Naturalization Service.
+                    (E) The United States Marshall Service.
+                    (F) The Naval Criminal Investigative Service.
+                    (G) The Coastal Security Service.
+                    (H) The Diplomatic Security Service.
+                    (I) The United States Postal Inspection Service.
+                    (J) The Bureau of Alcohol, Tobacco, and Firearms.
+                    (K) The United States Customs Service.
+                    (L) The National Park Service.
+            (5) Intelligence community.--The term ``intelligence 
+        community'' has the meaning given that term in section 3(4) of 
+        the National Security Act of 1947 (50 U.S.C. 401a(4)).
+            (6) President.--The term ``President'' means the President 
+        of the United States, acting through the Assistant to the 
+        President for Homeland Security, in coordination with the 
+        Secretary of State, the Commissioner of Immigration and 
+        Naturalization, the Attorney General, the Director of Central 
+        Intelligence, the Director of the Federal Bureau of 
+        Investigation, the Secretary of Transportation, the Commissioner 
+        of Customs, and the Secretary of the Treasury.
+            (7) USA PATRIOT Act.--The term ``USA PATRIOT Act'' means the 
+        Uniting and Strengthening America by Providing Appropriate Tools 
+        Required to Intercept and Obstruct Terrorism (USA PATRIOT ACT) 
+        Act of 2001 (Public Law 107-56).
+
+[[Page 116 STAT. 545]]
+
+                            TITLE I--FUNDING
+
+SEC. 101. <<NOTE: 8 USC 1711.>> AUTHORIZATION OF APPROPRIATIONS FOR 
+            HIRING AND TRAINING GOVERNMENT PERSONNEL.
+
+    (a) Additional Personnel.--
+            (1) INS inspectors.--Subject to the availability of 
+        appropriations, during each of the fiscal years 2003 through 
+        2006, the Attorney General shall increase the number of 
+        inspectors and associated support staff in the Immigration and 
+        Naturalization Service by the equivalent of at least 200 full-
+        time employees over the number of inspectors and associated 
+        support staff in the Immigration and Naturalization Service 
+        authorized by the USA PATRIOT Act.
+            (2) INS investigative personnel.--Subject to the 
+        availability of appropriations, during each of the fiscal years 
+        2003 through 2006, the Attorney General shall increase the 
+        number of investigative and associated support staff of the 
+        Immigration and Naturalization Service by the equivalent of at 
+        least 200 full-time employees over the number of investigators 
+        and associated support staff in the Immigration and 
+        Naturalization Service authorized by the USA PATRIOT Act.
+            (3) Authorization of appropriations.--There are authorized 
+        to be appropriated such sums as may be necessary to carry out 
+        this subsection, including such sums as may be necessary to 
+        provide facilities, attorney personnel and support staff, and 
+        other resources needed to support the increased number of 
+        inspectors, investigative staff, and associated support staff.
+
+    (b) Authorization of Appropriations for INS Staffing.--
+            (1) In general.--There are authorized to be appropriated for 
+        the Department of Justice such sums as may be necessary to 
+        provide an increase in the annual rate of basic pay effective 
+        October 1, 2002--
+                    (A) for all journeyman Border Patrol agents and 
+                inspectors who have completed at least one year's 
+                service and are receiving an annual rate of basic pay 
+                for positions at GS-9 of the General Schedule under 
+                section 5332 of title 5, United States Code, from the 
+                annual rate of basic pay payable for positions at GS-9 
+                of the General Schedule under such section 5332, to an 
+                annual rate of basic pay payable for positions at GS-11 
+                of the General Schedule under such section 5332;
+                    (B) for inspections assistants, from the annual rate 
+                of basic pay payable for positions at GS-5 of the 
+                General Schedule under section 5332 of title 5, United 
+                States Code, to an annual rate of basic pay payable for 
+                positions at GS-7 of the General Schedule under such 
+                section 5332; and
+                    (C) for the support staff associated with the 
+                personnel described in subparagraphs (A) and (B), at the 
+                appropriate GS level of the General Schedule under such 
+                section 5332.
+
+    (c) Authorization of Appropriations for Training.--There are 
+authorized to be appropriated such sums as may be necessary--
+            (1) to appropriately train Immigration and Naturalization 
+        Service personnel on an ongoing basis--
+
+[[Page 116 STAT. 546]]
+
+                    (A) to ensure that their proficiency levels are 
+                acceptable to protect the borders of the United States; 
+                and
+                    (B) otherwise to enforce and administer the laws 
+                within their jurisdiction;
+            (2) to provide adequate continuing cross-training to 
+        agencies staffing the United States border and ports of entry to 
+        effectively and correctly apply applicable United States laws;
+            (3) to fully train immigration officers to use the 
+        appropriate lookout databases and to monitor passenger traffic 
+        patterns; and
+            (4) to expand the Carrier Consultant Program described in 
+        section 235(b) of the Immigration and Nationality Act (8 U.S.C. 
+        1225A(b)).
+
+    (d) Authorization of Appropriations for Consular Functions.--
+            (1) Responsibilities.--The Secretary of State shall--
+                    (A) implement enhanced security measures for the 
+                review of visa applicants;
+                    (B) staff the facilities and programs associated 
+                with the activities described in subparagraph (A); and
+                    (C) provide ongoing training for consular officers 
+                and diplomatic security agents.
+            (2) Authorization of appropriations.--There are authorized 
+        to be appropriated for the Department of State such sums as may 
+        be necessary to carry out paragraph (1).
+
+SEC. 102. <<NOTE: 8 USC 1712.>> AUTHORIZATION OF APPROPRIATIONS FOR 
+            IMPROVEMENTS IN TECHNOLOGY AND INFRASTRUCTURE.
+
+    (a) Funding of Technology.--
+            (1) Authorization of appropriations.--In addition to funds 
+        otherwise available for such purpose, there are authorized to be 
+        appropriated $150,000,000 to the Immigration and Naturalization 
+        Service for purposes of--
+                    (A) making improvements in technology (including 
+                infrastructure support, computer security, and 
+                information technology development) for improving border 
+                security;
+                    (B) expanding, utilizing, and improving technology 
+                to improve border security; and
+                    (C) facilitating the flow of commerce and persons at 
+                ports of entry, including improving and expanding 
+                programs for preenrollment and preclearance.
+            (2) Waiver of fees.--Federal agencies involved in border 
+        security may waive all or part of enrollment fees for 
+        technology-based programs to encourage participation by United 
+        States citizens and aliens in such programs. Any agency that 
+        waives any part of any such fee may establish its fees for other 
+        services at a level that will ensure the recovery from other 
+        users of the amounts waived.
+            (3) Offset of increases in fees.--The Attorney General may, 
+        to the extent reasonable, increase land border fees for the 
+        issuance of arrival-departure documents to offset technology 
+        costs.
+
+    (b) Improvement and Expansion of INS, State Department, and Customs 
+Facilities.--There are authorized to be appropriated to the Immigration 
+and Naturalization Service and the Department of State such sums as may 
+be necessary to improve and expand facilities for use by the personnel 
+of those agencies.
+
+[[Page 116 STAT. 547]]
+
+SEC. 103. MACHINE-READABLE VISA FEES. <<NOTE: 8 USC 1713.>> 
+
+    (a) Relation to Subsequent Authorization Acts.--Section 140(a) of 
+the Foreign Relations Authorization Act, Fiscal Years 1994 and 1995 
+(Public Law 103-236) <<NOTE: 8 USC 1351 note.>> is amended by striking 
+paragraph (3).
+
+    (b) Fee Amount.--The machine-readable visa fee charged by the 
+Department of State shall be the higher of $65 or the cost of the 
+machine-readable visa service, as determined by the Secretary of State 
+after conducting a study of the cost of such service.
+    (c) Surcharge.--The Department of State is authorized to charge a 
+surcharge of $10, in addition to the machine-readable visa fee, for 
+issuing a machine-readable visa in a nonmachine-readable passport.
+    (d) Availability of Collected Fees.--Notwithstanding any other 
+provision of law, amounts collected as fees described in this section 
+shall be credited as an offsetting collection to any appropriation for 
+the Department of State to recover costs of providing consular services. 
+Amounts so credited shall be available, until expended, for the same 
+purposes as the appropriation to which credited.
+
+                TITLE II--INTERAGENCY INFORMATION SHARING
+
+SEC. 201. <<NOTE: 8 USC 1721.>> INTERIM MEASURES FOR ACCESS TO AND 
+            COORDINATION OF LAW ENFORCEMENT AND OTHER INFORMATION.
+
+    (a) Interim Directive.--Until the plan required by subsection (c) is 
+implemented, Federal law enforcement agencies and the intelligence 
+community shall, to the maximum extent practicable, share any 
+information with the Department of State and the Immigration and 
+Naturalization Service relevant to the admissibility and deportability 
+of aliens, consistent with the plan described in subsection (c).
+    (b) Report Identifying Law Enforcement and Intelligence 
+Information.--
+            (1) In <<NOTE: Deadline. President.>> general.--Not later 
+        than 120 days after the date of enactment of this Act, the 
+        President shall submit to the appropriate committees of Congress 
+        a report identifying Federal law enforcement and the 
+        intelligence community information needed by the Department of 
+        State to screen visa applicants, or by the Immigration and 
+        Naturalization Service to screen applicants for admission to the 
+        United States, and to identify those aliens inadmissible or 
+        deportable under the Immigration and Nationality Act.
+            (2) Repeal.--Section 414(d) of the USA PATRIOT Act <<NOTE: 8 
+        USC 1365a note.>> is hereby repealed.
+
+    (c) Coordination Plan.--
+            (1) Requirement <<NOTE: Deadline. President.>> for plan.--
+        Not later than one year after the date of enactment of the USA 
+        PATRIOT Act, the President shall develop and implement a plan 
+        based on the findings of the report under subsection (b) that 
+        requires Federal law enforcement agencies and the intelligence 
+        community to provide to the Department of State and the 
+        Immigration and Naturalization Service all information 
+        identified in that report as expeditiously as practicable.
+
+[[Page 116 STAT. 548]]
+
+            (2) <<NOTE: President.>> Consultation requirement.--In the 
+        preparation and implementation of the plan under this 
+        subsection, the President shall consult with the appropriate 
+        committees of Congress.
+            (3) Protections regarding information and uses thereof.--The 
+        plan under this subsection shall establish conditions for using 
+        the information described in subsection (b) received by the 
+        Department of State and Immigration and Naturalization Service--
+                    (A) to limit the redissemination of such 
+                information;
+                    (B) to ensure that such information is used solely 
+                to determine whether to issue a visa to an alien or to 
+                determine the admissibility or deportability of an alien 
+                to the United States, except as otherwise authorized 
+                under Federal law;
+                    (C) to ensure the accuracy, security, and 
+                confidentiality of such information;
+                    (D) to protect any privacy rights of individuals who 
+                are subjects of such information;
+                    (E) to provide data integrity through the timely 
+                removal and destruction of obsolete or erroneous names 
+                and information; and
+                    (F) in a manner that protects the sources and 
+                methods used to acquire intelligence information as 
+                required by section 103(c)(6) of the National Security 
+                Act of 1947 (50 U.S.C. 403-3(c)(6)).
+            (4) Criminal penalties for misuse of information.--Any 
+        person who obtains information under this subsection without 
+        authorization or exceeding authorized access (as defined in 
+        section 1030(e) of title 18, United States Code), and who uses 
+        such information in the manner described in any of the 
+        paragraphs (1) through (7) of section 1030(a) of such title, or 
+        attempts to use such information in such manner, shall be 
+        subject to the same penalties as are applicable under section 
+        1030(c) of such title for violation of that paragraph.
+            (5) Advancing deadlines for a technology standard and 
+        report.--Section 403(c) of the USA PATRIOT <<NOTE: 8 USC 
+        1379.>> Act is amended--
+                    (A) in paragraph (1), by striking ``2 years'' and 
+                inserting ``15 months''; and
+                    (B) in paragraph (4), by striking ``18 months'' and 
+                inserting ``one year''.
+
+SEC. 202. <<NOTE: 8 USC 1722.>> INTEROPERABLE LAW ENFORCEMENT AND 
+            INTELLIGENCE DATA SYSTEM WITH NAME-MATCHING CAPACITY AND 
+            TRAINING.
+
+    (a) Interoperable Law Enforcement and Intelligence Electronic Data 
+System.--
+            (1) Requirement for integrated immigration and 
+        naturalization data system.--The Immigration and Naturalization 
+        Service shall fully integrate all databases and data systems 
+        maintained by the Service that process or contain information on 
+        aliens. The fully integrated data system shall be an 
+        interoperable component of the electronic data system described 
+        in paragraph (2).
+            (2) Requirement <<NOTE: President.>> for interoperable data 
+        system.--Upon the date of commencement of implementation of the 
+        plan required by section 201(c), the President shall develop and
+
+[[Page 116 STAT. 549]]
+
+        implement an interoperable electronic data system to provide 
+        current and immediate access to information in databases of 
+        Federal law enforcement agencies and the intelligence community 
+        that is relevant to determine whether to issue a visa or to 
+        determine the admissibility or deportability of an alien (also 
+        known as the ``Chimera system'').
+            (3) <<NOTE: President.>>  Consultation requirement.--In the 
+        development and implementation of the data system under this 
+        subsection, the President shall consult with the Director of the 
+        National Institute of Standards and Technology (NIST) and any 
+        such other agency as may be deemed appropriate.
+            (4) Technology standard.--
+                    (A) In general.--The data system developed and 
+                implemented under this subsection, and the databases 
+                referred to in paragraph (2), shall utilize the 
+                technology standard established pursuant to section 
+                403(c) of the USA PATRIOT Act, as amended by section 
+                201(c)(5) and subparagraph (B).
+                    (B) Conforming amendment.--Section 403(c) of the USA 
+                PATRIOT Act, <<NOTE: 8 USC 1379.>> as amended by section 
+                201(c)(5), is further amended--
+                          (i) in paragraph (1), by inserting ``, 
+                      including appropriate biometric identifier 
+                      standards,'' after ``technology standard''; and
+                          (ii) in paragraph (2) --
+                                    (I) by striking ``Integrated'' and 
+                                inserting ``Interoperable''; and
+                                    (II) by striking ``integrated'' and 
+                                inserting ``interoperable''.
+            (5) Access to information in data system.--Subject to 
+        paragraph (6), information in the data system under this 
+        subsection shall be readily and easily accessible--
+                    (A) to any consular officer responsible for the 
+                issuance of visas;
+                    (B) to any Federal official responsible for 
+                determining an alien's admissibility to or deportability 
+                from the United States; and
+                    (C) to any Federal law enforcement or intelligence 
+                officer determined by regulation to be responsible for 
+                the investigation or identification of aliens.
+            (6) <<NOTE: President. Procedures.>>  Limitation on 
+        access.--The President shall, in accordance with applicable 
+        Federal laws, establish procedures to restrict access to 
+        intelligence information in the data system under this 
+        subsection, and the databases referred to in paragraph (2), 
+        under circumstances in which such information is not to be 
+        disclosed directly to Government officials under paragraph (5).
+
+    (b) Name-Search Capacity and Support.--
+            (1) In general.--The interoperable electronic data system 
+        required by subsection (a) shall--
+                    (A) have the capacity to compensate for disparate 
+                name formats among the different databases referred to 
+                in subsection (a);
+                    (B) be searchable on a linguistically sensitive 
+                basis;
+                    (C) provide adequate user support;
+                    (D) to the extent practicable, utilize commercially 
+                available technology; and
+
+[[Page 116 STAT. 550]]
+
+                    (E) be adjusted and improved, based upon experience 
+                with the databases and improvements in the underlying 
+                technologies and sciences, on a continuing basis.
+            (2) Linguistically sensitive searches.--
+                    (A) In general.--To satisfy the requirement of 
+                paragraph (1)(B), the interoperable electronic database 
+                shall be searchable based on linguistically sensitive 
+                algorithms that--
+                          (i) account for variations in name formats and 
+                      transliterations, including varied spellings and 
+                      varied separation or combination of name elements, 
+                      within a particular language; and
+                          (ii) incorporate advanced linguistic, 
+                      mathematical, statistical, and anthropological 
+                      research and methods.
+                    (B) Languages required.--
+                          (i) Priority languages.--Linguistically 
+                      sensitive algorithms shall be developed and 
+                      implemented for no fewer than 4 languages 
+                      designated as high priorities by the Secretary of 
+                      State, after consultation with the Attorney 
+                      General and the Director of Central Intelligence.
+                          (ii) Implementation schedule.--Of the 4 
+                      linguistically sensitive algorithms required to be 
+                      developed and implemented under clause (i)--
+                                    (I) the highest priority language 
+                                algorithms shall be implemented within 
+                                18 months after the date of enactment of 
+                                this Act; and
+                                    (II) an additional language 
+                                algorithm shall be implemented each 
+                                succeeding year for the next three 
+                                years.
+            (3) Adequate <<NOTE: Procedures.>> user support.--The 
+        Secretary of State and the Attorney General shall jointly 
+        prescribe procedures to ensure that consular and immigration 
+        officers can, as required, obtain assistance in resolving 
+        identity and other questions that may arise about the names of 
+        aliens seeking visas or admission to the United States that may 
+        be subject to variations in format, transliteration, or other 
+        similar phenomenon.
+            (4) Interim <<NOTE: Deadline. President.>>  reports.--Six 
+        months after the date of enactment of this Act, the President 
+        shall submit a report to the appropriate committees of Congress 
+        on the progress in implementing each requirement of this 
+        section.
+            (5) <<NOTE: Deadlines.>>  Reports by intelligence 
+        agencies.--
+                    (A) Current standards.--Not later than 60 days after 
+                the date of enactment of this Act, the Director of 
+                Central Intelligence shall complete the survey and issue 
+                the report previously required by section 309(a) of the 
+                Intelligence Authorization Act for Fiscal Year 1998 (50 
+                U.S.C. 403-3 note).
+                    (B) Guidelines.--Not later than 120 days after the 
+                date of enactment of this Act, the Director of Central 
+                Intelligence shall issue the guidelines and submit the 
+                copy of those guidelines previously required by section 
+                309(b) of the Intelligence Authorization Act for Fiscal 
+                Year 1998 (50 U.S.C. 403-3 note).
+            (6) Authorization of appropriations.--There are authorized 
+        to be appropriated such sums as are necessary to carry out the 
+        provisions of this subsection.
+
+[[Page 116 STAT. 551]]
+
+SEC. 203. <<NOTE: 8 USC 1723.>> COMMISSION ON INTEROPERABLE DATA 
+            SHARING.
+
+    (a) <<NOTE: Deadlines. President.>>  Establishment.--Not later than 
+one year after the date of enactment of the USA PATRIOT Act, the 
+President shall establish a Commission on Interoperable Data Sharing (in 
+this section referred to as the ``Commission''). The purposes of the 
+Commission shall be to--
+            (1) monitor the protections described in section 201(c)(3);
+            (2) provide oversight of the interoperable electronic data 
+        system described in section 202; and
+            (3) <<NOTE: Reports.>> report to Congress annually on the 
+        Commission's findings and recommendations.
+
+    (b) <<NOTE: President.>>  Composition.--The Commission shall consist 
+of nine members, who shall be appointed by the President, as follows:
+            (1) One member, who shall serve as Chair of the Commission.
+            (2) Eight members, who shall be appointed from a list of 
+        nominees jointly provided by the Speaker of the House of 
+        Representatives, the Minority Leader of the House of 
+        Representatives, the Majority Leader of the Senate, and the 
+        Minority Leader of the Senate.
+
+    (c) Considerations.--The Commission shall consider recommendations 
+regarding the following issues:
+            (1) Adequate protection of privacy concerns inherent in the 
+        design, implementation, or operation of the interoperable 
+        electronic data system.
+            (2) Timely adoption of security innovations, consistent with 
+        generally accepted security standards, to protect the integrity 
+        and confidentiality of information to prevent the risks of 
+        accidental or unauthorized loss, access, destruction, use 
+        modification, or disclosure of information.
+            (3) The adequacy of mechanisms to permit the timely 
+        correction of errors in data maintained by the interoperable 
+        data system.
+            (4) Other protections against unauthorized use of data to 
+        guard against the misuse of the interoperable data system or the 
+        data maintained by the system, including recommendations for 
+        modifications to existing laws and regulations to sanction 
+        misuse of the system.
+
+    (d) Authorization of Appropriations.--There are authorized to be 
+appropriated to the Commission such sums as may be necessary to carry 
+out this section.
+
+SEC. <<NOTE: 8 USC 1724.>> 204. PERSONNEL MANAGEMENT AUTHORITIES FOR 
+            POSITIONS INVOLVED IN THE DEVELOPMENT AND IMPLEMENTATION OF 
+            THE INTEROPERABLE ELECTRONIC DATA SYSTEM (``CHIMERA 
+            SYSTEM'').
+
+    (a) In General.--Notwithstanding any other provision of law relating 
+to position classification or employee pay or performance, the Attorney 
+General may hire and fix the compensation of necessary scientific, 
+technical, engineering, and other analytical personnel for the purpose 
+of the development and implementation of the interoperable electronic 
+data system described in section 202(a)(2) (also known as the ``Chimera 
+system'').
+    (b) Limitation on Rate of Pay.--Except as otherwise provided by law, 
+no employee compensated under subsection (a) may be paid at a rate in 
+excess of the rate payable for a position at level III of the Executive 
+Schedule.
+
+[[Page 116 STAT. 552]]
+
+    (c) Limitation on Total Calendar Year Payments.--Total payments to 
+employees under any system established under this section shall be 
+subject to the limitation on payments to employees under section 5307 of 
+title 5, United States Code.
+    (d) Operating <<NOTE: Deadline.>>  Plan.--Not later than 90 days 
+after the date of enactment of this Act, the Attorney General shall 
+submit to the Committee on Appropriations, the Committee on the 
+Judiciary, the Select Committee on Intelligence, and the Committee on 
+Foreign Relations of the Senate and the Committee on Appropriations, the 
+Committee on the Judiciary, the Permanent Select Committee on 
+Intelligence, and the Committee on International Relations of the House 
+of Representatives an operating plan--
+            (1) describing the Attorney General's intended use of the 
+        authority under this section; and
+            (2) identifying any provisions of title 5, United States 
+        Code, being waived for purposes of the development and 
+        implementation of the Chimera system.
+
+    (e) Termination Date.--The authority of this section shall terminate 
+upon the implementation of the Chimera system.
+
+                        TITLE III--VISA ISSUANCE
+
+SEC. 301. ELECTRONIC PROVISION OF VISA FILES.
+
+    Section 221(a) of the Immigration and Nationality Act (8 U.S.C. 
+1201(a)) is amended--
+            (1) by redesignating paragraphs (1) and (2) as subparagraphs 
+        (A) and (B), respectively;
+            (2) by inserting ``(1)'' immediately after ``(a)''; and
+            (3) by adding at the end the following:
+
+    ``(2) The Secretary of State shall provide to the Service an 
+electronic version of the visa file of each alien who has been issued a 
+visa to ensure that the data in that visa file is available to 
+immigration inspectors at the United States ports of entry before the 
+arrival of the alien at such a port of entry.''.
+
+SEC. <<NOTE: 8 USC 1731.>> 302. IMPLEMENTATION OF AN INTEGRATED ENTRY 
+            AND EXIT DATA SYSTEM.
+
+    (a) Development of System.--In developing the integrated entry and 
+exit data system for the ports of entry, as required by the Immigration 
+and Naturalization Service Data Management Improvement Act of 2000 
+(Public Law 106-215), the Attorney General and the Secretary of State 
+shall--
+            (1) implement, fund, and use a technology standard under 
+        section 403(c) of the USA PATRIOT Act (as amended by sections 
+        201(c)(5) and 202(a)(4)(B)) at United States ports of entry and 
+        at consular posts abroad;
+            (2) establish a database containing the arrival and 
+        departure data from machine-readable visas, passports, and other 
+        travel and entry documents possessed by aliens; and
+            (3) make interoperable all security databases relevant to 
+        making determinations of admissibility under section 212 of the 
+        Immigration and Nationality Act (8 U.S.C. 1182).
+
+    (b) Implementation.--In implementing the provisions of subsection 
+(a), the Immigration and Naturalization Service and the Department of 
+State shall--
+
+[[Page 116 STAT. 553]]
+
+            (1) utilize technologies that facilitate the lawful and 
+        efficient cross-border movement of commerce and persons without 
+        compromising the safety and security of the United States; and
+            (2) consider implementing the North American National 
+        Security Program described in section 401.
+
+SEC. <<NOTE: Deadlines. 8 USC 1732.>> 303. MACHINE-READABLE, TAMPER-
+            RESISTANT ENTRY AND EXIT DOCUMENTS.
+
+    (a) Report.--
+            (1) In general.--Not later than 180 days after the date of 
+        enactment of this Act, the Attorney General, the Secretary of 
+        State, and the National Institute of Standards and Technology 
+        (NIST), acting jointly, shall submit to the appropriate 
+        committees of Congress a comprehensive report assessing the 
+        actions that will be necessary, and the considerations to be 
+        taken into account, to achieve fully, not later than October 26, 
+        2004--
+                    (A) implementation of the requirements of 
+                subsections (b) and (c); and
+                    (B) deployment of the equipment and software to 
+                allow biometric comparison and authentication of the 
+                documents described in subsections (b) and (c).
+            (2) Estimates.--In addition to the assessment required by 
+        paragraph (1), the report required by that paragraph shall 
+        include an estimate of the costs to be incurred, and the 
+        personnel, man-hours, and other support required, by the 
+        Department of Justice, the Department of State, and NIST to 
+        achieve the objectives of subparagraphs (A) and (B) of paragraph 
+        (1).
+
+    (b) Requirements.--
+            (1) In general.--Not later than October 26, 2004, the 
+        Attorney General and the Secretary of State shall issue to 
+        aliens only machine-readable, tamper-resistant visas and other 
+        travel and entry documents that use 
+        biometric <<NOTE: Standards.>> identifiers. The Attorney General 
+        and the Secretary of State shall jointly establish document 
+        authentication standards and biometric identifiers standards to 
+        be employed on such visas and other travel and entry documents 
+        from among those biometric identifiers recognized by domestic 
+        and international standards organizations.
+            (2) Readers and scanners at ports of entry.--
+                    (A) In general.--Not later than October 26, 2004, 
+                the Attorney General, in consultation with the Secretary 
+                of State, shall install at all ports of entry of the 
+                United States equipment and software to allow biometric 
+                comparison and authentication of all United States visas 
+                and other travel and entry documents issued to aliens, 
+                and passports issued pursuant to subsection (c)(1).
+                    (B) Use of readers and scanners.--The Attorney 
+                General, in consultation with the Secretary of State, 
+                shall utilize biometric data readers and scanners that--
+                          (i) domestic and international standards 
+                      organizations determine to be highly accurate when 
+                      used to verify identity;
+                          (ii) can read the biometric identifiers 
+                      utilized under subsections (b)(1) and (c)(1); and
+
+[[Page 116 STAT. 554]]
+
+                          (iii) can authenticate the document presented 
+                      to verify identity.
+            (3) Use of technology standard.--The systems employed to 
+        implement paragraphs (1) and (2) shall utilize the technology 
+        standard established pursuant to section 403(c) of the USA 
+        PATRIOT Act, as amended by section 201(c)(5) and 202(a)(4)(B).
+
+    (c) Technology Standard for Visa Waiver Participants.--
+            (1) Certification requirement.--Not later than October 26, 
+        2004, the government of each country that is designated to 
+        participate in the visa waiver program established under section 
+        217 of the Immigration and Nationality Act shall certify, as a 
+        condition for designation or continuation of that designation, 
+        that it has a program to issue to its nationals machine-readable 
+        passports that are tamper-resistant and incorporate biometric 
+        and document authentication identifiers that comply with 
+        applicable biometric and document identifying standards 
+        established by the International Civil Aviation Organization. 
+        This paragraph shall not be construed to rescind the requirement 
+        of section 217(a)(3) of the Immigration and Nationality Act.
+            (2) Use of technology standard.--On and after October 26, 
+        2004, any alien applying for admission under the visa waiver 
+        program under section 217 of the Immigration and Nationality Act 
+        shall present a passport that meets the requirements of 
+        paragraph (1) unless the alien's passport was issued prior to 
+        that date.
+
+    (d) Authorization of Appropriations.--There are authorized to be 
+appropriated such sums as may be necessary to carry out this section, 
+including reimbursement to international and domestic standards 
+organizations.
+
+SEC. 304. <<NOTE: 8 USC 1733.>> TERRORIST LOOKOUT COMMITTEES.
+
+    (a) Establishment.--The Secretary of State shall require a terrorist 
+lookout committee to be maintained within each United States mission to 
+a foreign country.
+    (b) Purpose.--The purpose of each committee established under 
+subsection (a) shall be--
+            (1) to utilize the cooperative resources of all elements of 
+        the United States mission in the country in which the consular 
+        post is located to identify known or potential terrorists and to 
+        develop information on those individuals;
+            (2) to ensure that such information is routinely and 
+        consistently brought to the attention of appropriate United 
+        States officials for use in administering the immigration laws 
+        of the United States; and
+            (3) to ensure that the names of known and suspected 
+        terrorists are entered into the appropriate lookout databases.
+
+    (c) Composition; Chair.--The Secretary shall establish rules 
+governing the composition of such committees.
+    (d) Meetings.--Each committee established under subsection (a) shall 
+meet at least monthly to share information pertaining to the committee's 
+purpose as described in subsection (b)(2).
+    (e) Periodic Reports to the Secretary of State.--Each committee 
+established under subsection (a) shall submit monthly reports to the 
+Secretary of State describing the committee's activities, whether or not 
+information on known or suspected terrorists was developed during the 
+month.
+
+[[Page 116 STAT. 555]]
+
+    (f) Reports to Congress.--The Secretary of State shall submit a 
+report on a quarterly basis to the appropriate committees of Congress on 
+the status of the committees established under subsection (a).
+    (g) Authorization of Appropriations.--There are authorized to be 
+appropriated such sums as may be necessary to implement this section.
+
+SEC. 305. <<NOTE: 8 USC 1734.>> IMPROVED TRAINING FOR CONSULAR OFFICERS.
+
+    (a) Training.--The Secretary of State shall require that all 
+consular officers responsible for adjudicating visa applications, before 
+undertaking to perform consular responsibilities, receive specialized 
+training in the effective screening of visa applicants who pose a 
+potential threat to the safety or security of the United States. Such 
+officers shall be specially and extensively trained in the 
+identification of aliens inadmissible under section 212(a)(3) (A) and 
+(B) of the Immigration and Nationality Act, interagency and 
+international intelligence sharing regarding terrorists and terrorism, 
+and cultural-sensitivity toward visa applicants.
+    (b) Use of Foreign Intelligence Information.--As an ongoing 
+component of the training required in subsection (a), the Secretary of 
+State shall coordinate with the Assistant to the President for Homeland 
+Security, Federal law enforcement agencies, and the intelligence 
+community to compile and disseminate to the Bureau of Consular Affairs 
+reports, bulletins, updates, and other current unclassified information 
+relevant to terrorists and terrorism and to screening visa applicants 
+who pose a potential threat to the safety or security of the United 
+States.
+    (c) Authorization of Appropriations.--There are authorized to be 
+appropriated such sums as may be necessary to implement this section.
+
+SEC. <<NOTE: 8 USC 1735.>> 306. RESTRICTION ON ISSUANCE OF VISAS TO 
+            NONIMMIGRANTS FROM COUNTRIES THAT ARE STATE SPONSORS OF 
+            INTERNATIONAL TERRORISM.
+
+    (a) In General.--No nonimmigrant visa under section 101(a)(15) of 
+the Immigration and Nationality Act (8 U.S.C. 1101(a)(15)) shall be 
+issued to any alien from a country that is a state sponsor of 
+international terrorism unless the Secretary of State determines, in 
+consultation with the Attorney General and the heads of other 
+appropriate United States agencies, that such alien does not pose a 
+threat to the safety or national security of 
+the <<NOTE: Applicability.>> United States. In making a determination 
+under this subsection, the Secretary of State shall apply standards 
+developed by the Secretary of State, in consultation with the Attorney 
+General and the heads of other appropriate United States agencies, that 
+are applicable to the nationals of such states.
+
+    (b) State Sponsor of International Terrorism Defined.--
+            (1) In general.--In this section, the term ``state sponsor 
+        of international terrorism'' means any country the government of 
+        which has been determined by the Secretary of State under any of 
+        the laws specified in paragraph (2) to have repeatedly provided 
+        support for acts of international terrorism.
+            (2) Laws under which determinations were made.--The laws 
+        specified in this paragraph are the following:
+                    (A) Section 6(j)(1)(A) of the Export Administration 
+                Act of 1979 (or successor statute).
+                    (B) Section 40(d) of the Arms Export Control Act.
+
+[[Page 116 STAT. 556]]
+
+                    (C) Section 620A(a) of the Foreign Assistance Act of 
+                1961.
+
+SEC. 307. DESIGNATION OF PROGRAM COUNTRIES UNDER THE VISA WAIVER 
+            PROGRAM.
+
+    (a) Reporting Passport Thefts.--Section 217 of the Immigration and 
+Nationality Act (8 U.S.C. 1187) is amended--
+            (1) by adding at the end of subsection (c)(2) the following 
+        new subparagraph:
+                    ``(D) Reporting passport thefts.--The government of 
+                the country certifies that it reports to the United 
+                States Government on a timely basis the theft of blank 
+                passports issued by that country.''; and
+            (2) in subsection (c)(5)(A)(i), by striking ``5 years'' and 
+        inserting ``2 years''; and
+            (3) by adding at the end of subsection (f) the following new 
+        paragraph:
+            ``(5) Failure to report passport thefts.--If the Attorney 
+        General and the Secretary of State jointly determine that the 
+        program country is not reporting the theft of blank passports, 
+        as required by subsection (c)(2)(D), the Attorney General shall 
+        terminate the designation of the country as a program 
+        country.''.
+
+    (b) Check <<NOTE: 8 USC 1736.>>  of Lookout Databases.--Prior to the 
+admission of an alien under the visa waiver program established under 
+section 217 of the Immigration and Nationality Act (8 U.S.C. 1187), the 
+Immigration and Naturalization Service shall determine that the 
+applicant for admission does not appear in any of the appropriate 
+lookout databases available to immigration inspectors at the time the 
+alien seeks admission to the United States.
+
+SEC. 308. <<NOTE: 8 USC 1737.>> TRACKING SYSTEM FOR STOLEN PASSPORTS.
+
+    (a) Entering Stolen Passport Identification Numbers in the 
+Interoperable Data System.--
+            (1) In <<NOTE: Deadline.>> general.--Beginning with 
+        implementation under section 202 of the law enforcement and 
+        intelligence data system, not later than 72 hours after 
+        receiving notification of the loss or theft of a United States 
+        or foreign passport, the Attorney General and the Secretary of 
+        State, as appropriate, shall enter into such system the 
+        corresponding identification number for the lost or stolen 
+        passport.
+            (2) Entry of information on previously lost or stolen 
+        passports.--To the extent practicable, the Attorney General, in 
+        consultation with the Secretary of State, shall enter into such 
+        system the corresponding identification numbers for the United 
+        States and foreign passports lost or stolen prior to the 
+        implementation of such system.
+
+    (b) Transition Period.--Until such time as the law enforcement and 
+intelligence data system described in section 202 is fully implemented, 
+the Attorney General shall enter the data described in subsection (a) 
+into an existing data system being used to determine the admissibility 
+or deportability of aliens.
+
+SEC. <<NOTE: 8 USC 1738.>> 309. IDENTIFICATION DOCUMENTS FOR CERTAIN 
+            NEWLY ADMITTED ALIENS.
+
+    Not later <<NOTE: Deadline.>> than 180 days after the date of 
+enactment of this Act, the Attorney General shall ensure that, 
+immediately upon the arrival in the United States of an individual 
+admitted under
+
+[[Page 116 STAT. 557]]
+
+section 207 of the Immigration and Nationality Act (8 U.S.C. 1157), or 
+immediately upon an alien being granted asylum under section 208 of such 
+Act (8 U.S.C. 1158), the alien will be issued an employment 
+authorization document. Such document shall, at a minimum, contain the 
+fingerprint and photograph of such alien.
+
+              TITLE IV--INSPECTION AND ADMISSION OF ALIENS
+
+SEC. <<NOTE: President. Canada. Mexico. 8 USC 1751.>> 401. STUDY OF THE 
+            FEASIBILITY OF A NORTH AMERICAN NATIONAL SECURITY PROGRAM.
+
+    (a) In General.--The President shall conduct a study of the 
+feasibility of establishing a North American National Security Program 
+to enhance the mutual security and safety of the United States, Canada, 
+and Mexico.
+    (b) Study Elements.--In conducting the study required by subsection 
+(a), the President shall consider the following:
+            (1) Preclearance.--The feasibility of establishing a program 
+        enabling foreign national travelers to the United States to 
+        submit voluntarily to a preclearance procedure established by 
+        the Department of State and the Immigration and Naturalization 
+        Service to determine whether such travelers are admissible to 
+        the United States under section 212 of the Immigration and 
+        Nationality Act (8 U.S.C. 1182). Consideration shall be given to 
+        the feasibility of expanding the preclearance program to include 
+        the preclearance both of foreign nationals traveling to Canada 
+        and foreign nationals traveling to Mexico.
+            (2) Preinspection.--The feasibility of expanding 
+        preinspection facilities at foreign airports as described in 
+        section 235A of the Immigration and Nationality Act (8 U.S.C. 
+        1225). Consideration shall be given to the feasibility of 
+        expanding preinspections to foreign nationals on air flights 
+        destined for Canada and Mexico, and the cross training and 
+        funding of inspectors from Canada and Mexico.
+            (3) Conditions.--A determination of the measures necessary 
+        to ensure that the conditions required by section 235A(a)(5) of 
+        the Immigration and Nationality Act (8 U.S.C. 1225a(a)(5)) are 
+        satisfied, including consultation with experts recognized for 
+        their expertise regarding the conditions required by that 
+        section.
+
+    (c) Report.--Not later than 1 year after the date of enactment of 
+this Act, the President shall submit to the appropriate committees of 
+Congress a report setting forth the findings of the study conducted 
+under subsection (a).
+    (d) Authorization of Appropriations.--There are authorized to be 
+appropriated such sums as may be necessary to carry out this section.
+
+SEC. 402. PASSENGER MANIFESTS.
+
+    (a) In General.--Section 231 of the Immigration and Nationality Act 
+(8 U.S.C. 1221(a)) is amended--
+            (1) by striking subsections (a), (b), (d), and (e);
+            (2) by redesignating subsection (c) as subsection (j); and
+            (3) by striking ``Sec. 231.'' and inserting the following:
+
+    ``Sec. 231. (a) Arrival Manifests.--For each commercial vessel or 
+aircraft transporting any person to any seaport or airport of
+
+[[Page 116 STAT. 558]]
+
+the United States from any place outside the United States, it shall be 
+the duty of an appropriate official specified in subsection (d) to 
+provide to any United States border officer (as defined in subsection 
+(i)) at that port manifest information about each passenger, crew 
+member, and other occupant transported on such vessel or aircraft prior 
+to arrival at that port.
+    ``(b) Departure Manifests.--For each commercial vessel or aircraft 
+taking passengers on board at any seaport or airport of the United 
+States, who are destined to any place outside the United States, it 
+shall be the duty of an appropriate official specified in subsection (d) 
+to provide any United States border officer (as defined in subsection 
+(i)) before departure from such port manifest information about each 
+passenger, crew member, and other occupant to be transported.
+    ``(c) Contents of Manifest.--The information to be provided with 
+respect to each person listed on a manifest required to be provided 
+under subsection (a) or (b) shall include--
+            ``(1) complete name;
+            ``(2) date of birth;
+            ``(3) citizenship;
+            ``(4) sex;
+            ``(5) passport number and country of issuance;
+            ``(6) country of residence;
+            ``(7) United States visa number, date, and place of 
+        issuance, where applicable;
+            ``(8) alien registration number, where applicable;
+            ``(9) United States address while in the United States; and
+            ``(10) such other information the Attorney General, in 
+        consultation with the Secretary of State, and the Secretary of 
+        Treasury determines as being necessary for the identification of 
+        the persons transported and for the enforcement of the 
+        immigration laws and to protect safety and national security.
+
+    ``(d) Appropriate Officials Specified.--An appropriate official 
+specified in this subsection is the master or commanding officer, or 
+authorized agent, owner, or consignee, of the commercial vessel or 
+aircraft concerned.
+    ``(e) Deadline for Requirement of Electronic Transmission of 
+Manifest Information.--Not later than January 1, 2003, manifest 
+information required to be provided under subsection (a) or (b) shall be 
+transmitted electronically by the appropriate official specified in 
+subsection (d) to an immigration officer.
+    ``(f) Prohibition.--No operator of any private or public carrier 
+that is under a duty to provide manifest information under this section 
+shall be granted clearance papers until the appropriate official 
+specified in subsection (d) has complied with the requirements of this 
+subsection, except that, in the case of commercial vessels or aircraft 
+that the Attorney General determines are making regular trips to the 
+United States, the Attorney General may, when expedient, arrange for the 
+provision of manifest information of persons departing the United States 
+at a later date.
+    ``(g) Penalties Against Noncomplying Shipments, Aircraft, or 
+Carriers.--If it shall appear to the satisfaction of the Attorney 
+General that an appropriate official specified in subsection (d), any 
+public or private carrier, or the agent of any transportation line, as 
+the case may be, has refused or failed to provide manifest information 
+required by subsection (a) or (b), or that the manifest
+
+[[Page 116 STAT. 559]]
+
+information provided is not accurate and full based on information 
+provided to the carrier, such official, carrier, or agent, as the case 
+may be, shall pay to the Commissioner the sum of $1,000 for each person 
+with respect to whom such accurate and full manifest information is not 
+provided, or with respect to whom the manifest information is not 
+prepared as prescribed by this section or by regulations issued pursuant 
+thereto. No commercial vessel or aircraft shall be granted clearance 
+pending determination of the question of the liability to the payment of 
+such penalty, or while it remains unpaid, and no such penalty shall be 
+remitted or refunded, except that clearance may be granted prior to the 
+determination of such question upon the deposit with the Commissioner of 
+a bond or undertaking approved by the Attorney General or a sum 
+sufficient to cover such penalty.
+    ``(h) Waiver.--The Attorney General may waive the requirements of 
+subsection (a) or (b) upon such circumstances and conditions as the 
+Attorney General may by regulation prescribe.
+    ``(i) United States Border Officer Defined.--In this section, the 
+term `United States border officer' means, with respect to a particular 
+port of entry into the United States, any United States official who is 
+performing duties at that port of entry.''.
+    (b) <<NOTE: President. 8 USC 1221 note.>>  Extension to Land 
+Carriers.--
+            (1) Study.--The President shall conduct a study regarding 
+        the feasibility of extending the requirements of subsections (a) 
+        and (b) of section 231 of the Immigration and Nationality Act (8 
+        U.S.C. 1221), as amended by subsection (a), to any commercial 
+        carrier transporting persons by land to or from the United 
+        States. The study shall focus on the manner in which such 
+        requirement would be implemented to enhance the national 
+        security of the United States and the efficient cross-border 
+        flow of commerce and persons.
+            (2) <<NOTE: Deadline.>>  Report.--Not later than two years 
+        after the date of enactment of this Act, the President shall 
+        submit to Congress a report setting forth the findings of the 
+        study conducted under paragraph (1).
+
+    (c) <<NOTE: Applicability. 8 USC 1221 note.>>  Effective Date.--The 
+amendments made by subsection (a) shall apply with respect to persons 
+arriving in, or departing from, the United States on or after the date 
+of enactment of this Act.
+
+SEC. 403. TIME PERIOD FOR INSPECTIONS.
+
+    (a) Repeal of Time Limitation on Inspections.--Section 286(g) of the 
+Immigration and Nationality Act (8 U.S.C. 1356(g)) is amended by 
+striking ``, within forty-five minutes of their presentation for 
+inspection,''.
+    (b) <<NOTE: 8 USC 1752.>>  Staffing Levels at Ports of Entry.--The 
+Immigration and Naturalization Service shall staff ports of entry at 
+such levels that would be adequate to meet traffic flow and inspection 
+time objectives efficiently without compromising the safety and security 
+of the United States. Estimated staffing levels under workforce models 
+for the Immigration and Naturalization Service shall be based on the 
+goal of providing immigration services described in section 286(g) of 
+such Act within 45 minutes of a passenger's presentation for inspection.
+
+[[Page 116 STAT. 560]]
+
+SEC. <<NOTE: 8 USC 1753.>> 404. JOINT UNITED STATES-CANADA PROJECTS FOR 
+            ALTERNATIVE INSPECTIONS SERVICES.
+
+    (a) In General.--United States border inspections agencies, 
+including the Immigration and Naturalization Service, acting jointly and 
+under an agreement of cooperation with the Government of Canada, may 
+conduct joint United States-Canada inspections projects on the 
+international border between the two countries. Each such project may 
+provide alternative inspections services and shall undertake to 
+harmonize the criteria for inspections applied by the two countries in 
+implementing those projects.
+    (b) Annual report.--The Attorney General and the Secretary of the 
+Treasury shall prepare and submit annually to Congress a report on the 
+joint United States-Canada inspections projects conducted under 
+subsection (a).
+    (c) Exemption <<NOTE: Federal Register, publication.>>  from 
+Administrative Procedure Act and Paperwork Reduction Act.--Subchapter II 
+of chapter 5 of title 5, United States Code (commonly referred to as the 
+``Administrative Procedure Act'') and chapter 35 of title 44, United 
+States Code (commonly referred to as the ``Paperwork Reduction Act'') 
+shall not apply to fee setting for services and other administrative 
+requirements relating to projects described in subsection (a), except 
+that fees and forms established for such projects shall be published as 
+a notice in the Federal Register.
+
+             TITLE V--FOREIGN STUDENTS AND EXCHANGE VISITORS
+
+SEC. <<NOTE: 8 USC 1761.>> 501. FOREIGN STUDENT MONITORING PROGRAM.
+
+    (a) Strengthening Requirements for Implementation of Monitoring 
+Program.--
+            (1) Monitoring and verification of information.--Section 
+        641(a) of the Illegal Immigration Reform and Immigrant 
+        Responsibility Act of 1996 (8 U.S.C. 1372(a)) is amended by 
+        adding at the end the following:
+            ``(3) Aliens for whom a visa is required.--The Attorney 
+        General, in consultation with the Secretary of State, shall 
+        establish an electronic means to monitor and verify--
+                    ``(A) the issuance of documentation of acceptance of 
+                a foreign student by an approved institution of higher 
+                education or other approved educational institution, or 
+                of an exchange visitor program participant by a 
+                designated exchange visitor program;
+                    ``(B) the transmittal of the documentation referred 
+                to in subparagraph (A) to the Department of State for 
+                use by the Bureau of Consular Affairs;
+                    ``(C) the issuance of a visa to a foreign student or 
+                an exchange visitor program participant;
+                    ``(D) the admission into the United States of the 
+                foreign student or exchange visitor program participant;
+                    ``(E) the notification to an approved institution of 
+                higher education, other approved educational 
+                institution, or exchange visitor program sponsor that 
+                the foreign student or exchange visitor participant has 
+                been admitted into the United States;
+
+[[Page 116 STAT. 561]]
+
+                    ``(F) the registration and enrollment of that 
+                foreign student in such approved institution of higher 
+                education or other approved educational institution, or 
+                the participation of that exchange visitor in such 
+                designated exchange visitor program, as the case may be; 
+                and
+                    ``(G) any other relevant act by the foreign student 
+                or exchange visitor program participant, including a 
+                changing of school or designated exchange visitor 
+                program and any termination of studies or participation 
+                in a designated exchange visitor program.
+            ``(4) Reporting <<NOTE: Deadline.>>  requirements.--Not 
+        later than 30 days after the deadline for registering for 
+        classes for an academic term of an approved institution of 
+        higher education or other approved educational institution for 
+        which documentation is issued for an alien as described in 
+        paragraph (3)(A), or the scheduled commencement of participation 
+        by an alien in a designated exchange visitor program, as the 
+        case may be, the institution or program, respectively, shall 
+        report to the Immigration and Naturalization Service any failure 
+        of the alien to enroll or to commence participation.''.
+            (2) Additional requirements for data to be collected.--
+        Section 641(c)(1) of the Illegal Immigration Reform and 
+        Immigrant Responsibility Act of 1996 (8 U.S.C. 1372(c)(1)) is 
+        amended--
+                    (A) by striking ``and'' at the end of subparagraph 
+                (C);
+                    (B) by striking the period at the end of 
+                subparagraph (D) and inserting ``; and''; and
+                    (C) by adding at the end the following:
+                    ``(E) the date of entry and port of entry;
+                    ``(F) the date of the alien's enrollment in an 
+                approved institution of higher education, other approved 
+                educational institution, or designated exchange visitor 
+                program in the United States;
+                    ``(G) the degree program, if applicable, and field 
+                of study; and
+                    ``(H) the date of the alien's termination of 
+                enrollment and the reason for such termination 
+                (including graduation, disciplinary action or other 
+                dismissal, and failure to re-enroll).''.
+            (3) Reporting requirements.--Section 641(c) of the Illegal 
+        Immigration Reform and Immigrant Responsibility Act of 1996 (8 
+        U.S.C. 1372(c)) is amended by adding at the end the following 
+        new paragraph:
+            ``(5) Reporting <<NOTE: Regulations.>>  requirements.--The 
+        Attorney General shall prescribe by regulation reporting 
+        requirements by taking into account the curriculum calendar of 
+        the approved institution of higher education, other approved 
+        educational institution, or exchange visitor program.''.
+
+    (b) Information Required of the Visa Applicant.--Prior to the 
+issuance of a visa under subparagraph (F), subparagraph (M), or, with 
+respect to an alien seeking to attend an approved institution of higher 
+education, subparagraph (J) of section 101(a)(15) of the Immigration and 
+Nationality Act (8 U.S.C. 1101(a)(15)), each alien applying for such 
+visa shall provide to a consular officer the following information:
+            (1) The alien's address in the country of origin.
+
+[[Page 116 STAT. 562]]
+
+            (2) The names and addresses of the alien's spouse, children, 
+        parents, and siblings.
+            (3) The names of contacts of the alien in the alien's 
+        country of residence who could verify information about the 
+        alien.
+            (4) Previous work history, if any, including the names and 
+        addresses of employers.
+
+    (c) Transitional <<NOTE: Deadlines.>>  Program.--
+            (1) In <<NOTE: Applicability.>> general.--Not later than 120 
+        days after the date of enactment of this Act and until such time 
+        as the system described in section 641 of the Illegal 
+        Immigration Reform and Immigrant Responsibility Act (as amended 
+        by subsection (a)) is fully implemented, the following 
+        requirements shall apply:
+                    (A) Restrictions on issuance of visas.--A visa may 
+                not be issued to an alien under subparagraph (F), 
+                subparagraph (M), or, with respect to an alien seeking 
+                to attend an approved institution of higher education, 
+                subparagraph (J) of section 101(a)(15) of the 
+                Immigration and Nationality Act (8 U.S.C. 1101(a)(15)), 
+                unless--
+                          (i) the Department of State has received from 
+                      an approved institution of higher education or 
+                      other approved educational institution electronic 
+                      evidence of documentation of the alien's 
+                      acceptance at that institution; and
+                          (ii) the consular officer has adequately 
+                      reviewed the applicant's visa record.
+                    (B) Notification upon visa issuance.--Upon the 
+                issuance of a visa under section 101(a)(15) (F) or (M) 
+                of the Immigration and Nationality Act (8 U.S.C. 
+                1101(a)(15)(F) or (M)) to an alien, the Secretary of 
+                State shall transmit to the Immigration and 
+                Naturalization Service a notification of the issuance of 
+                that visa.
+                    (C) Notification upon admission of alien.--The 
+                Immigration and Naturalization Service shall notify the 
+                approved institution of higher education or other 
+                approved educational institution that an alien accepted 
+                for such institution or program has been admitted to the 
+                United States.
+                    (D) Notification of failure of enrollment.--Not 
+                later than 30 days after the deadline for registering 
+                for classes for an academic term, the approved 
+                institution of higher education or other approved 
+                educational institution shall inform the Immigration and 
+                Naturalization Service through data-sharing arrangements 
+                of any failure of any alien described in subparagraph 
+                (C) to enroll or to commence participation.
+            (2) Requirement to submit list of approved institutions.--
+        Not later than 30 days after the date of enactment of this Act, 
+        the Attorney General shall provide the Secretary of State with a 
+        list of all approved institutions of higher education and other 
+        approved educational institutions that are authorized to receive 
+        nonimmigrants under section 101(a)(15) (F) or (M) of the 
+        Immigration and Nationality Act (8 U.S.C. 1101(a)(15)(F) or 
+        (M)).
+            (3) Authorization of appropriations.--There are authorized 
+        to be appropriated such sums as may be necessary to carry out 
+        this subsection.
+
+[[Page 116 STAT. 563]]
+
+SEC. <<NOTE: 8 USC 1762.>> 502. REVIEW OF INSTITUTIONS AND OTHER 
+            ENTITIES AUTHORIZED TO ENROLL OR SPONSOR CERTAIN 
+            NONIMMIGRANTS.
+
+    (a) Periodic <<NOTE: Deadline.>>  Review of Compliance.--Not later 
+than two years after the date of enactment of this Act, and every two 
+years thereafter, the Commissioner of Immigration and Naturalization, in 
+consultation with the Secretary of Education, shall conduct a review of 
+the institutions certified to receive nonimmigrants under section 
+101(a)(15) (F), (M), or (J) of the Immigration and Nationality Act (8 
+U.S.C. 1101(a)(15)(F), (M), or (J)). Each review shall determine whether 
+the institutions are in compliance with--
+            (1) recordkeeping and reporting requirements to receive 
+        nonimmigrants under section 101(a)(15) (F), (M), or (J) of that 
+        Act (8 U.S.C. 1101(a)(15)(F), (M), or (J)); and
+            (2) recordkeeping and reporting requirements under section 
+        641 of the Illegal Immigration Reform and Immigrant 
+        Responsibility Act of 1996 (8 U.S.C. 1372).
+
+    (b) Periodic Review of Sponsors of Exchange Visitors.--
+            (1) Requirement <<NOTE: Deadline.>>  for reviews.--Not later 
+        than two years after the date of enactment of this Act, and 
+        every two years thereafter, the Secretary of State shall conduct 
+        a review of the entities designated to sponsor exchange visitor 
+        program participants under section 101(a)(15)(J) of the 
+        Immigration and Nationality Act (8 U.S.C. 1101(a)(15)(J)).
+            (2) Determinations.--On the basis of reviews of entities 
+        under paragraph (1), the Secretary shall determine whether the 
+        entities are in compliance with--
+                    (A) recordkeeping and reporting requirements to 
+                receive nonimmigrant exchange visitor program 
+                participants under section 101(a)(15)(J) of the 
+                Immigration and Nationality Act (8 U.S.C. 
+                1101(a)(15)(J)); and
+                    (B) recordkeeping and reporting requirements under 
+                section 641 of the Illegal Immigration Reform and 
+                Immigrant Responsibility Act of 1996 (8 U.S.C. 1372).
+
+    (c) Effect of Material Failure To Comply.--Material failure of an 
+institution or other entity to comply with the recordkeeping and 
+reporting requirements to receive nonimmigrant students or exchange 
+visitor program participants under section 101(a)(15) (F), (M), or (J) 
+of the Immigration and Nationality Act (8 U.S.C. 1101(a)(15) (F), (M), 
+or (J)), or section 641 of the Illegal Immigration Reform and Immigrant 
+Responsibility Act of 1996 (8 U.S.C. 1372), shall result in the 
+suspension for at least one year or termination, at the election of the 
+Commissioner of Immigration and Naturalization, of the institution's 
+approval to receive such students, or result in the suspension for at 
+least one year or termination, at the election of the Secretary of 
+State, of the other entity's designation to sponsor exchange visitor 
+program participants, as the case may be.
+
+[[Page 116 STAT. 564]]
+
+                   TITLE VI--MISCELLANEOUS PROVISIONS
+
+SEC. 601. EXTENSION OF DEADLINE FOR IMPROVEMENT IN BORDER CROSSING 
+            IDENTIFICATION CARDS.
+
+    Section 104(b)(2) of the Illegal Immigration Reform and Immigrant 
+Responsibility Act of 1996 (8 U.S.C. 1101 note) is amended by striking 
+``5 years'' and inserting ``6 years''.
+
+SEC. <<NOTE: 8 USC 1771.>> 602. GENERAL ACCOUNTING OFFICE STUDY.
+
+    (a) Requirement for Study.--
+            (1) In general.--The Comptroller General of the United 
+        States shall conduct a study to determine the feasibility and 
+        utility of implementing a requirement that each nonimmigrant 
+        alien in the United States submit to the Commissioner of 
+        Immigration and Naturalization each year a current address and, 
+        where applicable, the name and address of an employer.
+            (2) Nonimmigrant alien defined.--In paragraph (1), the term 
+        ``nonimmigrant alien'' means an alien described in section 
+        101(a)(15) of the Immigration and Nationality Act (8 U.S.C. 
+        1101(a)(15)).
+
+    (b) Report.--Not <<NOTE: Deadline.>>  later than 1 year after the 
+date of enactment of this Act, the Comptroller General shall submit to 
+Congress a report on the results of the study under subsection (a). The 
+report shall include the Comptroller General's findings, together with 
+any recommendations that the Comptroller General considers appropriate.
+
+SEC. 603. <<NOTE: 8 USC 1772.>> INTERNATIONAL COOPERATION.
+
+    (a) International Electronic Data System.--The Secretary of State 
+and the Commissioner of Immigration and Naturalization, in consultation 
+with the Assistant to the President for Homeland Security, shall jointly 
+conduct a study of the alternative approaches (including the costs of, 
+and procedures necessary for, each alternative approach) for encouraging 
+or requiring Canada, Mexico, and countries treated as visa waiver 
+program countries under section 217 of the Immigration and Nationality 
+Act to develop an intergovernmental network of interoperable electronic 
+data systems that--
+            (1) facilitates real-time access to that country's law 
+        enforcement and intelligence information that is needed by the 
+        Department of State and the Immigration and Naturalization 
+        Service to screen visa applicants and applicants for admission 
+        into the United States to identify aliens who are inadmissible 
+        or deportable under the Immigration and Nationality Act (8 
+        U.S.C. 1101 et seq.);
+            (2) is interoperable with the electronic data system 
+        implemented under section 202; and
+            (3) performs in accordance with implementation of the 
+        technology standard referred to in section 202(a).
+
+    (b) Report.--Not <<NOTE: Deadline.>>  later than 1 year after the 
+date of enactment of this Act, the Secretary of State and the Attorney 
+General shall submit to the appropriate committees of Congress a report 
+setting forth the findings of the study conducted under subsection (a).
+
+[[Page 116 STAT. 565]]
+
+SEC. 604. <<NOTE: 8 USC 1773.>> STATUTORY CONSTRUCTION.
+
+    Nothing in this Act shall be construed to impose requirements that 
+are inconsistent with the North American Free Trade Agreement or to 
+require additional documents for aliens for whom documentary 
+requirements are waived under section 212(d)(4)(B) of the Immigration 
+and Nationality Act (8 U.S.C. 1182(d)(4)(B)).
+
+SEC. 605. <<NOTE: Deadlines. 8 USC 1774.>> ANNUAL REPORT ON ALIENS WHO 
+            FAIL TO APPEAR AFTER RELEASE ON OWN RECOGNIZANCE.
+
+    (a) Requirement for Report.--Not later than January 15 of each year, 
+the Attorney General shall submit to the appropriate committees of 
+Congress a report on the total number of aliens who, during the 
+preceding year, failed to attend a removal proceeding after having been 
+arrested outside a port of entry, served a notice to appear under 
+section 239(a)(1) of the Immigration and Nationality Act (8 U.S.C. 
+1229(a)(1)), and released on the alien's own recognizance. The report 
+shall also take into account the number of cases in which there were 
+defects in notices of hearing or the service of notices of hearing, 
+together with a description and analysis of the effects, if any, that 
+the defects had on the attendance of aliens at the proceedings.
+    (b) Initial Report.--Notwithstanding the time for submission of the 
+annual report provided in subsection (a), the report for 2001 shall be 
+submitted not later than 6 months after the date of enactment of this 
+Act.
+
+SEC. 606. <<NOTE: 8 USC 1775.>> RETENTION OF NONIMMIGRANT VISA 
+            APPLICATIONS BY THE DEPARTMENT OF STATE.
+
+    The Department of State shall retain, for a period of seven years 
+from the date of application, every application for a nonimmigrant visa 
+under section 101(a)(15) of the Immigration and Nationality Act (8 
+U.S.C. 1101(a)(15)) in a form that will be admissible in the courts of 
+the United States or in administrative proceedings, including removal 
+proceedings under such Act, without regard to whether the application 
+was approved or denied.
+
+    Approved May 14, 2002.
+
+LEGISLATIVE HISTORY--H.R. 3525:
+---------------------------------------------------------------------------
+
+CONGRESSIONAL RECORD:
+                                                        Vol. 147 (2001):
+                                    Dec. 19, considered and passed 
+                                        House.
+                                                        Vol. 148 (2002):
+                                    Apr. 12, 15, 17, considered and 
+                                        passed Senate, amended.
+                                    May 7, 8, House considered and 
+                                        concurred in Senate amendments.
+WEEKLY COMPILATION OF PRESIDENTIAL DOCUMENTS, Vol. 38 (2002):
+            May 14, Presidential remarks.
+
+                                  <all>
