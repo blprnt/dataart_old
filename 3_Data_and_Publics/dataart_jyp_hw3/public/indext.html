@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>d3.js with leaflet.js</title>
+	<style>
+	</style>
+
+    <link 
+        rel="stylesheet" 
+        href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"
+    />
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <script
+        src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js">
+    </script>
+    
+</head>
+<body>
+     
+	<div id="map" style="width: 2000px; height: 900px;" ></div>
+	
+	
+
+	<script type="text/javascript">
+			
+	var axisScale = d3.scale.linear()
+                         .domain([0, 1200])
+                         .range([200, 300]);
+	
+	var xAxis = d3.svg.axis()
+                   .scale(axisScale);
+		   //.orient("bottom");
+	
+
+        var nameList = [];
+	var reallist =[];
+	var height = [];
+        
+	var lineData = [];
+	for(var i=0; i<45; i++){
+		lineData.push([]);
+	}
+	for(var x=0; x<45; x++){
+		height.push([]);
+		
+	}
+	
+        var map = L.map('map').setView([-18.908043140479318, 22.635429148371103], 12);
+        mapLink = 
+            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+        L.tileLayer(
+            "http://{s}.tiles.mapbox.com/v3/examples.map-vyofok3q/{z}/{x}/{y}.png", {
+            attribution: '&copy; ' + mapLink + ' Contributors',
+            maxZoom: 18,
+            }).addTo(map);
+				
+	/* Initialize the SVG layer */
+	map._initPathRoot()    
+
+	/* We simply pick up the SVG from the map object */
+	var svg = d3.select("#map").select("svg"),
+	g = svg.append("g")
+	    .call(xAxis);
+	                                                                                                                                                                                                                        
+	d3.json("bird_api.json", function(collection) {
+		/* Add a LatLng object to each item in the dataset */
+		collection.objects.forEach(function(d) {
+			
+			console.log("I am Reed Comorant");
+			d.LatLng = new L.LatLng(d.geometry.coordinates[1],d.geometry.coordinates[0]);
+			//}
+			
+		})
+		
+		console.log(collection.objects.length);
+		
+		//console.log(collection.objects.length);
+		
+		var feature = g.selectAll("circle")
+			.data(collection.objects)
+			.enter().append("circle")
+			.style("stroke", "black")  
+			.style("opacity", .0) 
+			.style("fill", "red")
+			
+		map.on("viewreset", update);
+		update();
+
+		
+		
+		function update() {
+			feature.attr("transform", 
+			function(d) {
+
+				nameList.push(d.properties["Bird Name"]);
+				console.log("the length of namelist is" + nameList.length);
+				//console.log("hahaha"+map.latLngToLayerPoint(d.LatLng).x);
+				//console.log("hahaha"+map.latLngToLayerPoint(d.LatLng).y);
+				for(var k=0; k< nameList.length; k++){
+					var a = reallist.indexOf(d.properties["Bird Name"]);
+					
+					if(reallist.indexOf(nameList[k])==-1){
+					    reallist.push(nameList[k]);
+					    //height[k].push(d.geometry["coordinates"][2]);
+					    	}
+				}
+				console.log("reallist length goes here"+reallist.length);
+				console.log("HEIGHT" + height.length);
+				for(var k=0; k<45; k++){
+					
+					if(d.properties["Bird Name"] ==reallist[k]){
+	
+						//console.log("This is the height of geometry here"+ d.geometry["coordinates"][2]);
+						
+						lineData[k].push({"x": (map.latLngToLayerPoint(d.LatLng).x)*4, "y":((map.latLngToLayerPoint(d.LatLng).y)-(d.geometry["coordinates"][2]-900))*0.57 });
+					         
+						//console.log("LOL THAT COULD BE HAPPEND" + map.latLngToLayerPoint(d.LatLng).y);
+					}
+				}
+				
+				return "translate("+ 
+					(map.latLngToLayerPoint(d.LatLng).x)*4 +","+ 
+					((map.latLngToLayerPoint(d.LatLng).y)-(d.geometry["coordinates"][2]-900))*0.57+")";
+				}
+			)
+		}
+		
+            
+
+		var lineFunction = d3.svg.line()
+                          .x(function(d) { return d.x; })
+                          .y(function(d) { return d.y; })
+                          .interpolate("bundle");
+			  
+	        var svg = d3.select("#map").select("svg")
+		          .attr("width", 2000)
+                          .attr("height", 900);
+			  
+		
+		
+		var lineGraph =[];
+		for(var j=0; j<6; j++){
+			
+			lineGraph.push([]);
+			lineGraph[j] = svg.append("path")
+			         .attr("d", lineFunction(lineData[j]))
+                                 .attr("stroke", "rgb(80, 80, 80)")
+                                 .attr("stroke-width", 8)
+                                 .attr("fill", "none")
+			
+		}
+                var totalLength =[];
+		for(var m=0; m<6; m++){
+			totalLength.push([]);
+			totalLength[m]=lineGraph[m].node().getTotalLength();
+			
+		}
+		
+		for(var n =0; n<6; n++){
+			
+			
+		lineGraph[n]
+                   // .attr("stroke-dasharray", totalLength_0 + " " + totalLength_0)\
+		    .attr("stroke-dasharray", ("5,15"))
+                    .attr("stroke-dashoffset", totalLength[n])
+		    //.attr("stroke-dashoffset", 150)
+                    .transition()
+                    .duration(20000)
+                    .ease("linear")
+                    .attr("stroke-dashoffset", 0);
+			
+			
+			
+			
+		}
+	    
+		
+	})			 
+</script>
+</body>
+</html>

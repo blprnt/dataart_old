@@ -1,0 +1,12 @@
+{
+  "name": "dataart_jyp_hw3",
+  "version": "0.0.0",
+  "description": "dattart at ITP 2014",
+  "main": "datamaps.world.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ju Young Park",
+  "license": "BSD-2-Clause"
+}
