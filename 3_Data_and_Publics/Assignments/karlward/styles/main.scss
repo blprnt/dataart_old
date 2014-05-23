@@ -1,0 +1,105 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: gray;
+    margin-bottom: 50px;
+}
+
+a {
+    color: rgb(129,15,124);
+}
+
+.navbar,
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+    color: white;
+}
+
+.modal-header,
+.modal-footer {
+    color: black;
+    background-color: #999999;
+}
+
+.modal-content {
+    color: black;
+    background-color: white;
+}
+
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+}
+
+svg {
+    display: block;
+    margin: auto;
+    width: "100%";
+}
+
+.counties {
+    fill: none;
+}
+
+.states {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+}
+
+.q0-9 { fill:rgb(247,252,253); }
+.q1-9 { fill:rgb(224,236,244); }
+.q2-9 { fill:rgb(191,211,230); }
+.q3-9 { fill:rgb(158,188,218); }
+.q4-9 { fill:rgb(140,150,198); }
+.q5-9 { fill:rgb(140,107,177); }
+.q6-9 { fill:rgb(136,65,157); }
+.q7-9 { fill:rgb(129,15,124); }
+.q8-9 { fill:rgb(77,0,75); }
+
+html, h1, h2, h3, h4, p, li, button {
+    font-family: 'Noto Serif', serif !important;
+}
+
