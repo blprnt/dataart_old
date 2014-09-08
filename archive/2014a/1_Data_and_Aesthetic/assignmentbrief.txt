@@ -1,0 +1,13 @@
+Assignment Brief
+Section 1: Data & Aesthetic
+
+Working with the NYTimes API (or another data set of your choosing) create a aesthetic exploration of the data. For the purposes of this project, the piece should be **static** (not interactive). Considerations of work in non-screen based media (print, sculpture, etc.) are welcome.
+
+## Due: February 10th
+
+## Instructions for hand-in:
+
+Fork the class repo if you haven’t already done so. Create a directory in the assignments folder, and put all of your files into that folder. Push your code. I’ll review your pull request and then merge with the main branch.
+
+**All realized projects must include source code!**
+**All conceptual projects must have an index.html page where the project is summarized**

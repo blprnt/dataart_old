@@ -1,9 +1,9 @@
-# ITP Data Art - Spring 2014
+# ITP Data Art - Fall 2014
 
 * Instructor: Jer Thorp
 * Instructor e-mail: blprnt@blprnt.com
-* Office Hours: Monday, 1pm to 2:30pm, Friday 2pm-4pm. Sign up at [ohours](http://ohours.org/blprnt)
-* Class Logistics: Mon 2:30pm to 5:25pm in 445
+* Office Hours: Monday, 3:30pm to 5:30pm. Sign up at [ohours](http://ohours.org/blprnt)
+* Class Logistics: Mon 12:05pm to 3:30pm 
 
 ## Aims of Course
 
@@ -60,24 +60,24 @@ Since we’re not using a percentage-based grading system, let me put it another
 
 **Data & Aesthetic**
 
-1. January 27th - Survey, technical workshop (NYTimes API)
-2. February 3rd - Discussions on readings, other resources
-3. February 10th - Guest Speaker (R. Luke Dubois) & Project presentations
+1. September 8th - Survey, technical workshop (NYTimes API)
+2. September 15th - Discussions on readings, other resources
+3. September 22nd - Guest Speaker (TBA) & Project presentations
  
 **Text & Archive**
 
-4. February 24th - Survey, technical workshop (RiTa)
-5. March 3rd - Discussions on readings, other resources
-6. March 10th - Guest Speaker (TBA) & Project presentations
+4. September 29th - Survey, technical workshop (RiTa)
+5. October 6th - Discussions on readings, other resources
+6. October 20th - Guest Speaker (TBA) & Project presentations
 
 **Data & Publics**
 
-7. March 24th - Survey, technical workshop (OpenPaths, Leaflet.js)
-8. March 31st - Discussions on readings, other resources
-9. April 7th - Guest Speaker (Josh Begley) & Project presentations
+7. October 27th - Survey, technical workshop (OpenPaths, Leaflet.js)
+8. November 3rd - Discussions on readings, other resources
+9. November 10th - Guest Speaker (TBA) & Project presentations
 
 **Ethics, Humans & Responsibility**
 
-10. April 14th - Survey, technical workshop (TBA)
-11. April 21st - Discussions on readings, other resources
-12. April 28th - Guest Speaker (TBA) & Project presentations
+10. November 17th - Survey, technical workshop (TBA)
+11. December 1st - Discussions on readings, other resources
+12. December 8th - Guest Speaker (TBA) & Project presentations
