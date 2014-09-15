@@ -1,0 +1,50 @@
+“She looked down a slope, needing to squint for the sunlight, onto a vast sprawl of houses which had grown up all together, like a well-tended crop, from the dull brown earth; and she thought of the time she’d opened a transistor radio to replace a battery and seen her first printed circuit. The ordered swirl of houses and streets, from this high angle, sprang at her now with the same unexpected, astonishing clarity as the circuit card had. Though she knew even less about radios than about Southern Californians, there were to both outward patterns a hieroglyphic sense of concealed meaning, of an intent to communicate. There’d seemed no limit to what the printed circuit could have told her (if she had tried to find out); so in her first minute of San Narciso, a revelation also trembled just past the threshold of her understanding.” 
+
+-Thomas Pynchon, The Crying of Lot 49
+
+# Readings
+
+An Essay in Aesthetics - Roger Fry
+(In the resources folder)
+
+The Anti-Sublime Ideal in New Media - Lev Manovich
+http://users.fba.up.pt/~ldcag01015/anti_sublime/modernism.html
+
+Art Against Information: Case Studies in Data Practice - Mitchell Whitelaw
+http://eleven.fibreculturejournal.org/fcj-067-art-against-information-case-studies-in-data-practice/
+# Technical Resources:
+NYTimes Article Search API:
+http://developer.nytimes.com/docs/read/article_search_api_v2
+
+# Projects shown in class:
+
+ALL OF THEM IN ONE LINK: http://www.one-tab.com/page/DEf9AChdQzqYmp_qc3i7QQ
+
+Lisa Jevbratt - 1:1
+http://128.111.69.4/~jevbratt/1_to_1/index_ng.html
+
+Jason Salavon - Every Playboy Centerfold
+http://www.salavon.com/work/EveryPlayboyCenterfoldDecades/grid/11/
+
+Aaron Koblin - Flight Patterns
+http://www.aaronkoblin.com/work/flightpatterns/
+
+Jer Thorp - 365:360
+http://www.flickr.com/photos/blprnt/sets/72157614008027965/with/3291244820/
+
+Stefanie Posavec - Sentence Drawings:
+http://www.itsbeenreal.co.uk/index.php?/wwwords/sentence-drawings/
+
+Ben Grosser - Computers Watching Movies:
+http://bengrosser.com/projects/computers-watching-movies/
+
+Alex Dragulescu - Ekisto
+http://sq.ro/ekisto.htm
+
+#Videos to Watch:
+
+Stefanie Posavec at Eyeo 2012: http://vimeo.com/46304381
+
+
+
+
