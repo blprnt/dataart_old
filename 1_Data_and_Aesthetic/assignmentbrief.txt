@@ -3,7 +3,7 @@ Section 1: Data & Aesthetic
 
 Working with the NYTimes API (or another data set of your choosing) create a aesthetic exploration of the data. For the purposes of this project, the piece should be **static** (not interactive). Considerations of work in non-screen based media (print, sculpture, etc.) are welcome.
 
-## Due: February 10th
+## Due: September 22nd
 
 ## Instructions for hand-in:
 
