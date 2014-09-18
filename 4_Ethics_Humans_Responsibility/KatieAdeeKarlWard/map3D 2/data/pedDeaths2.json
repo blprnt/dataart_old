@@ -1,0 +1,782 @@
+{    "type": "FeatureCollection", 
+"features": [
+{
+  "properties": { "name": "Felipe Avila", 
+"age": "29", 
+"sex": "M", 
+"date": "January 1 5:07 AM", 
+"victim": "driver", 
+"desc": "Killed in a hit and run while driving to work." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.09498,40.641697]
+ }},
+{
+  "properties": { "name": "Luis Cabrera (Paredes)", 
+"age": "26", 
+"sex": "M", 
+"date": "January 1 2:15 AM", 
+"victim": "passenger", 
+"desc": "Car crashed into median." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.81077,40.738583]
+ }},
+{
+  "properties": { "name": "Silberio Alvarado", 
+"age": "53", 
+"sex": "M", 
+"date": "January 2 5:30 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.88065,40.8567]
+ }},
+{
+  "properties": { "name": "Andrew Ingordo", 
+"age": "31", 
+"sex": "M", 
+"date": "January 2 4:50 AM", 
+"victim": "driver", 
+"desc": "Van struck the rear of a truck that stopped suddenly." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.72357,40.76438]
+ }},
+{
+  "properties": { "name": "Xiaoci Hu", 
+"age": "75", 
+"sex": "M", 
+"date": "January 2 6:45 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.01467,40.634113]
+ }},
+{
+  "properties": { "name": "Ved Wadhwa", 
+"age": "56", 
+"sex": "M", 
+"date": "January 3 3:40 PM", 
+"victim": "driver", 
+"desc": "Cab crashed into two parked cars." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.82781,40.691605]
+ }},
+{
+  "properties": { "name": "Mosa Khatun", 
+"age": "38", 
+"sex": "F", 
+"date": "January 5 10:20 PM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.794044,40.712303]
+ }},
+{
+  "properties": { "name": "Jose Santiago", 
+"age": "27", 
+"sex": "M", 
+"date": "January 6 6:00 PM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.87167,40.68159]
+ }},
+{
+  "properties": { "name": "Cooper Stock", 
+"age": "9", 
+"sex": "M", 
+"date": "January 10 9:00 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a cab in a crosswalk." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.97266,40.79587]
+ }},
+{
+  "properties": { "name": "Alexander Shear", 
+"age": "73", 
+"sex": "M", 
+"date": "January 10 8:15 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a tour bus while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.97183,40.7945]
+ }},
+{
+  "properties": { "name": "Santo Lafaro ", 
+"age": "76", 
+"sex": "M", 
+"date": "January 10 6:37 PM", 
+"victim": "driver", 
+"desc": "Killed when his car was hit making a left turn." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.119736,40.575768]
+ }},
+{
+  "properties": { "name": "Iluminada Torres", 
+"age": "81", 
+"sex": "F", 
+"date": "January 11 ", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.942505,40.70313]
+ }},
+{
+  "properties": { "name": "Nydja Herring", 
+"age": "32", 
+"sex": "F", 
+"date": "January 11 5:21 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.87117,40.8399]
+ }},
+{
+  "properties": { "name": "Arturo Mateos", 
+"age": "", 
+"sex": "M", 
+"date": "January 12 3:00 PM", 
+"victim": "driver", 
+"desc": "Killed when the SUV he was moving lunged into traffic." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95121,40.678833]
+ }},
+{
+  "properties": { "name": "Alphonzo Baines", 
+"age": "44", 
+"sex": "M", 
+"date": "January 17 3:55 PM", 
+"victim": "driver", 
+"desc": "Suffered a heart attack and crashed his car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.984406,40.754517]
+ }},
+{
+  "properties": { "name": "Angela Hurtado", 
+"age": "68", 
+"sex": "F", 
+"date": "January 18 10:50 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street by a turning car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.894485,40.72617]
+ }},
+{
+  "properties": { "name": "Unidentified ", 
+"age": "", 
+"sex": "M", 
+"date": "January 18 6:35 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while walking near Union Turnpike and the Cross Island Parkway." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.72712,40.740658]
+ }},
+{
+  "properties": { "name": "Samantha Lee", 
+"age": "26", 
+"sex": "F", 
+"date": "January 19 4:45 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.97254,40.79498]
+ }},
+{
+  "properties": { "name": "Pedro Santiago", 
+"age": "45", 
+"sex": "M", 
+"date": "January 19 1:30 AM", 
+"victim": "cyclist", 
+"desc": "Killed by an MTA bus." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.94503,40.807594]
+ }},
+{
+  "properties": { "name": "Mark Hughes", 
+"age": "38", 
+"sex": "M", 
+"date": "January 20 6:20 PM", 
+"victim": "driver", 
+"desc": "Died after his truck struck multiple cars and hit a residential building." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.91715,40.855923]
+ }},
+{
+  "properties": { "name": "Manuel Pani", 
+"age": "56", 
+"sex": "M", 
+"date": "January 25 4:30 PM", 
+"victim": "pedestrian", 
+"desc": "Struck crossing the street. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.89556,40.86419]
+ }},
+{
+  "properties": { "name": "James Benedict", 
+"age": "67", 
+"sex": "M", 
+"date": "January 26 6:55 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while walking to his parked car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.06175,40.596306]
+ }},
+{
+  "properties": { "name": "Elin Medar", 
+"age": "37", 
+"sex": "M", 
+"date": "January 31 1:40 PM", 
+"victim": "driver", 
+"desc": "Driver died after striking a parked car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90346,40.6498]
+ }},
+{
+  "properties": { "name": "Brini Ramirez", 
+"age": "", 
+"sex": "", 
+"date": "January 31 ", 
+"victim": "passenger", 
+"desc": "Killed in a crash on FDR Drive." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95073,40.76676]
+ }},
+{
+  "properties": { "name": "Jelani Irving", 
+"age": "22", 
+"sex": "M", 
+"date": "February 2 ", 
+"victim": "cyclist", 
+"desc": "Hit by a car while cycling. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.962074,40.66924]
+ }},
+{
+  "properties": { "name": "Martha Tibillin-Guamug", 
+"age": "25", 
+"sex": "F", 
+"date": "February 2 5:55 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street by a turning MTA bus." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.89173,40.74682]
+ }},
+{
+  "properties": { "name": "Stanislav Chernyshov", 
+"age": "73", 
+"sex": "M", 
+"date": "February 3 11:54 AM", 
+"victim": "pedestrian", 
+"desc": "Killed by a snow plow backing up to remove snow." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.9585,40.57761]
+ }},
+{
+  "properties": { "name": "Ruben Rivera", 
+"age": "81", 
+"sex": "M", 
+"date": "February 7 3:19 PM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.9027,40.67592]
+ }},
+{
+  "properties": { "name": "Margarita Seda", 
+"age": "80", 
+"sex": "F", 
+"date": "February 11 1:37 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a turning car while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.943924,40.7116]
+ }},
+{
+  "properties": { "name": "Albert Cortez", 
+"age": "45", 
+"sex": "M", 
+"date": "February 12 5:12 PM", 
+"victim": "pedestrian", 
+"desc": "Died after jumping out of his truck. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.9325,40.807568]
+ }},
+{
+  "properties": { "name": "William Pena", 
+"age": "49", 
+"sex": "M", 
+"date": "February 12 5:30 AM", 
+"victim": "driver", 
+"desc": "Killed when a stolen truck collided with the MTA bus he was driving." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.99965,40.738525]
+ }},
+{
+  "properties": { "name": "Min Lin", 
+"age": "36", 
+"sex": "F", 
+"date": "February 13 10:40 AM", 
+"victim": "pedestrian", 
+"desc": "Killed by a Bobcat backing out of a parking lot." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.01146,40.633442]
+ }},
+{
+  "properties": { "name": "Kiu Ying (Jason Leung)", 
+"age": "19", 
+"sex": "M", 
+"date": "February 18 1:00 AM", 
+"victim": "driver", 
+"desc": "Died when car veered off the LIE and struck a tree." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.79994,40.738304]
+ }},
+{
+  "properties": { "name": "Jia Hao Liang (Jennifer Gao)", 
+"age": "16", 
+"sex": "F", 
+"date": "February 18 1:00 AM", 
+"victim": "passenger", 
+"desc": "Died when car veered off the LIE and struck a tree." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.79994,40.738304]
+ }},
+{
+  "properties": { "name": "Kaneez Hussein", 
+"age": "73", 
+"sex": "F", 
+"date": "February 20 6:32 AM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.82115,40.702034]
+ }},
+{
+  "properties": { "name": "Gedalia Grinzaid", 
+"age": "25", 
+"sex": "M", 
+"date": "February 23 9:08 AM", 
+"victim": "pedestrian", 
+"desc": "Killed by a turning garbage truck." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.94245,40.666576]
+ }},
+{
+  "properties": { "name": "Jonathan Schmitz", 
+"age": "", 
+"sex": "M", 
+"date": "February 23 2:10 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the Van Wyck Expressway." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.81362,40.6973]
+ }},
+{
+  "properties": { "name": "Marisol Martinez", 
+"age": "21", 
+"sex": "F", 
+"date": "March 1 1:27 AM", 
+"victim": "pedestrian", 
+"desc": "Killed by a turning MTA bus." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95178,40.715015]
+ }},
+{
+  "properties": { "name": "Phillip Crucilla", 
+"age": "47", 
+"sex": "M", 
+"date": "March 4 9:59 AM", 
+"victim": "driver", 
+"desc": "Died after going into cardiac arrest and crashing his car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.89882,40.668873]
+ }},
+{
+  "properties": { "name": "Basdeo Mohan ", 
+"age": "65", 
+"sex": "m", 
+"date": "March 5 4:42 PM", 
+"victim": "driver", 
+"desc": "Died after striking a parked car. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.81605,40.696728]
+ }},
+{
+  "properties": { "name": "Unidentified", 
+"age": "", 
+"sex": "M", 
+"date": "March 6 ", 
+"victim": "pedestrian", 
+"desc": "Killed by a van backing out of a driveway." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.89471,40.697437]
+ }},
+{
+  "properties": { "name": "Kumar Ragunath", 
+"age": "", 
+"sex": "M", 
+"date": "March 7 10:25 PM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.9361,40.74969]
+ }},
+{
+  "properties": { "name": "Jorge Rios", 
+"age": "47", 
+"sex": "M", 
+"date": "March 9 4:30 PM", 
+"victim": "driver", 
+"desc": "Motorcycle struck the side of a car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.954834,40.73371]
+ }},
+{
+  "properties": { "name": "Roshard Charles", 
+"age": "5", 
+"sex": "M", 
+"date": "March 16 8:33 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a double-parked minivan backing up." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95218,40.663845]
+ }},
+{
+  "properties": { "name": "Marlene Baharlias", 
+"age": "77", 
+"sex": "F", 
+"date": "March 18 2:41 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a car parallel parking." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95273,40.60014]
+ }},
+{
+  "properties": { "name": "Vadro Kone", 
+"age": "50", 
+"sex": "M", 
+"date": "March 19 2:00 AM", 
+"victim": "driver", 
+"desc": "Had a health condition while driving." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.943306,40.75179]
+ }},
+{
+  "properties": { "name": "Pei Yao Wu", 
+"age": "82", 
+"sex": "F", 
+"date": "March 21 8:00 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95452,40.595085]
+ }},
+{
+  "properties": { "name": "Jonathan Nunez", 
+"age": "25", 
+"sex": "M", 
+"date": "March 21 3:00 PM", 
+"victim": "driver", 
+"desc": "Killled on dirt bike trying to pass a car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.8911,40.85887]
+ }},
+{
+  "properties": { "name": "Dylan Perry", 
+"age": "11", 
+"sex": "M", 
+"date": "March 23 8:00 AM", 
+"victim": "passenger", 
+"desc": "Died from injuries sustained in a crash." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90885,40.674805]
+ }},
+{
+  "properties": { "name": "Lisa Julian", 
+"age": "47", 
+"sex": "F", 
+"date": "March 27 6:27 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.98987,40.729584]
+ }},
+{
+  "properties": { "name": "Fidel Vidal Diaz", 
+"age": "31", 
+"sex": "M", 
+"date": "March 28 11:07 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the Grand Central Parkway." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.85976,40.76184]
+ }},
+{
+  "properties": { "name": "Dwayne Dwyer", 
+"age": "30", 
+"sex": "M", 
+"date": "April 4 5:45 AM", 
+"victim": "pedestrian", 
+"desc": "Killed crossing Utica Avenue" 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.92921,40.64069]
+ }},
+{
+  "properties": { "name": "Darius Fletcher", 
+"age": "21", 
+"sex": "M", 
+"date": "April 4 10:37 PM", 
+"victim": "passenger", 
+"desc": "Died when car flipped into a creek." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90194,40.780064]
+ }},
+{
+  "properties": { "name": "Jaleel Furtado", 
+"age": "20", 
+"sex": "M", 
+"date": "April 4 10:37 PM", 
+"victim": "passenger", 
+"desc": "Died when car flipped into a creek." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90194,40.780064]
+ }},
+{
+  "properties": { "name": "Jada Monique Butts", 
+"age": "19", 
+"sex": "F", 
+"date": "April 4 10:37 PM", 
+"victim": "passenger", 
+"desc": "Died when car flipped into a creek." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90194,40.780064]
+ }},
+{
+  "properties": { "name": "Crystal Gravely", 
+"age": "19", 
+"sex": "F", 
+"date": "April 4 10:37 PM", 
+"victim": "passenger", 
+"desc": "Died when car flipped into a creek." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90194,40.780064]
+ }},
+{
+  "properties": { "name": "Nikon Vouyiouklis", 
+"age": "60", 
+"sex": "M", 
+"date": "April 8 4:58 AM", 
+"victim": "driver", 
+"desc": "Died after car collided with another vehicle." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90746,40.641666]
+ }},
+{
+  "properties": { "name": "Angel Torres", 
+"age": "46", 
+"sex": "M", 
+"date": "April 9 7:50 AM", 
+"victim": "cyclist", 
+"desc": "Killed in a hit-and-run. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.915504,40.68576]
+ }},
+{
+  "properties": { "name": "Kelly Gordon", 
+"age": "22", 
+"sex": "F", 
+"date": "April 10 11:28 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.947975,40.774742]
+ }},
+{
+  "properties": { "name": "Kendall Heard", 
+"age": "29", 
+"sex": "M", 
+"date": "April 14 4:15 AM", 
+"victim": "passenger", 
+"desc": "Died after the car he was in rear-ended another vehicle." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.73981,40.665257]
+ }}]}

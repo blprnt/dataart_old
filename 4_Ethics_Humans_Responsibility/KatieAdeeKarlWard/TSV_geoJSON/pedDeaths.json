@@ -1,0 +1,603 @@
+{
+    "type": "FeatureCollection",
+"features": [
+{
+  "properties": { "name": "Felipe Avila", "date": "January 1 5:07 AM", 
+"victim": "driver", 
+"desc": "Killed in a hit and run while driving to work." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.09498,40.641697]
+ }},
+{
+  "properties": { "name": "Luis Cabrera (Paredes)", "date": "January 1 2:15 AM", 
+"victim": "passenger", 
+"desc": "Car crashed into median." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.81077,40.738583]
+ }},
+{
+  "properties": { "name": "Silberio Alvarado", "date": "January 2 5:30 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.88065,40.8567]
+ }},
+{
+  "properties": { "name": "Andrew Ingordo", "date": "January 2 4:50 AM", 
+"victim": "driver", 
+"desc": "Van struck the rear of a truck that stopped suddenly." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.72357,40.76438]
+ }},
+{
+  "properties": { "name": "Xiaoci Hu", "date": "January 2 6:45 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.01467,40.634113]
+ }},
+{
+  "properties": { "name": "Ved Wadhwa", "date": "January 3 3:40 PM", 
+"victim": "driver", 
+"desc": "Cab crashed into two parked cars." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.82781,40.691605]
+ }},
+{
+  "properties": { "name": "Mosa Khatun", "date": "January 5 10:20 PM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.794044,40.712303]
+ }},
+{
+  "properties": { "name": "Jose Santiago", "date": "January 6 6:00 PM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.87167,40.68159]
+ }},
+{
+  "properties": { "name": "Cooper Stock", "date": "January 10 9:00 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a cab in a crosswalk." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.97266,40.79587]
+ }},
+{
+  "properties": { "name": "Alexander Shear", "date": "January 10 8:15 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a tour bus while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.97183,40.7945]
+ }},
+{
+  "properties": { "name": "Santo Lafaro ", "date": "January 10 6:37 PM", 
+"victim": "driver", 
+"desc": "Killed when his car was hit making a left turn." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.119736,40.575768]
+ }},
+{
+  "properties": { "name": "Iluminada Torres", "date": "January 11 ", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.942505,40.70313]
+ }},
+{
+  "properties": { "name": "Nydja Herring", "date": "January 11 5:21 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.87117,40.8399]
+ }},
+{
+  "properties": { "name": "Arturo Mateos", "date": "January 12 3:00 PM", 
+"victim": "driver", 
+"desc": "Killed when the SUV he was moving lunged into traffic." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95121,40.678833]
+ }},
+{
+  "properties": { "name": "Alphonzo Baines", "date": "January 17 3:55 PM", 
+"victim": "driver", 
+"desc": "Suffered a heart attack and crashed his car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.984406,40.754517]
+ }},
+{
+  "properties": { "name": "Angela Hurtado", "date": "January 18 10:50 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street by a turning car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.894485,40.72617]
+ }},
+{
+  "properties": { "name": "Unidentified ", "date": "January 18 6:35 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while walking near Union Turnpike and the Cross Island Parkway." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.72712,40.740658]
+ }},
+{
+  "properties": { "name": "Samantha Lee", "date": "January 19 4:45 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.97254,40.79498]
+ }},
+{
+  "properties": { "name": "Pedro Santiago", "date": "January 19 1:30 AM", 
+"victim": "cyclist", 
+"desc": "Killed by an MTA bus." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.94503,40.807594]
+ }},
+{
+  "properties": { "name": "Mark Hughes", "date": "January 20 6:20 PM", 
+"victim": "driver", 
+"desc": "Died after his truck struck multiple cars and hit a residential building." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.91715,40.855923]
+ }},
+{
+  "properties": { "name": "Manuel Pani", "date": "January 25 4:30 PM", 
+"victim": "pedestrian", 
+"desc": "Struck crossing the street. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.89556,40.86419]
+ }},
+{
+  "properties": { "name": "James Benedict", "date": "January 26 6:55 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while walking to his parked car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.06175,40.596306]
+ }},
+{
+  "properties": { "name": "Elin Medar", "date": "January 31 1:40 PM", 
+"victim": "driver", 
+"desc": "Driver died after striking a parked car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90346,40.6498]
+ }},
+{
+  "properties": { "name": "Brini Ramirez", "date": "January 31 ", 
+"victim": "passenger", 
+"desc": "Killed in a crash on FDR Drive." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95073,40.76676]
+ }},
+{
+  "properties": { "name": "Jelani Irving", "date": "February 2 ", 
+"victim": "cyclist", 
+"desc": "Hit by a car while cycling. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.962074,40.66924]
+ }},
+{
+  "properties": { "name": "Martha Tibillin-Guamug", "date": "February 2 5:55 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street by a turning MTA bus." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.89173,40.74682]
+ }},
+{
+  "properties": { "name": "Stanislav Chernyshov", "date": "February 3 11:54 AM", 
+"victim": "pedestrian", 
+"desc": "Killed by a snow plow backing up to remove snow." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.9585,40.57761]
+ }},
+{
+  "properties": { "name": "Ruben Rivera", "date": "February 7 3:19 PM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.9027,40.67592]
+ }},
+{
+  "properties": { "name": "Margarita Seda", "date": "February 11 1:37 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a turning car while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.943924,40.7116]
+ }},
+{
+  "properties": { "name": "Albert Cortez", "date": "February 12 5:12 PM", 
+"victim": "pedestrian", 
+"desc": "Died after jumping out of his truck. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.9325,40.807568]
+ }},
+{
+  "properties": { "name": "William Pena", "date": "February 12 5:30 AM", 
+"victim": "driver", 
+"desc": "Killed when a stolen truck collided with the MTA bus he was driving." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.99965,40.738525]
+ }},
+{
+  "properties": { "name": "Min Lin", "date": "February 13 10:40 AM", 
+"victim": "pedestrian", 
+"desc": "Killed by a Bobcat backing out of a parking lot." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-74.01146,40.633442]
+ }},
+{
+  "properties": { "name": "Kiu Ying (Jason Leung)", "date": "February 18 1:00 AM", 
+"victim": "driver", 
+"desc": "Died when car veered off the LIE and struck a tree." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.79994,40.738304]
+ }},
+{
+  "properties": { "name": "Jia Hao Liang (Jennifer Gao)", "date": "February 18 1:00 AM", 
+"victim": "passenger", 
+"desc": "Died when car veered off the LIE and struck a tree." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.79994,40.738304]
+ }},
+{
+  "properties": { "name": "Kaneez Hussein", "date": "February 20 6:32 AM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.82115,40.702034]
+ }},
+{
+  "properties": { "name": "Gedalia Grinzaid", "date": "February 23 9:08 AM", 
+"victim": "pedestrian", 
+"desc": "Killed by a turning garbage truck." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.94245,40.666576]
+ }},
+{
+  "properties": { "name": "Jonathan Schmitz", "date": "February 23 2:10 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the Van Wyck Expressway." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.81362,40.6973]
+ }},
+{
+  "properties": { "name": "Marisol Martinez", "date": "March 1 1:27 AM", 
+"victim": "pedestrian", 
+"desc": "Killed by a turning MTA bus." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95178,40.715015]
+ }},
+{
+  "properties": { "name": "Phillip Crucilla", "date": "March 4 9:59 AM", 
+"victim": "driver", 
+"desc": "Died after going into cardiac arrest and crashing his car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.89882,40.668873]
+ }},
+{
+  "properties": { "name": "Basdeo Mohan ", "date": "March 5 4:42 PM", 
+"victim": "driver", 
+"desc": "Died after striking a parked car. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.81605,40.696728]
+ }},
+{
+  "properties": { "name": "Unidentified", "date": "March 6 ", 
+"victim": "pedestrian", 
+"desc": "Killed by a van backing out of a driveway." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.89471,40.697437]
+ }},
+{
+  "properties": { "name": "Kumar Ragunath", "date": "March 7 10:25 PM", 
+"victim": "pedestrian", 
+"desc": "Killed in a hit-and-run." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.9361,40.74969]
+ }},
+{
+  "properties": { "name": "Jorge Rios", "date": "March 9 4:30 PM", 
+"victim": "driver", 
+"desc": "Motorcycle struck the side of a car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.954834,40.73371]
+ }},
+{
+  "properties": { "name": "Roshard Charles", "date": "March 16 8:33 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a double-parked minivan backing up." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95218,40.663845]
+ }},
+{
+  "properties": { "name": "Marlene Baharlias", "date": "March 18 2:41 PM", 
+"victim": "pedestrian", 
+"desc": "Killed by a car parallel parking." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95273,40.60014]
+ }},
+{
+  "properties": { "name": "Vadro Kone", "date": "March 19 2:00 AM", 
+"victim": "driver", 
+"desc": "Had a health condition while driving." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.943306,40.75179]
+ }},
+{
+  "properties": { "name": "Pei Yao Wu", "date": "March 21 8:00 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.95452,40.595085]
+ }},
+{
+  "properties": { "name": "Jonathan Nunez", "date": "March 21 3:00 PM", 
+"victim": "driver", 
+"desc": "Killled on dirt bike trying to pass a car." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.8911,40.85887]
+ }},
+{
+  "properties": { "name": "Dylan Perry", "date": "March 23 8:00 AM", 
+"victim": "passenger", 
+"desc": "Died from injuries sustained in a crash." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90885,40.674805]
+ }},
+{
+  "properties": { "name": "Lisa Julian", "date": "March 27 6:27 AM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.98987,40.729584]
+ }},
+{
+  "properties": { "name": "Fidel Vidal Diaz", "date": "March 28 11:07 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the Grand Central Parkway." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.85976,40.76184]
+ }},
+{
+  "properties": { "name": "Dwayne Dwyer", "date": "April 4 5:45 AM", 
+"victim": "pedestrian", 
+"desc": "Killed crossing Utica Avenue" 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.92921,40.64069]
+ }},
+{
+  "properties": { "name": "Darius Fletcher", "date": "April 4 10:37 PM", 
+"victim": "passenger", 
+"desc": "Died when car flipped into a creek." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90194,40.780064]
+ }},
+{
+  "properties": { "name": "Jaleel Furtado", "date": "April 4 10:37 PM", 
+"victim": "passenger", 
+"desc": "Died when car flipped into a creek." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90194,40.780064]
+ }},
+{
+  "properties": { "name": "Jada Monique Butts", "date": "April 4 10:37 PM", 
+"victim": "passenger", 
+"desc": "Died when car flipped into a creek." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90194,40.780064]
+ }},
+{
+  "properties": { "name": "Crystal Gravely", "date": "April 4 10:37 PM", 
+"victim": "passenger", 
+"desc": "Died when car flipped into a creek." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90194,40.780064]
+ }},
+{
+  "properties": { "name": "Nikon Vouyiouklis", "date": "April 8 4:58 AM", 
+"victim": "driver", 
+"desc": "Died after car collided with another vehicle." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.90746,40.641666]
+ }},
+{
+  "properties": { "name": "Angel Torres", "date": "April 9 7:50 AM", 
+"victim": "cyclist", 
+"desc": "Killed in a hit-and-run. " 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.915504,40.68576]
+ }},
+{
+  "properties": { "name": "Kelly Gordon", "date": "April 10 11:28 PM", 
+"victim": "pedestrian", 
+"desc": "Killed while crossing the street." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.947975,40.774742]
+ }},
+{
+  "properties": { "name": "Kendall Heard", "date": "April 14 4:15 AM", 
+"victim": "passenger", 
+"desc": "Died after the car he was in rear-ended another vehicle." 
+}, 
+"type": "Feature", 
+"geometry": { 
+  "type": "Point", 
+ "coordinates": [-73.73981,40.665257]
+ }}]}
