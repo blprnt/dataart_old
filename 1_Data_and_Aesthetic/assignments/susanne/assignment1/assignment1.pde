@@ -1,6 +1,6 @@
 import http.requests.*;
 
-String apiKey = "e49231ecd1be9279cf1cd608256b5a00:12:69780970";
+String apiKey = ""; //INSERT API KEY HERE!!
 String baseURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?";
 
 JSONObject[] json_sum_sun, json_sum_rain;
