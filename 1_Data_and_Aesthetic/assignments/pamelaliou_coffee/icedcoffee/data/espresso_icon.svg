@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="325px" height="318px" viewBox="0 0 325 318" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>espresso_icon</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M159,89 C225.826458,89 280,76.6878314 280,61.5 C280,46.3121686 225.826458,34 159,34 C92.173542,34 38,46.3121686 38,61.5 C38,76.6878314 92.173542,89 159,89 Z" id="Oval-1" stroke="#FAF7CF" stroke-width="15" sketch:type="MSShapeGroup"></path>
+        <path d="M49,138 L50.4723127,191.307692 L87,266 L128,288 L162,288 L195,288 L230,266 L262,197 L275,141.384615 L49,138 Z" id="Path-5" stroke="#979797" fill="#774F38" sketch:type="MSShapeGroup"></path>
+        <path d="M158,169 C220.40818,169 271,155.568543 271,139 C271,122.431457 220.40818,109 158,109 C95.5918202,109 45,122.431457 45,139 C45,155.568543 95.5918202,169 158,169 Z" id="Oval-1" fill="#BEA480" sketch:type="MSShapeGroup"></path>
+        <path d="M39.125346,57.7598812 C39.125346,57.7598812 30.4797088,134.928131 47.0505145,173.078727 C63.6213218,211.229323 84.5149483,258.050509 84.5149483,258.050509 C91.7196471,279.429826 122.685919,291.687308 160.884756,291.687308 C199.083593,291.687308 230.049865,279.429826 230.049865,264.309453 C233.652214,258.050509 254.545841,211.229323 271.116648,173.078727 C287.687454,134.928131 279.041817,57.7598812 279.041817,57.7598812" id="Oval-1" stroke="#FAF7CF" stroke-width="15" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="414px" height="531px" viewBox="0 0 414 531" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>latte_icon</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <text id="COFFEE" sketch:type="MSTextLayer" font-family="GeosansLight" font-size="96" font-style="italic" font-weight="473" letter-spacing="14.8000002" fill="#5F3E2C">
+            <tspan x="-559" y="593.18996">COFFEE</tspan>
+        </text>
+        <path d="M207,112 C301.992982,112 379,94.7629639 379,73.5 C379,52.2370361 301.992982,35 207,35 C112.007018,35 35,52.2370361 35,73.5 C35,94.7629639 112.007018,112 207,112 Z" id="Oval-1" stroke="#FAF7CF" stroke-width="15" sketch:type="MSShapeGroup"></path>
+        <path d="M48,247 L40,314.314286 L88,423 L132,484.32418 L217,495 L263,495 L320,457.8 L359.017699,356.391619 L378,253.275399 L48,247 Z" id="Path-5" stroke="#979797" fill="#774F38" sketch:type="MSShapeGroup"></path>
+        <path d="M207,236 C298.126988,236 372,223.463974 372,208 C372,192.536026 298.126988,180 207,180 C115.873012,180 42,192.536026 42,208 C42,223.463974 115.873012,236 207,236 Z" id="Oval-1" fill="#BEA480" sketch:type="MSShapeGroup"></path>
+        <path d="M206.5,334 C297.903131,334 372,321.463974 372,306 C372,290.536026 297.903131,278 206.5,278 C115.096869,278 41,290.536026 41,306 C41,321.463974 115.096869,334 206.5,334 Z" id="Oval-1" fill="#BEA480" sketch:type="MSShapeGroup"></path>
+        <rect id="Rectangle-10" fill="#BEA480" sketch:type="MSShapeGroup" x="42" y="208" width="330" height="97"></rect>
+        <path d="M35,75 L40,316 L90,431 C96.0835812,470.82403 145.779971,493.427716 207.083581,493.427716 C268.387191,493.427716 318.083581,470.82403 318.083581,442.940967 L373,316 L378,75" id="Oval-1" stroke="#FAF7CF" stroke-width="15" sketch:type="MSShapeGroup"></path>
+        <path d="M207,236 C298.126988,236 372,223.463974 372,208 C372,192.536026 298.126988,180 207,180 C115.873012,180 42,192.536026 42,208 C42,223.463974 115.873012,236 207,236 Z" id="Oval-1" fill="#FAF7CF" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

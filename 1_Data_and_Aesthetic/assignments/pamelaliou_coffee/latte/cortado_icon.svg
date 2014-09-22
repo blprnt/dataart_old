@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="405px" height="457px" viewBox="0 0 405 457" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>cortado_icon</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M198,110 C290.783843,110 366,92.7629639 366,71.5 C366,50.2370361 290.783843,33 198,33 C105.216157,33 30,50.2370361 30,71.5 C30,92.7629639 105.216157,110 198,110 Z" id="Oval-1" stroke="#FAF7CF" stroke-width="15" sketch:type="MSShapeGroup"></path>
+        <path d="M46,194 L48,257 L98,392 L147,412 L206,418 L254,416 L304,401 L348,264 L353,198 L46,194 Z" id="Path-5" stroke="#979797" fill="#774F38" sketch:type="MSShapeGroup"></path>
+        <path d="M195.5,230 C280.827998,230 350,214.10611 350,194.5 C350,174.89389 280.827998,159 195.5,159 C110.172002,159 41,174.89389 41,194.5 C41,214.10611 110.172002,230 195.5,230 Z" id="Oval-1" fill="#BEA480" sketch:type="MSShapeGroup"></path>
+        <path d="M199.629017,216 C285.509299,216 355.129017,201.89697 355.129017,184.5 C355.129017,167.10303 285.509299,153 199.629017,153 C113.748734,153 44.1290165,167.10303 44.1290165,184.5 C44.1290165,201.89697 113.748734,216 199.629017,216 Z" id="Oval-1" fill="#FAF7CF" sketch:type="MSShapeGroup"></path>
+        <path d="M30,69.5 L49.5,263.5 L97,397.5 C105,402 173.223307,418 205,418 C233.571372,418 303,402 303,402 L346.5,266.5 L366,72.5" id="Path-1" stroke="#FAF7CF" stroke-width="15" sketch:type="MSShapeGroup"></path>
+        <path d="M48,264.983138 C48,264.983138 59,239.000004 87,239 C115,238.999997 134,278.446298 134,278.446298 L144,405" id="Path-2" stroke="#FAF7CF" stroke-width="13" sketch:type="MSShapeGroup"></path>
+        <path d="M253,263 C253,263 254,240.000004 282,240 C310,239.999997 337,281.575208 337,281.575208 L347,406" id="Path-2" stroke="#FAF7CF" stroke-width="13" sketch:type="MSShapeGroup" transform="translate(300.000000, 323.000000) scale(-1, 1) translate(-300.000000, -323.000000) "></path>
+        <path d="M135,282 C135,282 146,243.999998 200,244 C254,244.000002 263,282 263,282" id="Path-4" stroke="#FAF7CF" stroke-width="13" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>
