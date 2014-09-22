@@ -4,7 +4,7 @@ int[] doASearchYears(String q, int startYear, int endYear) {
   int[] counts = new int[endYear - startYear];
   int i = startYear;
   while (i < endYear) {
-    println(i);
+     println(i);
     try {
       ASResult r = doASearch(q, i + "0101", i + "1231");
       println(r.hits);
