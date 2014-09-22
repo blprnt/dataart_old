@@ -3,7 +3,7 @@
  Yu Ji
  DataArt_HW01: Data and Aesthetic
  Exploring NYTimes Article Search v2 API 
- Title: "The Meaningless Use of Nonsense Data for Aesthetic Pleasure (and Bon Appetite!)" 
+ Title: "The Meaningless Use of Nonsense Data for Aesthetic Pleasure (and Bon Appétit!)" 
  */
 
 import processing.pdf.*;
@@ -48,7 +48,7 @@ void draw() {
   textFont(font, 20);
   text("NYT Salads", width - 20, height - 80);
   text("Frequency of 'Lettuce/ Chicken/ Orange/ Apple/ Olive Oil/ Vinegar/ Pepper' Over 100 Years", width - 20, height - 50);
-  text("The Meaningless Use of Nonsense Data for Aesthetic Pleasure (and Bon Appetite!)", width - 20, height - 20);
+  text("The Meaningless Use of Nonsense Data for Aesthetic Pleasure (and Bon Appétit!)", width - 20, height - 20);
 
   endRecord();
 }
