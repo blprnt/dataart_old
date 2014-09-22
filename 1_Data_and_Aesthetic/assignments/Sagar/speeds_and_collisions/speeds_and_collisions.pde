@@ -24,6 +24,7 @@ void setup() {
   smooth(8);
   background(20);
   
+  //needs an active internet connection
   table = loadTable("http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt", "header, tsv");
   collisions = loadTable("collisions.csv", "header, csv");
 }
@@ -61,7 +62,6 @@ void showSpeeds() {
       for (Point p : paths) {
         p.mapToScreen();
         noStroke();
-        point(p.lat, p.lon);
         stroke(0, (int)colr, 255);
         line(p.lat,p.lon,0,p.lat,p.lon,colr/4);
       }
@@ -71,13 +71,13 @@ void showSpeeds() {
 
 void showCollisions() {
     for(TableRow row : collisions.rows()){
-    fill(255, 55, 0, 255);
+    fill(255, 55, 0, 100);
     float clat = row.getFloat("LATITUDE");
     float clon = row.getFloat("LONGITUDE");
     Point p = new Point(clat*1E3, clon*1E3);
     p.mapToScreen();
     stroke(255, 55, 0);
-    point(p.lat, p.lon);
+    ellipse(p.lat, p.lon, 1, 1);
   }
 }
 
