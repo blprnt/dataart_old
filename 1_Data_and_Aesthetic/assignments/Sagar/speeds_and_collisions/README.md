@@ -16,3 +16,5 @@ TODOs:
 ------
 1. Fix colors.
 2. Port to JavaCL on Processing or OpenGL(Cinder/OF) for real-time rendering.
+
+**[Link to Video.](https://vimeo.com/106789316)**

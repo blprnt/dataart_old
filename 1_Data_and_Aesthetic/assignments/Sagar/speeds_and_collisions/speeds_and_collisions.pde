@@ -26,7 +26,6 @@ void setup() {
   
   table = loadTable("http://207.251.86.229/nyc-links-cams/LinkSpeedQuery.txt", "header, tsv");
   collisions = loadTable("collisions.csv", "header, csv");
-  
 }
 
 
