@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="395px" height="527px" viewBox="0 0 395 527" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icedcoffee_icon</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M198,102 C285.81328,102 357,85.6583944 357,65.5 C357,45.3416056 285.81328,29 198,29 C110.18672,29 39,45.3416056 39,65.5 C39,85.6583944 110.18672,102 198,102 Z" id="Oval-1" stroke="#FAF7CF" stroke-width="15" sketch:type="MSShapeGroup"></path>
+        <path d="M65,284 L66.7394137,347 L92,473 L150,492 L198.5,492 L249,492 L312,473 L327.651466,354 L332,288 L65,284 Z" id="Path-5" stroke="#979797" fill="#774F38" sketch:type="MSShapeGroup"></path>
+        <path d="M194,320 C268.00616,320 328,304.10611 328,284.5 C328,264.89389 268.00616,249 194,249 C119.99384,249 60,264.89389 60,284.5 C60,304.10611 119.99384,320 194,320 Z" id="Oval-1" fill="#BEA480" sketch:type="MSShapeGroup"></path>
+        <path d="M89.75,467 C89.75,481.083262 139.44639,492.5 200.75,492.5 C262.05361,492.5 311.75,481.083262 311.75,467" id="Oval-1" stroke="#FAF7CF" stroke-width="15" sketch:type="MSShapeGroup"></path>
+        <path d="M39,67 L90,469 M311.911413,468.368494 L356.997277,67.5165731" id="Path-7" stroke="#FAF7CF" stroke-width="15" sketch:type="MSShapeGroup"></path>
+        <rect id="Rectangle-7" opacity="0.813636364" fill="#FAF7CF" sketch:type="MSShapeGroup" transform="translate(247.015625, 402.741253) rotate(-13.000000) translate(-247.015625, -402.741253) " x="192.015625" y="359.241253" width="110" height="87" rx="8"></rect>
+        <rect id="Rectangle-7" opacity="0.813636364" fill="#FAF7CF" sketch:type="MSShapeGroup" transform="translate(149.631110, 441.724259) rotate(14.000000) translate(-149.631110, -441.724259) " x="113.246596" y="412.947415" width="72.7690291" height="57.5536866" rx="8"></rect>
+        <rect id="Rectangle-7" opacity="0.813636364" fill="#FAF7CF" sketch:type="MSShapeGroup" transform="translate(166.059686, 338.118878) rotate(-30.000000) translate(-166.059686, -338.118878) " x="120.387718" y="301.996503" width="91.343936" height="72.2447494" rx="8"></rect>
+    </g>
+</svg>
