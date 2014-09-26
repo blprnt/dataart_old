@@ -189,7 +189,7 @@ class drawMaggie {
   void display() {
     for (int i = 0; i < maggieCounts.length; i++) {
       float x = map(i, 0, maggieCounts.length, -30, width-250);
-      float h = -map(lisaCounts[i], 0, max(maggieCounts), 0, maggieCounts[i]*2.5);
+      float h = -map(maggieCounts[i], 0, max(maggieCounts), 0, maggieCounts[i]*2.5);
       noStroke();
       rect(x, y_, w_, (0.666)*h);
       fill(250, 194, 82);
