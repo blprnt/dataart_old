@@ -9,7 +9,7 @@
  
  */
 
-String apiKey = "2dad5111a0e2aa45101b37ac994cc000:5:68404942";
+String apiKey = "75c7c51cad7d23541bb82084456dc379:14:69781041";
 String baseURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?";
 
 void setup() {
@@ -18,15 +18,15 @@ void setup() {
   background(255);
   
   //This function returns a list of integers, counting a search term per year
-  int[] issCounts = doASearchYears("international space station", 1868, 2015);
+  int[] monkeyCounts = doASearchYears("\"herringbone\"", 2007, 2013);
   
   //Which we can draw a bar chart from:
-  for (int i = 0; i < issCounts.length; i++) {
+  for (int i = 0; i < monkeyCounts.length; i++) {
    fill(0,150);
-   float x = map(i,0, issCounts.length,100, width - 100);
+   float x = map(i,0, monkeyCounts.length,100, width - 100);
    float y = height - 100;
-   float w = (width - 200)/issCounts.length;
-   float h = -map(issCounts[i], 0, max(issCounts), 0, height - 200);
+   float w = (width - 200)/monkeyCounts.length;
+   float h = -map(monkeyCounts[i], 0, max(monkeyCounts), 0, height - 200);
    rect(x, y, w, h);
    fill(255);
    pushMatrix();
@@ -38,8 +38,8 @@ void setup() {
   }
   
   //It's often useful to save data like this (so we don't have to call the API every time once we're visualizing)
-  PrintWriter writer = createWriter("data/issData.csv");
-  for (int i:issCounts) writer.println(i);
+  PrintWriter writer = createWriter("data/herringbone.csv");
+  for (int i:monkeyCounts) writer.println(i);
   writer.flush();
   writer.close();
   

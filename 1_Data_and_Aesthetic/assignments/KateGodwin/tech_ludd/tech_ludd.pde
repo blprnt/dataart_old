@@ -36,19 +36,6 @@ void loadData() {
   }
 }
 
-void renderGrid(int[] nums, int cols, float boxSize, float padding) {
-
-  for (int i = 0; i < nums.length; i++) {
-    float x = (i % cols) * (boxSize + padding);
-    float y = (floor(i / cols)) * (boxSize + padding);
-    float w = boxSize;
-    float c = map(nums[i], 0, max(nums), 60, 255);
-    fill(c, 255, 255);
-    noStroke();
-    rect(x, y, w, w);
-  }
-}
-
 void renderLines(int[] numA, int[] numB) {
 
   for (int i = 0; i < numA.length; i++) {
@@ -70,7 +57,7 @@ void renderLines(int[] numA, int[] numB) {
 
     
     //draw the red luddite line
-    strokeWeight(5);
+    strokeWeight(3);
     stroke(255, 0, 0);
     line(x1Ludd, y1Ludd, x2Ludd, y1Ludd);
     //draw the blue technocrat line
