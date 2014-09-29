@@ -43,10 +43,13 @@ void draw() {
   rotate(PI/2);
   translate(-width/4,-height); /*note that this is translation after rotation hence flipped*/
   
-  showSpeeds(); //load and plot speeds and locations
+   //load and plot speeds and locations
   
-  showCollisions(); //load collision points
-
+  beginShape();
+  showSpeeds();
+  //showCollisions(); //load collision points
+  endShape();
+  
   popMatrix();
 }
 
@@ -58,12 +61,14 @@ void showSpeeds() {
       String spdString = row.getString("\"Speed\"").replace("\"", "");
      
       float colr = map(parseFloat(spdString), 0, 60, 10, 255);
-      fill(0, (int)colr, 255);
+      noFill();
+      //fill(0, (int)colr, 255);
       for (Point p : paths) {
         p.mapToScreen();
         noStroke();
         stroke(0, (int)colr, 255);
-        line(p.lat,p.lon,0,p.lat,p.lon,colr/4);
+        vertex(p.lat, p.lon);
+        //line(p.lat,p.lon,0,p.lat,p.lon,colr/4);
       }
     }
   }
@@ -77,7 +82,7 @@ void showCollisions() {
     Point p = new Point(clat*1E3, clon*1E3);
     p.mapToScreen();
     stroke(255, 55, 0);
-    ellipse(p.lat, p.lon, 1, 1);
+    vertex(p.lat, p.lon, 1, 1);
   }
 }
 

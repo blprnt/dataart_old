@@ -18,7 +18,7 @@ void setup() {
   background(255);
   
   //This function returns a list of integers, counting a search term per year
-  int[] issCounts = doASearchYears("international space station", 1965, 2015);
+  int[] issCounts = doASearchYears("international space station", 1868, 2015);
   
   //Which we can draw a bar chart from:
   for (int i = 0; i < issCounts.length; i++) {
