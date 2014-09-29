@@ -7,7 +7,7 @@ void setup() {
  size(1280,720,P3D);
  
  markov = new RiMarkov(2);  
- markov.loadFile(sketchPath + "/data/tweets.txt");
+ markov.loadFile("../../data/mobydick.txt");
 }
 
 void draw() {
