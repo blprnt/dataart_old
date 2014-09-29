@@ -23,7 +23,7 @@ PrintWriter writer;
 boolean tweeted = false;
 
 //This is the phrase we're looking for
-String phrase = "ukraine";
+String phrase = "hong kong";
 //This is how many tweets we're collecting
 int max = 1000;
 //counter for Tweets
@@ -37,10 +37,10 @@ void setup() {
   //Initiate a configuration builder with our OAuth info.
   ConfigurationBuilder cb = new ConfigurationBuilder();
 
-  cb.setOAuthConsumerKey("KEY");
-  cb.setOAuthConsumerSecret("SECRET");
-  cb.setOAuthAccessToken("KEY");
-  cb.setOAuthAccessTokenSecret("SECRET");
+  cb.setOAuthConsumerKey("JBFDbODYXiRFpJWerIJCV2g3y");
+  cb.setOAuthConsumerSecret("4vd4xfhTP4T6QzR0xTUMtCbmse2sopIsT6YlFrg2sNthouYakh");
+  cb.setOAuthAccessToken("17013577-3kqdwNqWmH7eiIn1MuG7FNByCYwOTAMGbEz1pOFh0");
+  cb.setOAuthAccessTokenSecret("tcX7oWYF7oUpTNM5M12M8Fg3e1YDxB1PXL4xq5Ube1sZq");
 
   //Request a Twitter Stream
   TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
