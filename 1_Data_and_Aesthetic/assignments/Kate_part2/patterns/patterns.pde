@@ -28,6 +28,7 @@ void draw() {
   //filter(GRAY);
   //filter(BLUR, 4);
 }
+\
 
 void loadPatternData() {
   Table myTable = loadTable("ginghamMedia2.csv", "header");
